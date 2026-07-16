@@ -19,9 +19,15 @@
 }
 
 body {
-  background-color: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-body);
+  min-height: 100vh;
+  background:
+    radial-gradient(1100px 600px at 12% -10%, rgba(242,153,74,0.14), transparent 60%),
+    radial-gradient(900px 500px at 90% 8%, rgba(47,158,119,0.10), transparent 55%),
+    radial-gradient(1200px 700px at 50% 110%, rgba(22,35,63,0.06), transparent 60%),
+    var(--color-paper);
+  background-attachment: fixed;
 }
 
 .font-display {
@@ -30,6 +36,33 @@ body {
 
 .font-mono {
   font-family: var(--font-mono);
+}
+
+/* Glass panel — the core "modern" surface used for cards */
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow:
+    0 1px 0 0 rgba(255,255,255,0.9) inset,
+    0 20px 50px -12px rgba(22, 35, 63, 0.14),
+    0 4px 12px -4px rgba(22, 35, 63, 0.08);
+}
+
+.glass-solid {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow:
+    0 1px 0 0 rgba(255,255,255,0.9) inset,
+    0 20px 50px -12px rgba(22, 35, 63, 0.12),
+    0 4px 12px -4px rgba(22, 35, 63, 0.06);
+}
+
+.glow-marigold {
+  box-shadow: 0 0 0 6px rgba(242,153,74,0.15), 0 0 24px 4px rgba(242,153,74,0.25);
 }
 
 /* Respect reduced motion preference */
