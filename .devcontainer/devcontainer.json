@@ -1,0 +1,17 @@
+{
+  "name": "irctc-clone",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+  "forwardPorts": [4000, 5173, 5432, 6379],
+  "portsAttributes": {
+    "4000": { "label": "API server" },
+    "5173": { "label": "Frontend (Vite)" },
+    "5432": { "label": "Postgres" },
+    "6379": { "label": "Redis" }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
