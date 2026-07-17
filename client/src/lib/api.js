@@ -12,6 +12,9 @@ async function handle(res) {
 }
 
 export const api = {
+  searchStations: (query) =>
+    fetch(`${BASE}/stations/search?q=${encodeURIComponent(query)}`).then(handle),
+
   searchTrains: (from, to, date) =>
     fetch(`${BASE}/trains/search?from=${from}&to=${to}&date=${date}`).then(handle),
 

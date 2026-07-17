@@ -1,23 +1,18 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import { ArrowRightLeft, Search, TrainFront, Sparkles } from "lucide-react";
+import { ArrowRightLeft, Search, TrainFront, Sparkles, AlertCircle } from "lucide-react";
 import JourneyLine from "../components/JourneyLine";
-
-const POPULAR_STATIONS = [
-  { code: "NDLS", label: "New Delhi" },
-  { code: "BCT", label: "Mumbai Central" },
-  { code: "MAS", label: "Chennai Central" },
-  { code: "HWH", label: "Howrah" },
-  { code: "SBC", label: "Bengaluru City" },
-];
+import VandeBharatTrain from "../components/VandeBharatTrain";
+import StationAutocomplete from "../components/StationAutocomplete";
 
 export default function Home() {
   const navigate = useNavigate();
-  const [from, setFrom] = useState("NDLS");
-  const [to, setTo] = useState("HWH");
+  const [from, setFrom] = useState({ code: "NDLS", label: "NDLS — New Delhi" });
+  const [to, setTo] = useState({ code: "HWH", label: "HWH — Howrah" });
   const [date, setDate] = useState(() => new Date().toISOString().split("T")[0]);
   const [heroProgress, setHeroProgress] = useState(0);
+  const [error, setError] = useState(null);
 
   useState(() => {
     const t = setTimeout(() => setHeroProgress(1), 300);
@@ -31,14 +26,33 @@ export default function Home() {
 
   function handleSearch(e) {
     e.preventDefault();
-    navigate(`/search?from=${from}&to=${to}&date=${date}`);
+    if (!from?.code || !to?.code) {
+      setError("Pick a station from the dropdown for both From and To.");
+      return;
+    }
+    if (from.code === to.code) {
+      setError("From and To can't be the same station.");
+      return;
+    }
+    setError(null);
+    navigate(`/search?from=${from.code}&to=${to.code}&date=${date}`);
   }
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      <div className="pointer-events-none fixed top-[-10%] left-[8%] w-[420px] h-[420px] rounded-full bg-(--color-marigold)/20 blur-[100px]" />
-      <div className="pointer-events-none fixed top-[5%] right-[5%] w-[380px] h-[380px] rounded-full bg-(--color-teal)/15 blur-[110px]" />
+      {/* Ambient floating orbs — slow drift instead of static blobs */}
+      <motion.div
+        className="pointer-events-none fixed top-[-8%] left-[6%] w-[460px] h-[460px] rounded-full bg-(--color-marigold)/12 blur-[120px]"
+        animate={{ x: [0, 30, -10, 0], y: [0, 20, -15, 0] }}
+        transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <motion.div
+        className="pointer-events-none fixed top-[8%] right-[2%] w-[400px] h-[400px] rounded-full bg-(--color-teal)/10 blur-[130px]"
+        animate={{ x: [0, -25, 15, 0], y: [0, -15, 10, 0] }}
+        transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
+      />
 
+      {/* Header */}
       <header className="max-w-5xl mx-auto px-6 pt-8 flex items-center gap-3 relative z-10">
         <motion.div
           whileHover={{ rotate: -8, scale: 1.05 }}
@@ -49,6 +63,7 @@ export default function Home() {
         <span className="font-display font-semibold text-lg tracking-tight">Saarthi</span>
       </header>
 
+      {/* Hero */}
       <section className="max-w-5xl mx-auto px-6 pt-14 pb-10 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -82,6 +97,17 @@ export default function Home() {
           easy for everyone, from your first booking to your fiftieth.
         </motion.p>
 
+        {/* Vande Bharat illustration — the visual signal that this is an Indian Railways product */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-10 max-w-2xl"
+        >
+          <VandeBharatTrain />
+        </motion.div>
+
+        {/* Signature journey line as hero visual, now on glass */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -100,6 +126,7 @@ export default function Home() {
         </motion.div>
       </section>
 
+      {/* Search card */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -111,51 +138,31 @@ export default function Home() {
           className="glass rounded-2xl p-6 md:p-8"
         >
           <div className="grid md:grid-cols-[1fr_auto_1fr_1fr_auto] gap-4 items-end">
-            <div>
-              <label className="block text-sm font-medium text-(--color-ink-soft) mb-1.5">
-                From
-              </label>
-              <select
-                value={from}
-                onChange={(e) => setFrom(e.target.value)}
-                className="w-full border border-white/70 rounded-xl px-4 py-3 font-mono text-sm focus:border-(--color-marigold) outline-none transition-all bg-white/70 hover:bg-white/90"
-              >
-                {POPULAR_STATIONS.map((s) => (
-                  <option key={s.code} value={s.code}>
-                    {s.code} — {s.label}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <StationAutocomplete
+              label="From"
+              value={from}
+              onChange={setFrom}
+              placeholder="e.g. New Delhi or NDLS"
+            />
 
             <motion.button
               type="button"
               onClick={swapStations}
               aria-label="Swap stations"
-              whileHover={{ rotate: 180, scale: 1.08 }}
-              whileTap={{ scale: 0.9 }}
-              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+              whileHover={{ rotate: 180 }}
+              whileTap={{ scale: 0.88 }}
+              transition={{ type: "spring", stiffness: 260, damping: 20 }}
               className="mb-1 w-11 h-11 rounded-full glass-solid flex items-center justify-center"
             >
               <ArrowRightLeft className="w-4 h-4 text-(--color-ink-soft)" />
             </motion.button>
 
-            <div>
-              <label className="block text-sm font-medium text-(--color-ink-soft) mb-1.5">
-                To
-              </label>
-              <select
-                value={to}
-                onChange={(e) => setTo(e.target.value)}
-                className="w-full border border-white/70 rounded-xl px-4 py-3 font-mono text-sm focus:border-(--color-marigold) outline-none transition-all bg-white/70 hover:bg-white/90"
-              >
-                {POPULAR_STATIONS.map((s) => (
-                  <option key={s.code} value={s.code}>
-                    {s.code} — {s.label}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <StationAutocomplete
+              label="To"
+              value={to}
+              onChange={setTo}
+              placeholder="e.g. Howrah or HWH"
+            />
 
             <div>
               <label className="block text-sm font-medium text-(--color-ink-soft) mb-1.5">
@@ -179,6 +186,13 @@ export default function Home() {
               Search trains
             </motion.button>
           </div>
+
+          {error && (
+            <div className="mt-4 flex items-center gap-2 text-sm text-(--color-danger)">
+              <AlertCircle className="w-4 h-4 shrink-0" />
+              {error}
+            </div>
+          )}
         </form>
       </motion.section>
 
