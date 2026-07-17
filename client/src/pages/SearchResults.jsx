@@ -61,10 +61,30 @@ export default function SearchResults() {
         )}
 
         {trains && trains.length === 0 && (
-          <div className="mt-16 text-center text-(--color-ink-soft)">
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-10 bg-(--color-paper-raised) border border-(--color-line) rounded-2xl p-8 text-center max-w-lg mx-auto"
+          >
             <TrainFront className="w-10 h-10 mx-auto mb-3 opacity-40" />
-            No trains found for this route on this date. Try a different date.
-          </div>
+            <div className="font-display font-semibold text-lg mb-1.5">No direct trains found</div>
+            <p className="text-sm text-(--color-ink-soft) mb-5">
+              There's no train running directly between <span className="font-mono">{from}</span> and{" "}
+              <span className="font-mono">{to}</span> in our data — this can happen even for real
+              routes if they require a change of train, since we only show direct connections.
+            </p>
+            <div className="text-xs text-(--color-ink-soft) mb-2">Well-connected stations to try:</div>
+            <div className="flex flex-wrap gap-2 justify-center">
+              {["NDLS", "BCT", "MAS", "HWH", "SBC", "CSTM"].map((code) => (
+                <span
+                  key={code}
+                  className="font-mono text-xs px-2.5 py-1 rounded-full bg-(--color-teal-soft) text-(--color-teal) font-medium"
+                >
+                  {code}
+                </span>
+              ))}
+            </div>
+          </motion.div>
         )}
 
         <div className="mt-6 space-y-4">
