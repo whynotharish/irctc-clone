@@ -113,7 +113,7 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.15 }}
-            className="absolute z-20 mt-2 w-full max-h-72 overflow-y-auto glass-solid rounded-xl py-1 divide-y divide-(--color-line)/60"
+            className="absolute z-50 mt-2 w-full max-h-72 overflow-y-auto bg-white rounded-xl py-1 divide-y divide-(--color-line) shadow-[0_20px_50px_-12px_rgba(22,35,63,0.25)] border border-(--color-line)"
           >
             {results.map((s, i) => (
               <li key={s.code}>
