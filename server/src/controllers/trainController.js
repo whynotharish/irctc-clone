@@ -47,6 +47,32 @@ export async function getAvailability(req, res) {
   }
 }
 
+// Autocomplete search for stations by code or name — used by the frontend's
+// From/To pickers now that we have ~9,000 real stations, not a fixed list.
+export async function searchStations(req, res) {
+  const { q } = req.query;
+
+  if (!q || q.trim().length < 1) {
+    return res.json({ stations: [] });
+  }
+
+  try {
+    const result = await pool.query(
+      `SELECT code, name, city FROM stations
+       WHERE code ILIKE $1 || '%' OR name ILIKE '%' || $1 || '%'
+       ORDER BY
+         CASE WHEN code ILIKE $1 || '%' THEN 0 ELSE 1 END,
+         length(name) ASC
+       LIMIT 15`,
+      [q.trim()]
+    );
+    res.json({ stations: result.rows });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Station search failed" });
+  }
+}
+
 // Real seat-level map: every seat with its actual inventory id + status,
 // so the frontend can lock/book real rows instead of a demo layout.
 export async function getSeatMap(req, res) {

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { searchTrains, getAvailability, getSeatMap } from "../controllers/trainController.js";
+import { searchTrains, getAvailability, getSeatMap, searchStations } from "../controllers/trainController.js";
 import {
   lockSeatsHandler,
   confirmBookingHandler,
@@ -12,6 +12,7 @@ const router = Router();
 
 // Train search & availability
 router.get("/trains/search", searchTrains);
+router.get("/stations/search", searchStations);
 router.get("/trains/:id/availability", getAvailability);
 router.get("/trains/:id/seats", getSeatMap);
 

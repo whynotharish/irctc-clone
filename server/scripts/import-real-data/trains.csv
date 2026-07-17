@@ -1,0 +1,2295 @@
+number,name,source_code,destination_code,distance_km,duration_min,sl,ac3,ac2,ac1,cc
+04728,Mumbai BandraT-Bikaner SF Special,BDTS,BKN,1212,1315,True,True,True,False,False
+09022,JAMMU TAWI - BANDRA TERMINUS AC Suvidha Special (Starts 5 April),JAT,BDTS,1957,1940,True,True,True,True,False
+11017,Chalukya Express,DR,YPR,1205,1465,True,True,True,False,False
+11019,Konark Express,CSTM,BBS,1932,2235,True,True,True,False,False
+11020,Konark Express,BBS,CSTM,1932,2195,True,True,True,False,False
+11023,Sahyadri Express,CSTM,KOP,518,735,True,True,True,False,False
+11024,Sahyadri Express,KOP,CSTM,518,785,True,True,True,False,False
+11025,Manmad Pune Express(Via Nasik),MMR,PUNE,364,455,False,False,False,False,True
+11026,Pune Manmad Express,PUNE,MMR,364,520,False,False,False,False,True
+11027,Mumbai CST-Chennai Mail,CSTM,MAS,1283,1750,True,True,True,False,False
+11029,Koyna Express,CSTM,KOP,518,705,False,False,False,False,True
+11030,Koyna Express,KOP,CSTM,518,747,False,False,False,False,True
+11033,PUNE - DARBHANGA Gyan Ganga Exp,PUNE,DBG,1948,2310,True,True,True,False,False
+11035,Dadar-Mysore Sharavati Express,DR,MYS,1212,1455,True,True,True,False,False
+11036,Mysore-Dadar Sharavati Express,MYS,DR,1212,1415,True,True,True,False,False
+11037,PUNE - GORAKHPUR Exp,PUNE,GKP,1771,1980,True,True,True,False,False
+11038,GORAKHPUR - PUNE Exp,GKP,PUNE,1771,2195,True,True,True,False,False
+11039,Maharashtra Express,KOP,G,1346,1725,True,True,True,False,False
+11039-Slip,Kolhapur-Gorakhpur Express Slip,KOP,GKP,2107,3100,True,False,False,False,False
+11040,Maharashtra Express,G,KOP,1346,1705,True,True,True,False,False
+11040-Slip,Gondia-Solapur Maharashtra Express Slip,G,SUR,1132,1470,True,False,False,False,False
+11041,Mumbai - Chennai Express,CSTM,MAS,1283,1605,True,True,True,False,False
+11043,MUMBAI LTT - MADURAI Exp,LTT,MDU,1702,2175,True,True,True,False,False
+11044,MADURAI - MUMBAI LTT Exp,MDU,LTT,1702,2145,True,True,True,False,False
+11045,KOLHAPUR CSMT - DHANBAD Deekshabhoomi Exp,KOP,DHN,2968,3615,True,True,False,False,False
+11047,Hubli Express,MRJ,UBL,279,375,True,False,False,False,False
+11048,Hubli Miraj Express,UBL,MRJ,279,375,True,False,False,False,False
+11049,Ahmedabad-Kolhapur Express,ADI,KOP,961,1195,True,True,True,False,False
+11050,Kolhapur-Ahmedabad Express,KOP,ADI,961,1135,True,True,True,False,False
+11051,Solapur-Kolhapur Express,SUR,KOP,315,365,True,True,False,False,False
+11052,Kolhapur Solapur Express,KOP,SUR,315,375,True,True,False,False,False
+11056,GORAKHPUR - MUMBAI LTT Exp,GKP,LTT,1733,2020,True,True,True,False,False
+11057,Dadar Amritsar Express,DR,ASR,2037,2445,True,True,True,False,False
+11057-Slip,Dadar Amritsar Express Slip,DR,DHI,375,460,True,True,True,False,False
+11058,Amritsar Dadar Express,ASR,DR,2037,2610,True,True,True,False,False
+11059,MUMBAI LTT - CHHAPRA Godan Exp,LTT,CPR,1772,2040,True,True,True,False,False
+11060,CHHAPRA - MUMBAI LTT Godan Exp,CPR,LTT,1772,2075,True,True,True,False,False
+11062,DARBHANGA - MUMBAI LTT Pawan Exp,DBG,LTT,1791,2155,True,True,True,False,False
+05650,Kamakhya - Mumbai LTT (Weekly) Special,KYQ,LTT,2613,3295,True,True,False,False,False
+05697,Hill Queen Express,LMG,LFG,104,225,False,False,False,False,True
+05698,Hill Queen Express,LFG,LMG,104,225,False,False,False,False,True
+06002,Kollam-Chennai Central SF Special,QLN,MAS,858,970,True,True,True,False,False
+06003,Chennai Central-Kollam Special,MAS,QLN,857,885,True,True,True,False,False
+06004,Kollam-Chennai Central Special,QLN,MAS,857,1015,True,True,True,False,False
+06005,Chennai Central-Kollam SF Special,MAS,QLN,857,885,True,True,True,False,False
+06006,Kollam-Chennai Central SF Special,QLN,MAS,857,1015,True,True,True,False,False
+06007,Chennai Central-Kollam SF Special,MAS,QLN,858,930,True,True,True,False,False
+06008,KollamChennai Central SF Special,QLN,MAS,858,970,True,True,True,False,False
+06009,Chennai CentralKollam SF Special,MAS,QLN,858,960,True,True,True,False,False
+06011,Chennai Central Kollam (Weekly) SF Special,MAS,QLN,858,870,True,True,True,False,False
+06201,Mysore-Sainagar Shirdi Special,MYS,SNSI,1304,1800,True,True,True,False,False
+06202,Sainagar Shirdi - Mysore Special,SNSI,MYS,1304,1875,True,True,True,False,False
+06228,Shimoga Mysore Express,SMET,MYS,276,530,True,False,False,False,False
+06301,Nagercoil-Mangalore Special,NCJ,MAJN,711,1060,True,True,True,False,False
+06302,Mangalore-Nagercoil Special,MAJN,NCJ,711,935,True,True,True,False,False
+06501,Yesvantpur - Ahmedabad Garib Rath Special,YPR,ADI,1719,2090,False,True,False,False,False
+06502,Ahmedabad -Yesvantpur Garib Rath Special,ADI,YPR,1719,2350,False,True,False,False,False
+06535,Bijapur Express,YPR,BJP,712,915,True,True,True,True,False
+06536,Bijapur-Yesvantpur Special,BJP,YPR,712,935,True,True,True,True,False
+06617,Coimbatore-Nagercoil Special,CBE,NCJ,497,620,True,True,True,False,False
+06618,Nagercoil-Coimbatore Special,NCJ,CBE,497,705,True,True,True,False,False
+06621,Coimbatore-Yesvantpur SF Special,CBE,YPR,440,440,False,False,False,False,True
+06622,Yesvantpur-Coimbatore SF Special,YPR,CBE,440,445,False,False,False,False,True
+06948,Hubli Jn - Vasco Da Gama Link Express,UBL,VSG,236,450,True,True,False,False,False
+07003,Hyderabad-Korba Special,HYB,KRBA,996,1140,True,True,True,False,False
+07004,Korba-Hyderabad Special,KRBA,HYB,999,1245,True,True,True,False,False
+07105,Ajmer - Hyderabad Special,AII,HYB,2033,2355,True,True,True,False,False
+07144,Shahu Maharaj T. Kolhapur - Hyderabad Special,KOP,HYB,998,1395,True,True,True,False,False
+07301,Mysore Shimoga Express,MYS,SMET,276,475,True,False,False,False,False
+08001,Kharagpur-Jhargram Express Special,KGP,JGM,39,35,False,False,False,False,True
+08002,Jhargram-Kharagpur Special,JGM,KGP,39,55,False,False,False,False,True
+08004,Mysore - Howrah Special,MYS,HWH,2111,2300,True,True,True,False,False
+08043,Kolkata Shalimar-Haridwar Puja Special,SHM,HW,1595,1785,True,True,True,False,False
+08055,Shalimar-Tirupati Special,SHM,TPTY,1616,1570,True,True,True,False,False
+08469,Puri-Bangalore weekly Garib Rath special,PURI,SBC,1529,1935,False,True,False,False,False
+08470,Bangalore-Puri Garib Rath Special,SBC,PURI,1529,1795,False,True,False,False,False
+08471,Bhubaneswar - Tirupati Weekly Special,BBS,TPTY,1205,1320,True,True,True,False,False
+08472,Tirupati - Bhubaneswar Weekly Special,TPTY,BBS,1205,1440,True,True,True,False,False
+08565,Visakhapatnam-Secunderabad Special,VSKP,SC,701,800,True,True,True,False,False
+08566,Secunderabad Vishakaptnam Special,SC,VSKP,701,765,True,True,True,False,False
+08567,Visakhapatnam Sainagar Shirdi special,VSKP,SNSI,1403,1770,True,True,True,False,False
+08568,Shirdi-Visakhapatnam Weekly Special,SNSI,VSKP,1405,1705,True,True,True,False,False
+08569,Visakhapatnam-Kollam Sabarimalai Special,VSKP,QLN,1568,1830,True,True,True,False,False
+09002,Ahmedabad Mumbai Central Superfast Special,ADI,BCT,491,485,True,True,True,False,False
+09021,BANDRA TERMINUS - JAMMU TAWI AC Suvidha Special (Starts 4 April),BDTS,JAT,1955,1965,True,True,True,True,False
+09051,Valsad-Varanasi Weekly Special,BL,BSB,1467,1770,True,True,True,False,False
+09221,Porbandar Secunderabad Weekly Special,PBR,SC,1694,2080,True,True,True,False,False
+09561,Bandra Terminus Okha Weekly Special,BDTS,OKHA,980,1220,True,False,True,False,False
+09733,Hanumangarh Kota Special,HMH,KOTA,852,905,True,True,True,False,False
+09734,Kota Hanumangarh Special,KOTA,HMH,852,965,True,True,True,False,False
+11015,Kushinagar Express,LTT,GKP,1680,1960,True,True,True,False,False
+12084,Coimbatore-Mayiladuturai Jan Shatabdi,CBE,MV,362,400,False,False,False,False,True
+13401,InterCity Express,BGP,DNR,231,410,False,False,False,False,True
+01494,Bijapur Hubli Special,BJP,UBL,249,365,True,False,False,False,False
+09222,Secunderabad-Porbandar Weekly Special,SC,PBR,1683,2080,True,True,True,False,False
+09405,Ahmedabad Yesvantpur (Weekly) Special,ADI,YPR,1556,1950,True,True,False,False,False
+09406,Yeshwantpur-Ahmedabad Special,YPR,ADI,1581,2000,True,True,True,False,False
+09562,Okha - Bandra Terminus Weekly Special,OKHA,BDTS,980,1090,True,False,True,False,False
+09621,Ajmer Jaipur SF Special,AII,JP,135,115,False,False,False,False,True
+09622,Jaipur Ajmer SF Special,JP,AII,135,115,False,False,False,False,True
+09715,Jaipur Solapur (Weekly) Special,JP,SUR,1744,2260,True,True,True,False,False
+09716,Solapur - Jaipur Special,SUR,JP,1744,2145,True,True,True,False,False
+09721,Jaipur Delhi Sarai Rohilla SF Special,JP,DEE,303,270,False,True,True,False,True
+09724,Jaipur - Sabarmati SF Holiday Spl,JP,SBI,620,650,True,True,True,False,False
+09727,Indore-Jaipur Special,INDB,JP,599,570,True,True,True,False,False
+09728,Jaipur-Indore Special,JP,INDB,599,595,True,True,True,False,False
+09735,Secunderabad-Jaipur Special,SC,JP,1666,1830,True,True,True,True,False
+09736,Jaipur - Secunderabad (Weekly) Special,JP,SC,1669,1845,True,True,True,True,False
+09741,Rewari - Delhi Sarai Rohilla (Daily) Special,RE,DEE,78,90,False,True,True,False,True
+09742,Delhi Sarai Rohilla - Rewari (Daily) Special,DEE,RE,78,90,False,True,True,False,True
+10103,MUMBAI CST - MADGAON Mandovi Exp,CSTM,MAO,765,710,True,True,True,True,False
+10104,MADGAON - MUMBAI CST Mandovi Exp,MAO,CSTM,765,720,True,True,True,True,False
+10111,MUMBAI CST - MADGAON Konkan Knaya Exp,CSTM,MAO,765,700,True,True,True,True,False
+10112,MADGAON - MUMBAI CST Konkan Knaya Exp,MAO,CSTM,765,710,True,True,True,True,False
+10215,Madgaon Ernakulam Weekly Super Fast Express,MAO,ERS,850,805,True,True,True,True,False
+10216,Ernakulam Madgaon Weekly SF Express,ERS,MAO,850,805,True,True,True,True,False
+11003,DADAR - SAWANTWADI RD Rajya Rani Exp,DR,SWV,646,660,True,True,True,False,False
+11004,SAWANTWADI RD - DADAR Rajya Rani Exp,SWV,DR,646,740,True,True,True,False,False
+11007,Deccan Express,CSTM,PUNE,192,240,False,False,False,False,True
+11009,Sinhagad Express,CSTM,PUNE,192,250,False,False,False,False,True
+11010,Sinhagad Express,PUNE,CSTM,192,230,False,False,False,False,True
+11011,Mahalaxmi Express,CSTM,KOP,518,657,True,True,True,True,False
+11012,Mahalaxmi Express,KOP,CSTM,518,655,True,True,True,True,False
+11014,Coimbatore Mumbai LTT Express,CBE,LTT,1518,1830,True,True,True,True,False
+11016,Kushinagar Express,GKP,LTT,1680,1995,True,True,True,False,False
+11018,Chalukya Express,YPR,DR,1205,1400,True,True,True,False,False
+02423,Dibrugarh Guwahati Rajdhani Express,DBRT,GHY,564,600,False,True,False,False,False
+02424,Guwahati Dibrugarh Rajdhani Express,GHY,DBRT,564,655,False,True,False,False,False
+02435,Dibrugarh Guwahati Rajdhani Express,DBRT,GHY,564,605,False,True,False,False,False
+02436,Guwahati Dibrugarh Rajdhani Express,GHY,DBRT,564,640,False,True,False,False,False
+02779,Vasco da Gama Bangalore Link Express,VSG,SBC,705,985,True,True,False,False,False
+03283,Rajendra Nagar-Tatanagar Special,RJPB,TATA,496,650,True,True,True,False,False
+03284,Tatanagar-Rajendra Nagar Special,TATA,RJPB,496,660,True,True,True,False,False
+03686,Delhi Gaya S,DLI,GAYA,972,875,True,True,True,False,False
+04011,Sainagar Shirdi - H. Nizamuddin (Weekly) Special,SNSI,NZM,1361,1615,True,True,True,False,False
+04031,Delhi-Panipat Special,DLI,PNP,89,170,True,True,True,False,False
+04032,Panipat Delhi Special,PNP,DLI,89,150,True,True,True,False,False
+04053,Anand Vihar T.-Jammu Tawi Special,ANVT,JAT,633,755,True,False,False,False,False
+04054,Jammu Tawi-Anand Vihar Special,JAT,ANVT,633,730,True,False,False,False,False
+04115,Allahabad - Mumbai LTT (Weekly) Special,ALD,LTT,1533,1695,True,True,False,False,False
+04116,Mumbai LTT-Allahabad Special,LTT,ALD,1533,1800,True,True,False,False,False
+04201,Lucknow -New Delhi Special,LKO,NDLS,493,575,True,True,True,False,False
+04202,New Delhi-Lucknow tri-weekly Special,NDLS,LKO,493,590,True,True,True,False,False
+04203,Varanasi-Old Delhi Special,BSB,DLI,770,850,True,True,True,False,False
+11067-Slip,Saket Express Slip,LTT,RBL,1502,1620,True,True,True,False,False
+11108,Varanasi-Gwalior Bundelkhand Express,BSB,GWL,624,890,True,True,True,True,False
+11109,Jhansi-Lucknow Intercity Express,JHS,LKO,292,350,False,False,False,False,True
+11110,Lucknow-Jhansi InterCity,LKO,JHS,292,365,False,False,False,False,True
+11123,Barauni-Gwalior Mail,BJU,GWL,1055,1575,True,True,True,False,False
+11124,Gwalior Barauni Mail,GWL,BJU,1055,1520,True,True,True,False,False
+11125,Indore Gwalior Express,INDB,GWL,562,730,True,True,True,False,False
+11126,Gwalior Indore Express,GWL,INDB,562,740,True,True,True,False,False
+11454,Prerna Express,NGP,ADI,959,1085,True,True,False,False,False
+11063-Slip,Chennai Salem Express Slip,MS,MTDM,393,545,True,True,True,True,False
+11065,MUMBAI LTT - DARBHANGA Pawan Exp,LTT,DBG,1880,2225,True,True,True,False,False
+11066,DARBHANGA - MUMBAI LTT Pawan Exp,DBG,LTT,1880,2315,True,True,True,False,False
+11067,MUMBAI LTT - FAIZABAD Saket Exp,LTT,FD,1505,1685,True,True,True,False,False
+11068,FAIZABAD - MUMBAI LTT Saket Exp,FD,LTT,1505,1805,True,True,True,False,False
+11069,Tulsi Express,LTT,ALD,1511,1650,True,True,True,False,False
+11070,Tulsi Express,ALD,LTT,1511,1765,True,True,True,False,False
+11071,Kamayani Express,LTT,BSB,1640,1845,True,True,True,False,False
+11072,Kamayani Express,BSB,LTT,1640,1875,True,True,True,False,False
+11077,Jhelum Express,PUNE,JAT,2177,2400,True,True,True,False,False
+11078,Jhelum Express,JAT,PUNE,2173,2450,True,True,True,False,False
+11087,Veraval Pune Express,VRL,PUNE,1066,1340,True,True,True,False,False
+11088,Pune Veraval Express,PUNE,VRL,1066,1250,True,True,True,False,False
+11089,BHAGAT KI KOTHI - PUNE Exp,BGKT,PUNE,1094,1395,True,True,True,False,False
+11090,PUNE - BHAGAT KI KOTHI Exp,PUNE,BGKT,1094,1305,True,True,True,False,False
+11091,BHUJ - PUNE Ahimsa Exp,BHUJ,PUNE,993,1245,True,True,True,False,False
+11092,PUNE - BHUJ Ahimsa Exp,PUNE,BHUJ,993,1170,True,True,True,False,False
+11093,MUMBAI CST - VARANASI Mahanagari Exp,CSTM,BSB,1533,1710,True,True,True,False,False
+11094,VARANASI - MUMBAI CST Mahanagari Exp,BSB,CSTM,1533,1610,True,True,True,False,False
+11095,Ahimsa Express,ADI,PUNE,635,765,True,True,True,False,False
+11096,Ahimsa Express,PUNE,ADI,635,715,True,True,True,False,False
+11105,Pratham Swatantrata Sangram Express,KOAA,JHS,1326,1525,True,True,False,False,False
+11106,Pratham Swatantrata Sangram Express,JHS,KOAA,1326,1505,True,True,False,False,False
+11266,AMBIKAPUR - JABALPUR Exp,ABKP,JBP,433,530,True,False,False,False,False
+11401,Nandigram Express,CSTM,NGP,1139,1420,True,True,True,False,False
+11402,Nandigram Express,NGP,CSTM,1139,1420,True,True,True,False,False
+11403,NAGPUR - KOLHAPUR EXP,NGP,KOP,1038,1465,True,True,True,False,False
+11404,KOLHAPUR - NAGPUR EXP,KOP,NGP,1038,1425,True,True,True,False,False
+11447,JABALPUR - KOL HOWRAH Shaktipunj Exp,JBP,HWH,1152,1665,True,True,True,False,False
+11448,HOWRAH - JABALPUR Shaktipunj Exp,HWH,JBP,1152,1515,True,True,True,False,False
+11449,JABALPUR - SHRI MATA VAISHNO DEVI KATRA Express,JBP,SVDK,1509,1870,True,True,True,False,False
+11450,SHRI MATA VAISHNO DEVI KATRA - JABALPUR Express,SVDK,JBP,1509,1975,True,True,True,False,False
+11451,JABALPUR - REWA Intercity Exp,JBP,REWA,238,275,False,False,False,False,True
+11452,REWA - JABALPUR Intercity Exp,REWA,JBP,238,265,False,False,False,False,True
+11453,Prerna Express,ADI,NGP,959,1190,True,True,False,False,False
+11463,Somnath-Jabalpur Express,SMNH,JBP,1415,1770,True,True,True,False,False
+11464,Jabalpur-Somnath Express,JBP,SMNH,1415,1795,True,True,True,False,False
+11471,Indore-Jabalpur Overnight Express,INDB,JBP,555,715,True,True,True,True,False
+11472,Jabalpur-Indore Express,JBP,INDB,555,690,True,True,True,True,False
+12003,Lucknow-NewDelhi Swarn Shatabdi Express,LKO,NDLS,511,390,False,False,False,False,True
+12020,Ranchi-Howrah Shatabdi Express,RNC,HWH,423,445,False,False,False,True,True
+12021,Barbil Janshatabdi,HWH,BBN,398,415,False,False,False,False,True
+12022,Barbil Howrah Janshatabdi,BBN,HWH,398,425,False,False,False,False,True
+12189,JABALPUR - DELHI H NIZAMUDDIN Mahakoshal SF Exp,JBP,NZM,961,1045,True,True,True,False,False
+11465,SOMNATH - JABALPUR Exp (via Bina),SMNH,JBP,1570,1970,True,True,True,False,False
+11466,JABALPUR - SOMNATH Exp (via Bina),JBP,SMNH,1570,1915,True,True,True,False,False
+11702,INDORE - JABALPUR Intercity Exp,INDB,JBP,761,970,False,False,False,False,True
+12002,New Delhi-Bhopal Shatabdi Express,NDLS,BPL,701,470,False,False,False,True,True
+12004,NewDelh-Lucknowi Swarn Shatabdi Express,NDLS,LKO,511,375,False,False,False,False,True
+12005,New Delhi-Kalka Shatabdi,NDLS,KLK,303,245,False,False,False,True,True
+12006,Kalka-New Delhi Shatabdi,KLK,NDLS,303,250,False,False,False,False,True
+12008,MYSORE - CHENNAI CENT Shatabdi Express,MYS,MAS,500,430,False,False,False,True,True
+12009,Mumbai-Ahmedabad Shatabdi Express,BCT,ADI,491,405,False,False,False,True,True
+12010,Ahmedabad-Mumbai Central Shatabdi,ADI,BCT,491,425,False,False,False,True,True
+12011,Kalka Shatabdi Express,NDLS,KLK,303,245,False,False,False,False,True
+12012,Kalka-New Delhi Shatabdi,KLK,NDLS,303,250,False,False,False,False,True
+12013,New Delhi-Amritsar Shatabdi Express,NDLS,ASR,448,365,False,False,False,True,True
+12014,Amritsar-NewDelhi Shatabdi,ASR,NDLS,448,375,False,False,False,True,True
+12015,New Delhi-Ajmer Shatabdi,NDLS,AII,443,395,False,False,False,True,True
+12016,Ajmer-New Delhi Shatabdi,AII,NDLS,443,410,False,False,False,True,True
+12017,New Delhi-Dehradun Shatabdi,NDLS,DDN,315,350,False,False,False,True,True
+12018,Dehradun-New Delhi Shatabdi,DDN,NDLS,315,345,False,False,False,True,True
+12023,Howrah-Patna Jan Shatabdi,HWH,PNBE,532,490,False,False,False,False,True
+12024,Patna-Howrah Jan Shatabdi,PNBE,HWH,532,460,False,False,False,False,True
+12025,Pune-Secunderabad Shatabdi Express,PUNE,SC,597,500,False,False,False,False,True
+12026,Secunderabad-Pune Shatabdi,SC,PUNE,597,500,False,False,False,True,True
+12028,BANGALORE CITY - CHENNAI CENT Shatabdi Exp,SBC,MAS,362,300,False,False,False,False,True
+12029,New Delhi-Amritsar Swarna Shatabdi Express,NDLS,ASR,448,365,False,False,False,True,True
+12031,Amritsar Shatabdi Express,NDLS,ASR,448,365,False,False,False,True,True
+12032,Amritsar Shatabdi Express,ASR,NDLS,448,370,False,False,False,True,True
+12033,Kanpur Shatabdi,CNB,NDLS,437,310,False,False,False,True,True
+12034,New Delhi-Kanpur Shatabdi Express,NDLS,CNB,437,295,False,False,False,True,True
+12037,New Delhi-Ludhiana Shatabdi Express,NDLS,LDH,329,320,False,False,False,False,True
+12038,Ludhiana-New Delhi Shatabdi Express,LDH,NDLS,329,325,False,False,False,False,True
+12051,DADAR - MADGAON Jan Shatabdi Exp,DR,MAO,765,540,False,False,False,False,True
+12052,MADGAON - DADAR Jan Shatabdi Exp,MAO,DR,765,530,False,False,False,False,True
+12053,Haridwar Amritsar Jan Shatabdi Express,HW,ASR,407,440,False,False,False,False,True
+12054,Amritsar Haridwar Jan Shatabdi,ASR,HW,407,415,False,False,False,False,True
+12055,Dehradun Jan Shatabdi Express,NDLS,DDN,303,355,False,False,False,False,True
+12059,Kota-Hazrat Nizamuddin Jan Shatabdi,KOTA,NZM,458,395,False,False,False,False,True
+12060,Hazarat Nizamuddin-Kota Jan Shatabdi,NZM,KOTA,458,380,False,False,False,False,True
+12067,Guwahati Jorhat Jan Shatabdi,GHY,JTTN,376,400,False,False,False,False,True
+12083,Mayiladuturai-Coimbatore Jan Shatabdi,MV,CBE,362,395,False,False,False,False,True
+12107,Mumbai LTT Lucknow Superfast Express,LTT,LJN,1410,1365,True,True,True,False,False
+12108,Lucknow Mumbai LTT Superfast Express,LJN,LTT,1409,1440,True,True,True,False,False
+12110,Panchavati Express,MMR,CSTM,261,275,False,False,False,False,True
+12118,Manmad-Mumbai LTT Express,MMR,LTT,245,265,False,False,False,False,True
+12056,Dehradun Jan Shatabdi Express,DDN,NDLS,305,365,False,False,False,False,True
+12057,New Delhi-Una Janshatabdi,NDLS,UHL,410,455,False,False,False,False,True
+12058,Una-New Delhi Janshatabdi,UHL,NDLS,410,420,False,False,False,False,True
+12061,HabibGanj Bhopal-Jabalpur Jan Shatabdi,HBJ,JBP,331,315,False,False,False,False,True
+12062,Jabalpur-HabibGanj Bhopal Jan Shatabdi,JBP,HBJ,331,335,False,False,False,False,True
+12068,Jorhat Guwahati Jan Shatabdi,JTTN,GHY,376,410,False,False,False,False,True
+12069,Raigarh-Gondia Jan Shatabdi,RIG,G,414,420,False,False,False,False,True
+12070,Gondia-Raigarh Jan Shatabdi,G,RIG,414,420,False,False,False,False,True
+12072,Aurangabad Mumbai Jan Shatabdi,AWB,CSTM,374,405,False,False,False,False,True
+12074,Bhubaneswar-Howrah Jan Shatabdi Express,BBS,HWH,439,390,False,False,False,False,True
+12075,Kozhikode-Trivandrum Jan Shatabdi Express,CLT,TVC,399,435,False,False,False,False,True
+12076,Trivandrum-Kozhikode Jan Shatabdi Express,TVC,CLT,399,420,False,False,False,False,True
+12078,Vijayawada Chennai Jan Shatabdi,BZA,MAS,431,395,False,False,False,False,True
+12079,Bangalore City-Hubli Jan Shatabdi,SBC,UBL,469,445,False,False,False,False,True
+12080,Hubli Bangalore Janshatabdi,UBL,SBC,469,445,False,False,False,False,True
+12081,Kozhikode - Trivandrum Jan Shatabdi,CLT,TVC,413,450,False,False,False,False,True
+12082,Trivandrum-Kozhikode Jan Shatabdi,TVC,CLT,413,465,False,False,False,False,True
+12101,MUMBAI LTT - HOWRAH Janeswari Super Deluxe Exp,LTT,HWH,1952,1860,True,True,True,True,False
+12102,HOWRAH - MUMBAI LTT Janeswari Super Deluxe Exp,HWH,LTT,1952,1850,True,True,True,True,False
+12103,Pune Lucknow Jn SuperFast Express,PUNE,LJN,1478,1495,True,True,True,False,False
+12104,Lucknow Jn - Pune Express,LJN,PUNE,1477,1535,True,True,True,False,False
+12105,Vidarbha Express,CSTM,G,968,960,True,True,True,True,False
+12106,Vidarbha Express,G,CSTM,968,955,True,True,True,True,False
+12109,Panchavati Express,CSTM,MMR,261,275,False,False,False,False,True
+12111,Mumbai CST-Amaravati SF Express,CSTM,AMI,673,730,True,True,True,True,False
+12112,Amaravati-Mumbai CST Express,AMI,CSTM,673,690,True,True,True,True,False
+12113,Pune-Nagpur Garib Rath Express,PUNE,NGP,890,945,False,True,False,False,False
+12114,Nagpur-Pune Garib Rath,NGP,PUNE,890,910,False,True,False,False,False
+12115,Siddheshwar Express,CSTM,SUR,455,495,True,True,True,True,False
+12116,Siddheshwar Express,SUR,CSTM,455,495,True,True,True,True,False
+12117,Mumbai LTT- Manmad Express,LTT,MMR,245,265,False,False,False,False,True
+12119,Amaravati Nagpur Express,AMI,NGP,184,200,False,False,False,False,True
+12120,Nagpur Amravati Express,NGP,AMI,184,200,False,False,False,False,True
+12122,DELHI H NIZAMUDDIN - JABALPUR S Kranti Exp,NZM,JBP,909,875,True,True,True,True,False
+12135,Pune -Nagpur SuperFast Express,PUNE,NGP,890,945,True,True,True,False,False
+12136,Nagpur Pune Express,NGP,PUNE,890,910,True,True,True,False,False
+12137,Punjab Mail,CSTM,FZR,1930,2040,True,True,True,True,False
+12138,Punjab Mail,FZR,CSTM,1930,2035,True,True,True,True,False
+12139,Sevagram Express,CSTM,NGP,838,910,True,True,True,False,False
+12139-Slip,Sewagram Express Slip,CSTM,NGP,838,910,True,True,True,False,False
+12140,Sevagram Express,NGP,CSTM,838,900,True,True,True,False,False
+12143,LTT Sultanpur Superfast Weekly Express,LTT,SLN,1550,1625,True,True,True,False,False
+12144,Sultanpur-LTT Weekly SF Express,SLN,LTT,1550,1695,True,True,True,False,False
+12148,Nizamuddin-Kolhapur Express,NZM,KOP,1915,2060,True,True,True,False,False
+12161,Lashkar Superfast Express,LTT,AGC,1334,1230,True,True,True,False,False
+12162,Lashkar Express,AGC,LTT,1334,1375,True,True,True,False,False
+12123,Deccan Queen SF Express,CSTM,PUNE,192,195,False,False,False,False,True
+12124,Deccan Queen SF Express,PUNE,CSTM,192,190,False,False,False,False,True
+12125,Pragati Superfast Express,CSTM,PUNE,192,208,False,False,False,False,True
+12126,Pragati Superfast Express,PUNE,CSTM,192,200,False,False,False,False,True
+12127,MumbaiCST-Pune SF InterCity,CSTM,PUNE,192,187,False,False,False,False,True
+12128,Pune-MumbaiCST Intercity Express,PUNE,CSTM,192,185,False,False,False,False,True
+12129,PUNE - HOWRAH Azad Hind SF Exp,PUNE,HWH,2020,2005,True,True,True,False,False
+12130,HOWRAH - PUNE Azad Hind SF Exp,HWH,PUNE,2020,1975,True,True,True,False,False
+12131,Mumbai Dadar-Sainagar Shirdi Express,DR,SNSI,336,366,True,True,True,False,False
+12132,Sainagar Shirdi-Mumbai Dadar Express,SNSI,DR,336,365,True,True,True,False,False
+12133,MUMBAI CST - MANGALORE Exp,CSTM,MAJN,1195,850,True,True,True,False,False
+12134,MANGALORE - MUMBAI CST Exp,MAJN,CSTM,1195,865,True,True,True,False,False
+12141,MUMBAI LTT - PATLIPUTRA SF Exp,LTT,PPTA,1714,1755,True,True,True,False,False
+12145,MUMBAI LTT - PURI SF Exp,LTT,PURI,1818,1975,True,True,True,False,False
+12147,Kolhapur-Nizamuddin Express,KOP,NZM,1915,1920,True,True,True,False,False
+12149,PUNE - PATLIPUTRA SF Exp,PUNE,PPTA,1781,1865,True,True,True,False,False
+12150,PATLIPUTRA - PUNE SF Exp,PPTA,PUNE,1780,1835,True,True,True,False,False
+12151,MUMBAI LTT - HOWRAH Samarsata SF Exp,LTT,HWH,2082,2150,True,True,True,True,False
+12152,HOWRAH - MUMBAI LTT Samarsata SF Exp,HWH,LTT,2082,2055,True,True,True,True,False
+12153,Lokmanya Tilak (T) Habibganj Express,LTT,HBJ,822,785,True,True,True,False,False
+12154,Habibganj LTT Superfast Express,HBJ,LTT,822,790,True,True,True,False,False
+12155,Shaan-e-Bhopal Express,HBJ,NZM,700,660,True,True,True,True,False
+12156,Shaan E Bhopal SF Express,NZM,HBJ,700,605,True,True,True,True,False
+12157,Hutatma Express,PUNE,SUR,264,240,False,False,False,False,True
+12158,Hutatma Express,SUR,PUNE,264,240,False,False,False,False,True
+12159,Amravati -Jabalpur Express,AMI,JBP,726,780,True,True,True,False,False
+12160,Jabalpur - Amravati Express,JBP,AMI,726,780,True,True,True,False,False
+12166,VARANASI - MUMBAI LTT Ratnagiri SF Exp,BSB,LTT,1483,1515,True,True,True,False,False
+12167,MUMBAI LTT - VARANASI SF Exp,LTT,BSB,1480,1635,True,True,False,False,False
+12168,VARANASI - MUMBAI LTT SF Exp,BSB,LTT,1480,1565,True,True,False,False,False
+12169,Pune Solapur InterCity Express,PUNE,SUR,264,240,False,False,False,False,True
+12170,Solapur Pune Intercity Express,SUR,PUNE,264,245,False,False,False,False,True
+12171,Mumbai LTT -Haridwar AC Express,LTT,HW,1772,1760,False,True,True,True,False
+12172,Haridwar-Mumbai LTT AC Express,HW,LTT,1772,1745,False,True,True,True,False
+12173,Udyog Nagri Express,LTT,PBH,1583,1590,True,True,True,False,False
+12174,Udyog Nagri Express,PBH,LTT,1583,1705,True,True,True,False,False
+12177,Chambal Express,HWH,MTJ,1475,1605,True,True,True,False,False
+12178,Chambal Express,MTJ,HWH,1475,1585,True,True,True,False,False
+12183,Bhopal Partapgarh Express,BPL,PBH,758,820,True,True,True,False,False
+12184,Pratapgarh-Bhopal Express,PBH,BPL,756,820,True,True,True,False,False
+12185,BHOPAL HABIBGANJ - REWA Rewanchal Exp,HBJ,REWA,554,600,True,True,True,True,False
+12186,REWA - BHOPAL HABIBGANJ Rewanchal Exp,REWA,HBJ,554,600,True,True,True,True,False
+12187,Jabalpur-CST Garib Rath Express,JBP,CSTM,997,1005,False,True,False,False,False
+12188,Mumbai-Jabalpur Garib Rath Express,CSTM,JBP,997,990,False,True,False,False,False
+12194,Partapgarh Bhopal SuperFast Express,PBH,BPL,756,820,True,True,True,False,False
+12195,Agra Fort - Ajmer Express,AF,AII,376,395,False,False,False,False,True
+12196,Ajmer-Agra Fort Express,AII,AF,376,380,False,False,False,False,True
+12176,Chambal Express,GWL,HWH,1303,1420,True,True,True,False,False
+12179,Lucknow Agra Intercity SF Express,LJN,AGC,330,350,False,False,False,False,True
+12180,Agra Lucknow Intercity SF Express,AGC,LJN,330,335,False,False,False,False,True
+12190,DELHI H NIZAMUDDIN - JABALPUR Mahakoshal SF Exp,NZM,JBP,961,1045,True,True,True,False,False
+12191,Shridham Express,NDLS,JBP,1038,1030,True,True,True,True,False
+12192,Jabalpur-New Delhi Superfast Express,JBP,NDLS,1038,1075,True,True,True,True,False
+12201,MUMBAI LTT - KOCHUVELI Garib Rath Exp,LTT,KCVL,1812,1655,False,True,False,False,True
+12202,KOCHUVELI - MUMBAI LTT Garib Rath Exp,KCVL,LTT,1812,1615,False,True,False,False,True
+12203,Saharsa Amritsar Garib Rath,SHC,ASR,1723,1785,False,True,False,False,True
+12204,Amritsar Saharsa Garib Rath,ASR,SHC,1723,1770,False,True,False,False,True
+12205,New Delhi-Dehradun AC Express,NDLS,DDN,303,345,False,True,True,True,False
+12206,Dehradun-NewDelhi AC Express,DDN,NDLS,303,340,False,True,True,True,False
+12207,Kathgodam-Jammu Garib Rath Express,KGM,JAT,769,910,False,True,False,False,False
+12208,Jammu-Kathgodam Garib Rath Express,JAT,KGM,769,890,False,True,False,False,False
+12209,Kanpur-Kathgodam Garib Rath,CNB,KGM,459,530,False,True,False,False,False
+12210,Kathgodam-Kanpur Garib Rath,KGM,CNB,459,600,False,True,False,False,False
+12211,Muzaffarpur-Anand Vihar(T) Garib Rath Exp.,MFP,ANVT,1060,1270,False,True,False,False,False
+12212,Anand Vihar T.- Muzaffarpur Garib Rath,ANVT,MFP,1060,1245,False,True,False,False,False
+12213,Yeswantpur-Delhi Sarai Rohilla AC Duronto Express,YPR,DEE,2314,1870,False,True,True,True,False
+12214,Delhi Sarai Rohilla-Yesvantpur AC Duronto Express,DEE,YPR,2314,1950,False,True,True,True,False
+12215,Delhi Sarai Rohilla-Mumbai BandraT Garib Rath,DEE,BDTS,1431,1370,False,True,False,False,False
+12216,Mumbai Bandra T. - Delhi Sarai Rohilla Garib Rath,BDTS,DEE,1431,1405,False,True,False,False,False
+12217,KOCHUVELI - CHANDIGARH Kerala Sampark Kranti Exp,KCVL,CDG,3415,3275,True,True,True,True,False
+12218,CHANDIGARH - KOCHUVELI Kerala Sampark Kranti Exp,CDG,KCVL,3415,3230,True,True,True,True,False
+12219,Lokmanya Tilak (T)-Secunderabad AC Duronto Express,LTT,SC,773,720,False,True,True,True,False
+12220,Secunderabad-Mumbai LTT AC Duronto Express,SC,LTT,773,720,False,True,True,True,False
+12222,HOWRAH - PUNE AC Duronto Exp,HWH,PUNE,2020,1635,False,True,True,True,False
+12223,MUM LTT - ERNAKULAM AC Duronto,LTT,ERS,1599,1255,False,True,True,True,False
+12224,ERNAKULAM - MUM LTT AC Duronto,ERS,LTT,1598,1245,False,True,True,True,False
+12225,Kaifiat Express,AMH,DLI,803,870,True,True,True,True,False
+12226,Kaifiat Express,DLI,AMH,803,850,True,True,True,True,False
+12228,Indore- Mumbai Central Duronto Express,INDB,BCT,829,770,False,True,True,True,False
+12229,Lucknow Mail,LKO,NDLS,493,520,True,True,True,True,False
+12230,Lucknow Mail,NDLS,LKO,493,515,True,True,True,True,False
+12231,Lucknow-Chandigarh Express,LKO,CDG,667,685,True,True,True,False,False
+12232,Chandigarh - Lucknow Sadhbhavna SF Express,CDG,LKO,667,705,True,True,True,False,False
+12233,Lucknow New Delhi AC Express,LKO,NDLS,493,480,False,True,True,True,False
+12239,Mumbai Central Jaipur AC Duronto Express,BCT,JP,1159,880,False,True,True,True,False
+12260,New Delhi-Sealdah AC Duronto Express,NDLS,SDAH,1453,980,False,True,True,True,False
+12271,Lucknow-New Delhi AC Duronto Express,LKO,NDLS,493,480,False,True,True,True,False
+12273,Howrah-New Delhi Duronto Express,HWH,NDLS,1446,1025,True,True,True,True,False
+12274,New Delhi-Howrah Duronto Express,NDLS,HWH,1441,1020,True,True,True,True,False
+12234,NewDelhi-Lucknow AC Express,NDLS,LKO,493,460,False,True,True,True,False
+12235,DIBRUGARH - NEW DELHI Rajdhani Exp,DBRG,NDLS,2453,2550,False,True,True,True,False
+12236,NEW DELHI - DIBRUGARH Rajdhani Exp,NDLS,DBRG,2474,2655,False,True,True,True,False
+12237,Varanasi-Jammu Tawi SF Express,BSB,JAT,1261,1355,True,True,False,False,False
+12238,Jammu-Varanasi SF Express,JAT,BSB,1261,1380,True,True,False,False,False
+12241,Chandigarh-Amritsar Duronto Express,CDG,ASR,267,255,False,False,False,False,True
+12242,Amritsar-Chandigarh Duronto Express,ASR,CDG,267,245,False,False,False,False,True
+12243,Chennai Central-Coimbatore AC Duronto Express,MAS,CBE,497,400,False,False,False,False,True
+12244,Coimbatore-Chennai Central AC Duronto Express,CBE,MAS,497,405,False,False,False,False,True
+12245,HOWRAH - YESVANTPUR AC Duronto Exp,HWH,YPR,1946,1740,True,True,True,True,False
+12251,Wainganga express,YPR,KRBA,1614,1730,True,True,True,False,False
+12252,Wainganga express,KRBA,YPR,1605,1770,True,True,True,False,False
+12253,YESVANTPUR - BHAGALPUR Anga SF Exp,YPR,BGP,2473,2580,True,True,True,False,False
+12254,BHAGALPUR - YESVANTPUR Anga SF Exp,BGP,YPR,2474,2615,True,True,True,False,False
+12261,MUMBAI CST - HOWRAH AC Duronto Exp,CSTM,HWH,1968,1585,False,True,True,True,False
+12262,HOWRAH - MUMBAI CST AC Duronto Exp,HWH,CSTM,1968,1570,False,True,True,True,False
+12264,Hazrat Nizamuddin-Pune AC Duronto Express,NZM,PUNE,1508,1200,False,True,True,True,False
+12265,Delhi Sarai Rohilla Jammu Tawi Duronto Express,DEE,JAT,578,535,True,True,True,True,False
+12266,Jammu Tawi-Delhi Sarai Rohilla Duronto Express,JAT,DEE,578,515,True,True,True,True,False
+12267,Mumbai Central-Ahmedabad AC Duronto Express,BCT,ADI,491,395,False,True,True,True,False
+12268,Ahmedabad-Mumbai Central AC Duronto Express,ADI,BCT,491,390,False,True,True,True,False
+12269,Chennai-Hazrat Nizamuddin Duronto Express,MAS,NZM,2176,1675,True,True,True,True,False
+12270,Hazrat Nizamuddin-Chennai Duronto,NZM,MAS,2176,1700,True,True,True,True,False
+12272,New Delhi-Lucknow AC Duronto Express,NDLS,LKO,493,460,False,True,True,True,False
+12275,Allahabad-New Delhi Duronto Express,ALD,NDLS,634,445,True,True,True,True,False
+12276,New Delhi-Allahabad Duronto Express,NDLS,ALD,634,440,True,True,True,True,False
+12277,Howrah Puri Duronto Express,HWH,PURI,502,435,False,False,False,False,True
+12301,Howrah-New Delhi Rajdhani Express,HWH,NDLS,1447,1020,False,True,True,True,False
+12303,Poorva Express,HWH,NDLS,1530,1390,True,True,True,True,False
+12307,Howrah-Jodhpur SF Express,HWH,JU,1814,1830,True,True,True,False,False
+12307-Slip,Howrah-Bikaner Express,HWH,JU,1814,1830,True,True,True,False,False
+12311,Kalka Mail,HWH,KLK,1743,1970,True,True,True,True,False
+12313,KOL SEALDAH - NEW DELHI Rajdhani Exp,SDAH,NDLS,1454,1050,False,True,True,True,False
+12314,NEW DELHI - KOL SEALDAH Rajdhani Exp,NDLS,SDAH,1454,1065,False,True,True,True,False
+12316,Ananya Express,UDZ,SDAH,2141,2320,True,True,True,False,False
+12318,AKAL TAKHT Express,ASR,SDAH,1898,1985,True,True,True,False,False
+12320,AGRA CANTT - KOLKATA CHITPUR SF Exp,AGC,KOAA,1405,1460,True,True,True,False,False
+12325,KOLKATA CHITPUR - NANGAL DAM Gurumukhi Exp,KOAA,NLDM,1803,1920,True,True,True,False,False
+12326,NANGAL DAM - KOLKATA CHITPUR Gurumukhi Exp,NLDM,KOAA,1803,1935,True,True,True,False,False
+12327,Upasana Express,HWH,DDN,1587,1730,True,True,True,False,False
+12329,West Bengal Sampark Kranti,SDAH,DLI,1448,1365,True,True,True,False,False
+12330,West Bengal Sampark Kranti Express,DLI,SDAH,1448,1335,True,True,True,False,False
+12331,Himgiri Express,HWH,JAT,2021,2185,True,True,True,False,False
+15941,JHAJHA - DIBRUGARH Exp,JAJ,DBRG,1710,2185,True,True,True,False,False
+12278,Puri-Howrah AC Duronto Express,PURI,HWH,502,435,False,False,False,False,True
+12279,Jhansi-H.Nizamuddin Taj Express,JHS,NZM,403,400,False,False,False,False,True
+12280,H.Nizamuddin-Jhansi Taj Express,NZM,JHS,403,390,False,False,False,False,True
+12281,Bhubaneswar-New Delhi Duronto,BBS,NDLS,1724,1315,True,True,True,True,False
+12282,New Delhi-Bhubaneswar Duronto Express,NDLS,BBS,1724,1325,True,True,True,True,False
+12284,DELHI H NIZAMUDDIN - ERNAKULAM Duronto Exp,NZM,ERS,2943,2515,True,True,True,True,False
+12287,Kochuveli-Dehradun Weekly Express,KCVL,DDN,3459,3430,True,True,False,False,False
+12289,Mumbai CSTM-Nagpur Duronto Express,CSTM,NGP,838,660,True,True,True,True,False
+12290,Nagpur-Mumbai CST Duronto Express,NGP,CSTM,838,660,True,True,True,True,False
+12291,YESVANTPUR - CHENNAI SF Exp,YPR,MAS,370,390,True,True,True,False,False
+12292,CHENNAI - YESVANTPUR SF Exp,MAS,YPR,370,400,True,True,True,False,False
+12295,BANGALORE - PATLIPUTRA Sanghamitra SF Exp,SBC,PPTA,2729,2900,True,True,True,False,False
+12296,PATLIPUTRA - BANGALORE Sanghamitra SF Exp,PPTA,SBC,2729,2925,True,True,True,False,False
+12302,New Delhi-Howrah Rajdhani Express,NDLS,HWH,1447,1015,False,True,True,True,False
+12304,Poorva Express,NDLS,HWH,1530,1465,True,True,True,True,False
+12305,Howrah-New Delhi Rajdhani Express,HWH,NDLS,1530,1190,False,True,True,True,False
+12306,New Delhi-Howrah Rajdhani Express,NDLS,HWH,1542,1180,False,True,True,True,False
+12308,Jodhpur-Howrah SF Express,JU,HWH,1814,1890,True,True,True,False,False
+12309,Rajendra Nagar-New Delhi Rajdhani Express,RJPB,NDLS,1001,755,False,True,True,True,False
+12310,New Delhi Rajendra Nagar Rajdhani Express,NDLS,RJPB,1001,770,False,True,True,True,False
+12312,Kalka Mail,KLK,HWH,1743,1895,True,True,True,True,False
+12321,HOWRAH - MUMBAI CST Mail (via Allahabad),HWH,CSTM,2177,2245,True,True,True,True,False
+12322,MUMBAI CST - HOWRAH Mail (via Allahabad),CSTM,HWH,2177,2300,True,True,True,True,False
+12323,Howrah-NewDelhi SF Express,HWH,NDLS,1447,1335,True,True,True,False,False
+12324,New Delhi-Howrah SF Express,NDLS,HWH,1447,1370,True,True,True,False,False
+12328,Upasana Express,DDN,HWH,1587,1730,True,True,True,False,False
+12332,Himgiri Express,JAT,HWH,2021,2190,True,True,True,False,False
+12333,Vibhuti Express,HWH,ALY,882,975,True,True,True,False,False
+12339,Coalfield Express,HWH,DHN,259,260,False,False,False,False,True
+12340,Coalfield Express,DHN,HWH,259,270,False,False,False,False,True
+12343-Slip,Darjeeling Mail Slip,SDAH,HDB,624,1040,True,False,False,False,False
+12344,Darjeeling Mail,HDB,SDAH,624,795,True,True,True,True,False
+12355,Archana Express,RJPB,JAT,1510,1640,True,True,True,False,False
+12359,KOLKATA CHITPUR - PATNA Garib Rath Exp,KOAA,PNBE,534,570,False,True,False,False,False
+12363,KOLKATA CHITPUR - HALDIBARI SF Intercity Exp,KOAA,HDB,620,680,False,False,False,False,True
+12367,Vikramshila Express,BGP,ANVT,1206,1225,True,True,True,True,False
+12377,Padatik Express,SDAH,NJP,567,610,True,True,True,True,False
+12378,Padatik Express,NJP,SDAH,567,585,True,True,True,True,False
+12379,Sealdah - Amritsar Superfast Express,SDAH,ASR,1894,1830,True,True,True,False,False
+12383,Howrah-Dhanbad AC DD Express,HWH,DHN,259,260,False,False,False,False,True
+12384,Dhanbad-Howrah AC DD Express,DHN,HWH,259,255,False,False,False,False,True
+12757,Tirupati-Coimbatore Intercity Express,TPTY,CBE,472,470,False,False,False,False,True
+12758,Coimbatore-Tirupati (Triweekly) SF Intercity Expre,CBE,TPTY,472,450,False,False,False,False,True
+17488,Tirumala Express,VSKP,TPTY,736,900,True,True,True,False,False
+19065,MUMBAI BANDRA - BHAGAT KI KOTHI Exp,BDTS,BGKT,935,1055,True,True,True,False,False
+12246,YESVANTPUR - HOWRAH AC Duronto Exp,YPR,HWH,1946,1725,True,True,True,True,False
+12334,Vibhuti Express,ALY,HWH,882,975,True,True,True,False,False
+12337,Shantiniketan Express,HWH,BHP,146,135,False,False,False,False,True
+12338,Shantiniketan Express,BHP,HWH,146,150,False,False,False,False,True
+12341,Agniveena Express,HWH,ASN,200,200,False,False,False,False,True
+12342,Agniveena Express,ASN,HWH,200,195,False,False,False,False,True
+12345,HOWRAH - GUWAHATI Saraighat SF Exp,HWH,GHY,1020,1060,True,True,True,True,False
+12347,Howrah-Rampur Hat SF Express,HWH,RPH,207,215,False,False,False,False,True
+12348,Rampur Hat-Howrah SF Express,RPH,HWH,207,220,False,False,False,False,True
+12351,Howrah- Danapur Express,HWH,DNR,541,605,True,True,True,True,False
+12352,Danapur- Howrah Express,DNR,HWH,541,600,True,True,True,True,False
+12356,Archana Express,JAT,RJPB,1510,1610,True,True,True,False,False
+12357,KOLKATA CHITPUR - AMRITSAR Durgiana SF Exp,KOAA,ASR,1812,1700,True,True,True,False,False
+12358,AMRITSAR - KOLKATA CHITPUR Durgiana SF Exp,ASR,KOAA,1812,1740,True,True,True,False,False
+12360,KOLKATA CHITPUR - PATNA Garib Rath Exp,PNBE,KOAA,534,545,False,True,False,False,False
+12361,ASANSOL - MUMBAI CST SF Exp,ASN,CSTM,2043,2080,True,True,True,False,False
+12362,MUMBAI CST - ASANSOL SF Exp,CSTM,ASN,2043,2170,True,True,True,False,False
+12364,HALDIBARI - KOLKATA CHITPUR SF Intercity Exp,HDB,KOAA,620,665,False,False,False,False,True
+12365,Patna-Ranchi Jan Shatabdi Express,PNBE,RNC,411,460,False,False,False,False,True
+12366,Ranchi Patna Jan Shatabdi Express,RNC,PNBE,411,470,False,False,False,False,True
+12369,Kumbh Express,HWH,HW,1536,1625,True,True,True,False,False
+12370,Kumbh Express,HW,HWH,1536,1640,True,True,True,False,False
+12381,Poorva Express,HWH,NDLS,1446,1380,True,True,True,True,False
+12382,Poorva Express,NDLS,HWH,1446,1465,True,True,True,True,False
+12389,GAYA - CHENNAI EGMORE SF Exp,GAYA,MS,2346,2340,True,True,True,False,False
+12390,CHENNAI EGMORE - GAYA SF Exp,MS,GAYA,2346,2290,True,True,True,False,False
+12391,Shramjeevi Express,RGD,NDLS,1103,1260,True,True,True,True,False
+12392,Shramjeevi Express,NDLS,RGD,1103,1255,True,True,True,True,False
+12396,Ajmer-RajendraNagar Ziyarat Express,AII,RJPB,1305,1390,True,True,True,False,False
+12404,Mathura Allahabad SF Express,MTJ,ALD,507,520,True,True,True,True,False
+12410,Gondwana Express,NZM,RIG,1626,1660,True,True,True,False,False
+12411,CHANDIGARH - AMRITSAR Intercity SF Exp,CDG,ASR,909,930,True,True,True,True,False
+12412,AMRITSAR - CHANDIGARH Intercity SF Exp,ASR,CDG,909,950,True,True,True,True,False
+12413,Pooja express,AII,JAT,1017,1070,True,True,True,True,False
+12414,Pooja Express,JAT,AII,1017,1080,True,True,True,True,False
+12419,Gomti Express,LKO,NDLS,511,515,False,False,True,True,True
+12420,Gomti Express,NDLS,LKO,511,525,False,False,True,True,True
+12423,DIBRUGARH TOWN - NEW DELHI Rajdhani Exp,DBRT,NDLS,2443,2275,False,True,True,True,False
+12427,REWA - DELHI ANAND VIHAR SF Exp,REWA,ANVT,860,885,True,True,True,False,False
+12428,DELHI ANAND VIHAR - REWA SF Exp,ANVT,REWA,860,860,True,True,True,False,False
+12431,TRIVANDRUM - DELHI H NIZAMUDDIN Rajdhani Exp,TVC,NZM,3149,2485,False,True,True,True,False
+12432,DELHI H NIZAMUDDIN - TRIVANDRUM Rajdhani Exp,NZM,TVC,3149,2525,False,True,True,True,False
+12437,Secunderabad Rajdhani Express,SC,NZM,1660,1295,False,True,True,True,False
+12438,Secunderabad Rajdhani Express,NZM,SC,1660,1320,False,True,True,True,False
+12439,RANCHI - NEW DELHI Rajdhani Exp,RNC,NDLS,1306,1015,False,True,True,True,False
+12440,NEW DELHI - RANCHI Rajdhani Exp,NDLS,RNC,1306,1020,False,True,True,True,False
+12397,Mahabodhi Express,GAYA,NDLS,990,870,True,True,True,False,False
+12398,Mahabodhi Express,NDLS,GAYA,990,940,True,True,True,False,False
+12401,Magadh Express,IPR,NDLS,1063,1175,True,True,True,True,False
+12402,Magadh Express,NDLS,IPR,1063,1065,True,True,True,True,False
+12405,Gondwana Express,BSL,NZM,1476,1545,True,True,True,False,False
+12406,H.Nizamuddin-Bhusaval Gondwana Express,NZM,BSL,1476,1465,True,True,True,False,False
+12415,Indore-Nizamuddin Express,INDB,NZM,817,800,True,True,True,True,False
+12416,Nizamuddin-Indore Express,NZM,INDB,817,820,True,True,True,True,False
+12417,Prayagraj Express,ALD,NDLS,634,565,True,True,True,True,False
+12418,Prayagraj Express,NDLS,ALD,634,560,True,True,True,True,False
+12424,NEW DELHI - DIBRUGARH TOWN Rajdhani Exp,NDLS,DBRT,2443,2340,False,True,True,True,False
+12425,Jammu Rajdhani Express,NDLS,JAT,577,540,False,True,True,True,False
+12426,Jammu Rajdhani Express,JAT,NDLS,577,555,False,True,True,True,False
+12429,Bangalore - Hazrat Nizamuddin Rajdhani Express,SBC,NZM,2365,2010,False,True,True,True,False
+12430,Delhi H Nizamuddin-Bangalore Rajdhani Express,NZM,SBC,2382,2030,False,True,True,True,False
+12433,Chennai Central-Delhi H.Nizamuddin Rajdhani Expres,MAS,NZM,2176,1690,False,True,True,True,False
+12435,DIBRUGARH TOWN - NEW DELHI Rajdhani Exp,DBRT,NDLS,2463,2565,False,True,True,True,False
+12436,NEW DELHI - DIBRUGARH TOWN Rajdhani Exp,NDLS,DBRT,2463,2695,False,True,True,True,False
+12441,Bilaspur-New Delhi Rajdhani Express,BSP,NDLS,1501,1245,False,True,True,True,False
+12442,Bilaspur Rajdhani Express,NDLS,BSP,1501,1215,False,True,True,True,False
+12445,Uttar Sampark Kranti Express,NDLS,UHP,630,675,True,True,True,True,False
+12446,Uttar Sampark Kranti Express,UHP,NDLS,630,665,True,True,True,True,False
+12447,UP Sampark Kranti Express,MKP,NZM,695,745,True,True,True,True,False
+12448,UP Sampark Kranti Express,NZM,MKP,695,740,True,True,True,True,False
+12497,Shan-e-Punjab Express,NDLS,ASR,448,455,False,False,False,False,True
+12455,DelhiSaraiRohilla-ShriGanganagar AC SF Express,DEE,SGNR,486,530,False,True,True,True,False
+12456,ShriGanganagar-DelhiSaraiRohilla AC SF Express,SGNR,DEE,486,515,False,True,True,True,False
+12457,Delhi SaraiRohilla-Bikaner Express,DEE,BKN,458,490,True,True,True,False,False
+12458,Bikaner-DelhiSaraiRohiilla Express,BKN,DEE,458,460,True,True,True,False,False
+12472,Jammu Tawi - Mumbai Bandra (T.) SF Swaraj Express,JAT,BDTS,1950,1850,True,True,True,False,False
+12475,Hapa - Jammu Tawi Sarvodaya SF Express,HAPA,JAT,1992,2005,True,True,True,False,False
+12476,Jammu Tawi - Hapa Sarvodaya SF Express,JAT,HAPA,1992,2010,True,True,True,False,False
+12477,Jamnagar - Jammu Tawi SF Sindhu Express,JAM,JAT,2000,2020,True,True,True,False,False
+12479,JODHPUR - MUMBAI BANDRA Suryanagari SF Exp,JU,BDTS,935,1020,True,True,True,False,False
+12480,MUMBAI BANDRA - JODHPUR Suryanagari SF Exp,BDTS,JU,935,1020,True,True,True,False,False
+12485,H S NANDED - SHRI GANGANAGAR Exp,NED,SGNR,1965,2125,True,True,False,False,False
+12486,SHRI GANGANAGAR - H S NANDED Exp,SGNR,NED,1965,1995,True,True,False,False,False
+12487,Seemanchal Express,JBN,ANVT,1383,1460,True,True,True,False,False
+12489,Bikaner-Dadar Express,BKN,DDR,1245,1345,True,True,True,False,False
+12490,Dadar - Bikaner Express,DDR,BKN,1245,1355,True,True,True,False,False
+12491,BARAUNI - JAMMU TAWI Maur Dhwaj Express,BJU,JAT,1510,1730,True,True,False,False,False
+12492,JAMMU TAWI - BARAUNI Maur Dhwaj Express,JAT,BJU,1510,1695,True,True,False,False,False
+12496,KOLKATA CHITPUR - BIKANER Pratap Exp,KOAA,BKN,1885,1860,True,True,True,False,False
+16359,ERNAKULAM - PATNA Exp,ERS,PNBE,2988,3545,True,True,True,False,False
+22607,ERNAKULAM - BANGALORE Weekly SF Exp,ERS,SBC,625,680,True,True,True,False,False
+12449,MADGAON - CHANDIGARH Goa Sampark Kranti Exp,MAO,CDG,2094,1770,True,True,True,True,False
+12450,CHANDIGARH - MADGAON Goa Sampark Kranti Exp,CDG,MAO,2094,1790,True,True,True,True,False
+12451,Shram Shakti Express,CNB,NDLS,440,395,True,True,True,True,False
+12452,Shram Shakti Express,NDLS,CNB,440,375,True,True,True,True,False
+12453,Ranchi-New Delhi Rajdhani Express,RNC,NDLS,1341,1060,False,True,True,True,False
+12454,New Delhi-Ranchi Rajdhani Express,NDLS,RNC,1341,1110,False,True,True,True,False
+12459,NewDelhi-Amritsar SF InterCity,NDLS,ASR,448,480,False,False,False,False,True
+12460,Amritsar-New Delhi Intercity Express,ASR,NDLS,448,475,False,False,False,False,True
+12461,Mandore Express,DLI,JU,620,635,True,True,True,True,False
+12462,Mandore Express,JU,DLI,620,625,True,True,True,True,False
+12464,Rajasthan Sampark Kranti Express,JU,DEE,616,635,True,False,True,True,False
+12465,Indore-Jodhpur Ranthambhore Express,INDB,JU,911,940,True,True,False,False,True
+12466,Jodhpur-Indore Ranthambhore Intercity Express,JU,INDB,911,990,True,True,False,False,True
+12469,Kanpur Jammu Express,CNB,JAT,1026,1125,True,True,False,False,False
+12470,Jammu Kanpur Express,JAT,CNB,1026,1115,True,True,False,False,False
+12473,Sarvodaya SF Express,ADI,JAT,1669,1630,True,True,True,False,False
+12474,Sarvodaya SF Express,JAT,ADI,1669,1615,True,True,True,False,False
+12478,Jammu Tawi - Jamnagar (Weekly) Sindhu SF Express,JAT,JAM,2000,2025,True,True,True,False,False
+12481,Delhi Sriganganagar InterCity,DLI,SGNR,424,450,False,False,False,False,True
+12482,Sriganganagar Delhi InterCity Express,SGNR,DLI,424,465,False,False,False,False,True
+12484,AMRITSAR - KOCHUVELI SF Exp,ASR,KCVL,3597,3445,True,True,True,False,False
+12493,Bangalore-Hazrat Nizammudin Rajdhani Express,SBC,NZM,2294,2010,False,True,True,True,False
+12494,Hazrat Nizamuddin-Bangalore Rajdhani Express,NZM,SBC,2383,2030,False,True,True,True,False
+12501,GUWAHATI - NEW DELHI Poorvottar Sampark Kranti Exp,GHY,NDLS,1974,1860,True,True,True,True,False
+12502,NEW DELHI - GUWAHATI Poorvottar Sampark Kranti Exp,NDLS,SCL,1974,1950,True,True,True,True,False
+12507,TRIVANDRUM - GUWAHATI SF Exp,TVC,GHY,3331,3530,True,True,True,False,False
+12508,GUWAHATI - TRIVANDRUM SF Exp,GHY,TVC,3332,3585,True,True,True,False,False
+12511,Rapti Sagar Express,GKP,TVC,3251,3545,True,True,True,False,False
+12512,Rapti Sagar Expres,TVC,GKP,3251,3460,True,True,True,False,False
+12514,GUWAHATI - SECUNDERABAD Exp,GHY,SC,2551,2750,True,True,True,False,False
+12519,MUMBAI LTT - KAMAKHYA AC Exp,LTT,KYQ,1667,1475,True,True,True,False,False
+12520,KAMAKHYA - MUMBAI LTT AC Exp,KYQ,LTT,1667,1455,True,True,True,False,False
+12522,Raptisagar Express,ERS,BJU,3441,3640,True,True,True,False,False
+12527,Mumbai CST-Latur Superfast Express.,CSTM,LUR,530,570,True,True,True,True,False
+12528,Latur-Mumbai CST Superfast Express,LUR,CSTM,530,570,True,True,True,True,False
+12535,Lucknow-Raipur Garib Rath Express,LJN,R,917,995,False,True,False,False,False
+12536,Raipur-Lucknow Garib Rath,R,LJN,917,1005,False,True,False,False,False
+12537,Bapudham Express,MKI,MUV,465,500,True,True,False,False,False
+12538,Bapudham Express,MUV,MKI,465,505,True,True,False,False,False
+12539,YESVANTPUR - LUCKNOW SF Exp,YPR,LKO,2554,2760,True,True,True,False,False
+12540,LUCKNOW - YESVANTPUR SF Exp,LKO,YPR,2532,2680,True,True,True,False,False
+12541,Gorakhpur-Mumbai LTT SF Express,GKP,LTT,1680,1825,True,True,True,False,False
+12543,Yesvantpur-Tirupati Tri Weekly Intercity,YPR,TPTY,345,370,False,False,False,False,True
+12544,Tirupati-Yesvantpur Tri Weekly SF Intercity,TPTY,YPR,345,365,False,False,False,False,True
+12549,DURG - JAMMU TAWI SF Exp,DURG,JAT,1873,1985,True,True,True,True,False
+12550,JAMMU TAWI - DURG SF Exp,JAT,DURG,1873,2000,True,True,True,True,False
+12553,Vaishali SF Express,BJU,NDLS,1185,1260,True,True,True,True,False
+12498,Shan-e-Punjab Express,ASR,NDLS,448,455,False,False,False,False,True
+12505,GUWAHATI - DELHI ANAND VIHAR North East Exp,GHY,ANVT,1866,2010,True,True,True,False,False
+12506,DELHI ANAND VIHAR - GUWAHATI North East Exp,ANVT,GHY,1867,2030,True,True,True,False,False
+12509,BENGALURU - GUWAHATI (Kaziranga) SF Express,BNC,GHY,2992,3260,True,True,True,False,False
+12510,GUWAHATI - BENGALURU (Kaziranga) SF Express,GHY,SBC,2992,3200,True,True,True,False,False
+12515,RIVANDRUM - GUWAHATI Exp,TVC,GHY,3552,3900,True,True,True,False,False
+12516,GUWAHATI - TRIVANDRUM CENTRAL EXP,GHY,TVC,3552,3865,True,True,True,False,False
+12517,KOLKATA - GUWAHATI Garib Rath Exp,KOAA,GHY,1027,1080,False,True,False,False,False
+12518,GUWAHATI - KOLKATA Garib Rath Exp,GHY,KOAA,1027,1080,False,True,False,False,False
+12521,Raptisagar Express,BJU,ERS,3441,3740,True,True,True,True,False
+12523,New Jalpaiguri-New Delhi Superfast Express,NJP,NDLS,1500,1675,True,True,True,False,False
+12524,New Delhi New Jalpaiguri SuperFast Express,NDLS,NJP,1497,1645,True,True,True,False,False
+12525,Indrayani SF Express,CSTM,PUNE,192,208,False,False,False,False,True
+12526,Indrayani SF Express,PUNE,CSTM,192,200,False,False,False,False,True
+12529,Bhopal-Jabalpur Intercity Express,HBJ,JBP,331,320,False,False,False,False,True
+12530,Jabalpur-Bhopal Intercity,JBP,HBJ,331,355,False,False,False,False,True
+12531,Gorakhpur Lucknow InterCity Express,GKP,LJN,279,295,False,False,False,False,True
+12532,Lucknow Gorakhpur Inter City Express,LJN,GKP,279,295,False,False,False,False,True
+12533,Pushpak Express,LJN,CSTM,1426,1460,True,True,True,True,False
+12534,Pushpak Express,CSTM,LJN,1426,1460,True,True,True,True,False
+12547,Agra Fort Ahmedabad Tri Weekly Express,AF,ADI,867,910,True,True,True,False,False
+12548,Ahmedabad-Agra Fort Express,ADI,AF,867,915,True,True,True,False,False
+12554,Vaishali SF Express,NDLS,BJU,1185,1285,True,True,True,True,False
+12557,Sapt Kranti SF Express,MFP,ANVT,1060,1135,True,True,True,True,False
+12558,Sapt Kranti SF Express,ANVT,MFP,1060,1175,True,True,True,True,False
+12569,Jaynagar-Delhi AnandViharT Garib Rath,JYG,ANVT,1252,1215,False,True,False,False,False
+12570,Anand Vihar Terminus-Jaynagar Garib Rath Express,ANVT,JYG,1252,1230,False,True,False,False,False
+12571,Howrah Prasanti Nilayam SF Express,HWH,SSPN,1763,1835,True,True,True,False,False
+12572,Prashanti Nilayam Howrah SF Express,SSPN,HWH,1763,1860,True,True,True,False,False
+12573,SainagarShirdi-Howrah Express,SNSI,HWH,1792,1775,True,True,True,False,False
+12577,DARBHANGA - MYSORE BAGMATI SF Exp,DBG,MYS,2910,3160,True,True,True,False,False
+12578,MYSORE - DARBHANGA BAGMATI SF Exp,MYS,DBG,2910,3125,True,True,True,False,False
+12579,Digha- Puri SamudraKanya Express,DGHA,PURI,549,605,True,True,True,False,False
+12581,Pune Bhubaneshwar Express,PUNE,BBS,1689,1820,True,True,True,False,False
+12582,Bhubaneshwar-Pune Express,BBS,PUNE,1689,1845,True,True,True,False,False
+12583,LUCKNOW - DELHI ANAND VIHAR T DOUBLE DECKER,LJN,ANVT,2071,2315,True,True,True,False,False
+12584,DELHI ANAND VIHAR T - LUCKNOW DOUBLE DECKER,ANVT,LJN,2071,2305,True,True,True,False,False
+12592,YESVANTPUR - GORAKHPUR SF Exp,YPR,GKP,2529,2780,True,True,True,False,False
+12593,Lucknow-Bhopal Garib Rath,LJN,BPL,585,650,False,True,False,False,False
+12594,Bhopal-Lucknow Garib Rath Express,BPL,LJN,585,660,False,True,False,False,False
+12605,Pallavan Superfast Express,MS,TPJ,336,335,False,False,False,False,True
+12606,Pallavan Superfast Express,TPJ,MS,336,335,False,False,False,False,True
+12607,CHENNAI CENTRAL - BANGALORE Lalbagh Exp,MAS,SBC,358,360,False,False,False,False,True
+12608,BANGALORE - CHENNAI CENTRAL Lalbagh Exp,SBC,MAS,362,345,False,False,False,False,True
+12609,CHENNAI CENT - BANGALORE SF Intercity Exp,MAS,SBC,362,390,False,False,False,False,True
+12556,Gorakhdham Express,HSR,GKP,962,1045,True,True,True,True,False
+12559,Shiv Ganga Express,BSB,NDLS,758,745,True,True,True,True,False
+12560,Shiv Ganga Express,NDLS,BSB,758,765,True,True,True,True,False
+12562,Swatantrata Sainani Express,NDLS,DBG,1166,1285,True,True,True,True,False
+12563,Mumbai LTT - Faizabad SF Express,LTT,FD,1600,1630,True,True,True,True,False
+12564,Faizabad-Mumbai LTT SF Express,FD,LTT,1600,1745,True,True,True,True,False
+12565,Bihar Sampark Kranti Express,DBG,NDLS,1172,1255,True,True,True,True,False
+12566,Bihar Sampark Kranti Express,NDLS,DBG,1172,1255,True,True,True,True,False
+12575,Kharagpur Purulia Express,KGP,PRR,208,240,False,False,False,False,True
+12576,Purulia Khargapur Intercity Express,PRR,KGP,208,235,False,False,False,False,True
+12587,Amarnath Express,GKP,JAT,1248,1335,True,True,True,False,False
+12588,Amarnath Express,JAT,GKP,1248,1325,True,True,True,False,False
+12589,Gorakhpur-Secunderabad Express,GKP,SC,1827,1945,True,True,True,False,False
+12590,Secunderabad - Gorakhpur Express,SC,GKP,1827,1910,True,True,True,False,False
+12601,Chennai Mangalore Mail,MAS,MAQ,889,960,True,True,True,False,False
+12602,Chennai Mail,MAQ,MAS,889,970,True,True,True,False,False
+12603,Chennai - Hyderabad Express,MAS,HYB,715,780,True,True,True,True,False
+12604,Hyderabad - Chennai Express,HYB,MAS,715,780,True,True,True,True,False
+12611,Chennai Central-H.Nizamuddin Garib Rath Express,MAS,NZM,2177,1690,False,True,False,False,False
+12612,H Nizamuddin-Chennai Garib Rath Express,NZM,MAS,2176,1695,False,True,False,False,False
+12613,Tippu Express,MYS,SBC,139,150,False,False,False,False,True
+12614,Tippu Express,SBC,MYS,139,150,False,False,False,False,True
+12616,GrandTrunk Express,NDLS,MAS,2184,2135,True,True,True,True,False
+12620,MANGALORE CENT - MUMBAI LTT Matsyagandha Exp,MAQ,LTT,1186,955,True,True,True,False,False
+12622,Tamil Nadu Express,NDLS,MAS,2184,1965,True,True,True,True,False
+12623,Chennai Tiruvananthapuram SF Mail,MAS,TVC,909,940,True,True,True,True,False
+12625,Kerala Express,TVC,NDLS,3036,3025,True,True,True,False,False
+12626,Kerala Express,NDLS,TVC,3036,3065,True,True,True,False,False
+12628,Karnataka Express,NDLS,SBC,2406,2425,True,True,True,True,False
+12629,Karnataka Sampark Kranti Express,YPR,NZM,2610,2665,True,True,True,True,False
+12630,Karnataka Sampark Kranti Express,NZM,YPR,2610,2745,True,True,True,True,False
+12635,CHENNAI EGMORE - MADURAI Vaigai SF Exp,MS,MDU,497,485,False,False,False,False,True
+12637,CHENNAI EGMORE - MADURAI Pandiyan SF Exp,MS,MDU,497,540,True,True,True,True,False
+12638,MADURAI - CHENNAI EGMORE Pandiyan SF Exp,MDU,MS,497,540,True,True,True,True,False
+12640,BANGALORE - CHENNAI CENT Brindavan Exp,SBC,MAS,362,355,False,False,False,False,True
+12643,Swarna Jayanthi Express,TVC,NZM,3014,3045,True,True,False,False,False
+12644,Swarna Jayanti Express,NZM,TVC,3014,3190,True,True,False,False,False
+12649,Karnataka Sampark Kranti Express,YPR,NZM,2277,2105,True,True,True,True,False
+12650,Karnataka Sampark Kranti Express,NZM,YPR,2276,2175,True,True,True,True,False
+12651,MADURAI - DELHI H NIZAMUDDIN Tamil Nadu S Kranti,MDU,NZM,2677,2525,True,True,True,True,False
+12654,Mangalore Tiruchirappalli Weekly Superfast Express,MAQ,TPJ,635,690,True,True,True,False,False
+12657,CHENNAI - BANGALORE Mail,MAS,SBC,362,355,True,True,True,True,False
+12658,BANGALORE - CHENNAI Mail,SBC,MAS,362,355,True,True,True,True,False
+12662,SENGOTTAI - CHENNAI EGMORE Pothigai SF Exp,SCT,MS,670,725,True,True,True,False,False
+12664,Tiruchirappalli-Howrah Express,TPJ,HWH,2025,2120,True,True,True,False,False
+15605,Jorhat Town InterCity Express,GHY,MXN,405,660,True,True,False,False,False
+12617,ERNAKULAM - NEW DELHI H NIZAMUDDIN Mangala Lakshadweep Exp,ERS,NZM,3067,2880,True,True,True,False,False
+12618,NEW DELHI H NIZAMUDDIN - ERNAKULAM Mangala Lakshadweep Exp,NZM,ERS,3067,2920,True,True,True,False,False
+12621,Tamil Nadu Express,MAS,NDLS,2184,1980,True,True,True,True,False
+12627,Karnataka Express,SBC,NDLS,2406,2355,True,True,True,True,False
+12631,CHENNAI EGMORE - TIRUNELVELI Nellai SF Exp,MS,TEN,653,700,True,True,True,False,False
+12632,TIRUNELVELI - CHENNAI EGMORE Nellai SF Exp,TEN,MS,653,710,True,True,True,False,False
+12634,KANNIYAKUMARI - CHENNAI EGMORE SF Exp,CAPE,MS,742,810,True,True,True,True,False
+12639,CHENNAI CENT - BANGALORE Brindavan Exp,MAS,SBC,362,365,False,False,False,False,True
+12642,D H NIZAMUDDIN - KANYAKUMARI Thirukkural Exp,NZM,CAPE,2919,3045,True,True,True,False,False
+12645,Millennium Expres,ERS,NZM,2809,2770,True,True,True,False,False
+12646,Millennium Express,NZM,ERS,2809,2880,True,True,True,False,False
+12647,Kongu Express,CBE,NZM,2671,2820,True,True,True,False,False
+12648,Kongu Express,NZM,CBE,2671,2930,True,True,True,False,False
+12655,Navjeevan Express,ADI,MAS,1893,2015,True,True,True,True,False
+12656,Navajivan Express,MAS,ADI,1893,2015,True,True,True,True,False
+12659,Gurudev Express,NCJ,SHM,2583,2835,True,True,True,False,False
+12660,Shalimar-Nagercoil Gurudev Express,SHM,NCJ,2583,2820,True,True,True,False,False
+12667,CHENNAI EGMORE - NAGERCOIL SF Exp,MS,NCJ,727,800,True,True,True,False,False
+12668,NAGERCOIL - CHENNAI EGMORE SF Exp,NCJ,MS,727,775,True,True,True,False,False
+12673,Cheran Express,MAS,CBE,497,480,True,True,True,True,False
+12674,Cheran Express,CBE,MAS,497,495,True,True,True,True,False
+12675,Kovai Express,MAS,CBE,497,460,False,False,False,False,True
+12676,Kovai Express,CBE,MAS,497,440,False,False,False,False,True
+12677,Bangalore City - Ernakulam Intercity SF Express,SBC,ERS,587,640,False,False,False,False,True
+12678,Ernakulam-BangaloreCity Intercity Express,ERS,SBC,587,640,False,False,False,False,True
+12679,ChennaiCentral-Coimbatore InterCity,MAS,CBE,497,465,False,False,False,False,True
+12680,Coimbatore-Chennai Central InterCity SF Express,CBE,MAS,497,455,False,False,False,False,True
+12681,Chennai-Coimbatore Express,MAS,CBE,497,500,True,True,True,False,False
+12682,Coimbatore-Chennai Express,CBE,MAS,497,480,True,True,True,False,False
+12683,ERNAKULAM - BANGALORE SF Exp,ERS,SBC,625,680,True,True,True,False,False
+12695,Chennai-Trivandrum SuperFast Express,MAS,TVC,922,975,True,True,True,False,False
+12696,Trivandrum-Chennai Superfast Express,TVC,MAS,922,1000,True,True,True,False,False
+12697,Chennai-Thiruvananthapuram Express,MAS,TVC,909,920,True,True,True,False,False
+12698,Thiruvananthapuram Central Chennai Central weekly express,TVC,MAS,909,975,True,True,True,False,False
+12701,Hussain Sagar Express,CSTM,HYB,790,860,True,True,True,True,False
+12702,Hussain Sagar Express,HYB,CSTM,790,860,True,True,True,False,False
+12703,Howrah - Secunderabad Falaknuma SF Express,HWH,SC,1545,1570,True,True,True,True,False
+12704,Falaknuma Express,SC,HWH,1545,1545,True,True,True,True,False
+12707,Andhra Pradesh Sampark Kranti Express,TPTY,NZM,2302,2175,True,True,True,False,False
+12708,Andhra Pradesh Sampark Kranti Express,NZM,TPTY,2302,2290,True,True,True,False,False
+12710,Simhapuri SF Express,SC,GDR,644,620,True,True,True,True,False
+12711,Pinakini Express,BZA,MAS,431,420,False,False,False,False,True
+12712,Pinakini Express,MAS,BZA,431,425,False,False,False,False,True
+12714,Satavahana Express,SC,BZA,351,335,False,False,False,False,True
+12715,Sachkhand SF Express,NED,ASR,2081,2085,True,True,True,False,False
+12666,KANYAKUMARI - KOL HOWRAH Weekly Exp,CAPE,HWH,2431,2610,True,True,True,False,False
+12669,CHENNAI CENTRAL - CHHAPRA Ganga Kaveri Exp,MAS,CPR,2343,2525,True,True,True,False,False
+12670,CHHAPRA - CHENNAI CENTRAL Ganga Kaveri Exp,CPR,MAS,2343,2485,True,True,True,False,False
+12671,Nilgiri (Blue Mountain) Express,MAS,MTP,532,555,True,True,True,True,False
+12672,Nilgiri (Blue Mountain) Express,MTP,MAS,532,560,True,True,True,True,False
+12685,Chennai - Mangalore Express,MAS,MAQ,889,965,True,True,True,True,False
+12686,Mangalore - Chennai Express,MAQ,MAS,889,950,True,True,True,True,False
+12687,Chennai Dehradun Express,MAS,DDN,2488,2595,True,True,True,False,False
+12688,Dehradun Chennai Express,DDN,MAS,2488,2575,True,True,True,False,False
+12690,NAGERCOIL - CHENNAI SF Exp,NCJ,MAS,927,1005,True,True,False,False,False
+12691,CHENNAI - SSP NILAYAM SF Exp,MAS,SSPN,529,590,True,True,True,False,False
+12692,SSP NILAYAM - CHENNAI SF Exp,SSPN,MAS,529,630,True,True,True,False,False
+12693,CHENNAI EGMORE - TUTICORIN Pearl City SF Exp,MS,TN,656,715,True,True,True,True,False
+12694,TUTICORIN - CHENNAI EGMORE Pearl City SF Exp,TN,MS,656,715,True,True,True,True,False
+12705,Guntur-Secunderabad SF Intercity,GNT,SC,383,410,False,False,False,False,True
+12706,Secunderabad-Guntur SF Intercity,SC,GNT,383,405,False,False,False,False,True
+12716,Sachkhand SF Express,ASR,NED,2081,2050,True,True,True,False,False
+12719,AJMER - HYDERABAD DECCAN SF Exp,AII,HYB,1711,1850,True,True,True,False,False
+12720,HYDERABAD DECCAN - AJMER SF Exp,HYB,AII,1711,1835,True,True,True,False,False
+12725,Siddhaganga Intercity Express,SBC,DWR,490,530,False,False,False,False,True
+12726,Siddhaganga InterCity Express,DWR,SBC,490,530,False,False,False,False,True
+12731,Tirupati-Secunderabad Express,TPTY,SC,801,855,True,True,True,False,False
+12732,Secunderabad-Tirupati Express,SC,TPTY,801,870,True,True,True,False,False
+12733,Narayanadri Express,TPTY,SC,661,720,True,True,True,True,False
+12734,Narayanadri Express,SC,TPTY,661,720,True,True,True,True,False
+12737,Gowthami SF Express,COA,SC,566,615,True,True,True,True,False
+12738,Secunderabad - Kakinada Gowthami SF Express,SC,COA,566,615,True,True,True,True,False
+12740,Secunderabad-Visakhapatnam Garib Rath,SC,VSKP,701,675,False,True,False,False,False
+12741,VASCO DA GAMA - PATNA SF Exp,VSG,PNBE,2419,2460,True,True,True,False,False
+12742,PATNA - VASCO DA GAMA SF Exp,PNBE,VSG,2419,2575,True,True,True,False,False
+12747,Palnadu Express,GNT,VKB,353,385,False,False,False,False,True
+12748,Palnadu Express,VKB,GNT,353,375,False,False,False,False,True
+12750,Mumbai LTT-Visakhapatnam SF Express,LTT,VSKP,1502,1580,True,True,True,True,False
+12751,Manuguru-Secunderabad Tri Weekly SF Express,MUGR,SC,331,360,True,True,True,False,False
+12752,Secunderabad-Manuguru SF Express,SC,MUGR,331,360,True,True,True,False,False
+12753,Chennai-NewJalpaiguri SF Express,MAS,NJP,2257,2445,True,True,True,False,False
+12754,New Jalpaiguri-Chennai SF Express,NJP,MAS,2257,2455,True,True,True,False,False
+12763,Padmavati Express,TPTY,SC,737,770,True,True,True,False,False
+12764,Padmavati Express,SC,TPTY,737,750,True,True,True,False,False
+12777,HUBLI - TRIVANDRUM KOCHUVELI SF Exp,UBL,KCVL,1307,1420,True,True,True,False,False
+12717,Ratnachal SF Express,VSKP,BZA,351,365,False,False,False,False,True
+12718,Ratnachal SF Express,BZA,VSKP,351,360,False,False,False,False,True
+12721,Dakshin SF Express,HYB,NZM,1670,1775,True,True,True,False,False
+12722,Dakshin SF Express,NZM,HYB,1670,1810,True,True,True,False,False
+12723,Andhra Pradesh Express,HYB,NDLS,1677,1600,True,True,True,True,False
+12724,Andhra Pradesh Express,NDLS,HYB,1677,1580,True,True,True,True,False
+12727,Godavari SF Express,VSKP,HYB,711,770,True,True,True,True,False
+12728,Godavari SF Express,HYB,VSKP,711,755,True,True,True,True,False
+12729,Pune-Nanded Express,PUNE,NED,662,720,True,True,True,False,False
+12730,Nanded-Pune SuperFast Express,NED,PUNE,662,720,True,True,True,False,False
+12755,Sangrami SF Expres,MAS,HLZ,1647,1655,True,True,False,False,False
+12756,Sangrami Expres,HLZ,MAS,1647,1770,True,True,False,False,False
+12759,Charminar Express,MAS,HYB,790,830,True,True,True,True,False
+12760,Charminar Express,HYB,MAS,790,825,True,True,True,True,False
+12785,Kacheguda-Bangalore SF Express,KCG,SBC,625,680,True,True,True,True,False
+12789,Rameswaram Kanyakumari SF Express,RMM,CAPE,407,440,True,True,False,False,False
+12790,Kanyakumari Rameswaram SF Express,CAPE,RMM,407,440,True,True,False,False,False
+12791,SECUNDERABAD - DANAPUR SF EXP,SC,DNR,1840,1990,True,True,True,False,False
+12792,DANAPUR - SECUNDERABAD SF EXP,DNR,SC,1840,2005,True,True,True,False,False
+12793,Chennai Egmore Madurai BI-Weekly Superfast Express,MS,MDU,561,605,True,True,True,True,False
+12794,Madurai Chennai Egmore BI-Weekly Superfast Express,MDU,MS,561,610,True,True,True,True,False
+12802,Purushottam SF Express,NDLS,PURI,1863,1860,True,True,True,False,False
+12805,Janmabhoomi Express,VSKP,SC,689,745,False,False,False,False,True
+12806,Janmabhoomi Express,SC,VSKP,689,750,False,False,False,False,True
+12811,MUMBAI - HATIA LTT SF Exp,LTT,HTE,1706,1650,True,True,True,False,False
+12812,HATIA - MUMBAI LTT SF Exp,HTE,LTT,1706,1675,True,True,True,False,False
+12813,Steel Express,HWH,TATA,250,235,False,True,False,True,True
+12814,Steel Express,TATA,HWH,250,245,False,True,False,True,True
+12816,New Delhi-Puri Superfast Express,NDLS,PURI,1794,1795,True,True,True,False,False
+12817,Jharkhand Swarna Jayanti SF Express,HTE,ANVT,1300,1390,True,True,True,False,False
+12818,Jharkhand Swarna Jayanti Express,ANVT,HTE,1303,1250,True,True,True,False,False
+12819,Orissa Sampark Kranti Express,BBS,NDLS,1799,1750,True,True,True,False,False
+12820,Orissa Sampark Kranti Express,NDLS,BBS,1799,1740,True,True,True,False,False
+12821,Dhauli Express,HWH,PURI,502,510,False,False,False,False,True
+12822,Dhauli Express,PURI,HWH,502,505,False,False,False,False,True
+12827,Howrah Purulia Express,HWH,PRR,323,330,False,False,False,False,True
+12828,Howrah Express,PRR,HWH,323,350,False,False,False,False,True
+12829,Chennai Bhubaneswar SF Express,MAS,BBS,1223,1225,True,True,True,False,False
+12830,Bhubaneswar Chennai Superfast Express,BBS,MAS,1223,1255,True,True,True,False,False
+12831,DHANBAD - BHUBANESWAR Garib Rath Exp,DHN,BBS,780,975,False,True,False,False,False
+12832,BHUBANESWAR - DHANBAD Garib Rath Exp,BBS,DHN,780,875,False,True,False,False,False
+12833,AHMEDABAD - HOWRAH SF EXP,ADI,HWH,2087,2255,True,True,True,False,False
+12834,HOWRAH - AHMEDABAD SF EXP,HWH,ADI,2087,2250,True,True,True,False,False
+12779,VASCO DA GAMA - DELHI H NIZAMUDDIN Goa Exp,VSG,NZM,2202,2345,True,True,True,False,False
+12780-Slip,H.Nizamuddin Hubli Goa Express Slip,NZM,VSG,2202,2365,True,False,True,False,False
+12781,Mysore-Nizamuddin Swarna Jayanti Express,MYS,NZM,2618,2695,True,True,True,False,False
+12787,Bilaspur Tirunelveli SF Express,BSP,TEN,2493,2695,True,True,True,False,False
+12788,Tirunelveli Bilaspur SF Express,TEN,BSP,2494,2675,True,True,True,False,False
+12801,Purushottam SF Express,PURI,NDLS,1863,1860,True,True,True,False,False
+12804,Swarna Jayanti Express,NZM,VSKP,2096,2125,True,True,True,False,False
+12807,Samata Express,VSKP,NZM,1911,2060,True,True,True,False,False
+12808,Samata Express,NZM,VSKP,1911,2030,True,True,True,False,False
+12815,Puri New Delhi Superfast Express,PURI,NDLS,1804,1805,True,True,True,False,False
+12823,Chhattisgarh Sampark Kranti Express,DURG,NZM,1281,1265,True,True,True,True,False
+12824,Chhattisgarh Sampark Kranti Express,NZM,DURG,1284,1305,True,True,True,True,False
+12825,Jharkhand Sampark Kranti Express,RNC,NDLS,1306,1270,True,True,True,False,False
+12837,Howrah-Puri Express,HWH,PURI,502,535,True,True,True,True,False
+12838,Puri Howrah Express,PURI,HWH,502,525,True,True,True,True,False
+12839,Howrah Chennai Superfast Mail,HWH,MAS,1662,1685,True,True,True,True,False
+12841,Coromandel Express,HWH,MAS,1662,1585,True,True,True,True,False
+12842,Coromandel Express,MAS,HWH,1662,1625,True,True,True,True,False
+12845,BHUBANESWAR - BENGALURU CANTT SF Exp,BBS,BNC,1524,1660,True,True,True,False,False
+12887,Howrah-Puri Express,HWH,PURI,502,540,True,True,True,False,False
+12883,Rupashi Bangla Express,HWH,PRR,333,350,False,False,False,False,True
+12882,Puri Howrah Garib Rath,PURI,HWH,502,530,False,True,False,False,False
+12881,Howrah Puri Garib Rath,HWH,PURI,502,540,False,True,False,False,False
+12872,TITLAGARH - HOWRAH Ispat Exp,TIG,HWH,745,805,False,False,False,False,True
+12873,Jharkhand Swarna Jayanti Express,HTE,ANVT,1334,1450,True,True,True,False,False
+12874,Jharkhand Swarna Jayanti Express,ANVT,HTE,1334,1445,True,True,True,False,False
+12875,PURI - NEW DELHI Neelanchal SF Exp,PURI,NDLS,1910,2085,True,True,True,False,False
+12876,NEW DELHI - PURI Neelanchal SF Exp,NDLS,PURI,1910,2080,True,True,True,False,False
+12877,Ranchi-New Delhi Garib Rath,RNC,NDLS,1341,1060,False,True,False,False,False
+12780,DELHI H NIZAMUDDIN - VASCO DA GAMA Goa Exp,NZM,VSG,2202,2365,True,True,True,False,False
+12843,Puri Ahmedabad Superfast Express,PURI,ADI,2130,2275,True,True,True,False,False
+12844,Ahmedabad Puri Superfast Express,ADI,PURI,2130,2330,True,True,True,False,False
+12879,MUMBAI LTT - BHUBANESWAR SF Exp,LTT,BBS,1788,1880,True,True,True,False,False
+12884,Rupashi Bangla Express,PRR,HWH,333,340,False,False,False,False,True
+12880,BHUBANESWAR - MUMBAI LTT SF Exp,BBS,LTT,1789,1825,True,True,True,False,False
+12891,Baripada- Bhubaneswar Express,BPO,BBS,275,293,False,False,False,False,True
+12888,Howrah Express,PURI,HWH,502,530,True,True,True,False,False
+12893,BHUBANESWAR - BALANGIR SF Exp,BBS,BLGR,397,415,False,False,False,False,True
+12892,Bhubaneswar Baripada SF Express,BBS,BPO,275,295,False,False,False,False,True
+12895,Kolkata-Puri Express,HWH,PURI,502,540,True,True,True,False,False
+12894,BALANGIR - BHUBANESWAR SF Exp,BLGR,BBS,397,430,False,False,False,False,True
+12897,Puducherry-Bhubaneswar Express,PDY,BBS,1424,1455,True,True,True,False,False
+12896,Puri-Howrah Express,PURI,HWH,502,530,True,True,True,False,False
+12903,Golden Temple Mail,BCT,ASR,1891,1935,True,True,True,True,False
+12898,Bhubaneswar-Puducherry Superfast Express,BBS,PDY,1424,1535,True,True,True,False,False
+12908,Maharashtra Sampark Kranti Express,NZM,BDTS,1366,1215,True,True,True,False,False
+12906-Slip,Howrah-Porbandar SF Express Slip,HWH,OKHA,2586,2705,True,True,True,False,False
+12911,Valsad-Haridwar Exp,BL,HW,1433,1475,True,True,True,False,False
+12910,H.Nizamuddin-Bandra Terminus Garib Rath Express,NZM,BDTS,1366,990,False,True,False,False,True
+12913,Indore-Nagpur Weekly Express,INDB,NGP,652,710,True,True,True,False,False
+12912,Haridwar Valsad Superfast Express,HW,BL,1433,1415,True,True,True,False,False
+12919,Malwa Express,INDB,JAT,1540,1650,True,True,True,False,False
+12914,Nagpur-Indore Weekly Express,NGP,INDB,652,695,True,True,True,False,False
+12921,Flying Rani Express,BCT,ST,263,280,False,False,False,False,True
+12920,Malwa Express,JAT,INDB,1540,1670,True,True,True,False,False
+12923,Indore Nagpur Express,INDB,NGP,607,660,True,True,True,False,False
+12922,Flying Rani Express,ST,BCT,263,285,False,False,False,False,True
+12925,Paschim Express,BDTS,ASR,1821,1900,True,True,True,True,False
+12924,Indore Express,NGP,INDB,607,625,True,True,True,False,False
+12925-Slip,Paschim Express Slip,BDTS,ASR,1821,1900,True,True,False,False,False
+12926,Paschim Express,ASR,BDTS,1821,1865,True,True,True,True,False
+12927,Mumbai Central -Vadodara Express,BCT,BRC,392,385,True,True,True,True,False
+12928,Vadodara - Mumbai Central Express,BRC,BCT,392,375,True,True,True,True,False
+12935,Bandra Surat InterCity Express,BDTS,ST,252,260,False,False,False,False,True
+12936,Surat Bandra InterCity Express,ST,BDTS,252,260,False,False,False,False,True
+12937,GANDHIDHAM - HOWRAH Garbha Exp,GIMB,HWH,2509,2645,True,True,True,False,False
+12938,HOWRAH - GANDHIDHAM Garbha Exp,HWH,GIMB,2509,2535,True,True,True,False,False
+12939,Pune-Jaipur SF Express,PUNE,JP,1302,1340,True,True,True,False,False
+12940,Jaipur-Pune SF Express,JP,PUNE,1302,1370,True,True,True,False,False
+12901,Gujarat Mail,BCT,ADI,491,520,True,True,True,True,False
+12902,Gujarat Mail,ADI,BCT,491,525,True,True,True,True,False
+12907,Maharashtra Sampark Kranti Express,BDTS,NZM,1366,1255,True,True,True,False,False
+12909,Bandra Terminus- Hazrat Nizamuddin Garib Rath,BDTS,NZM,1366,1010,False,True,False,False,True
+12915,Ashram SF Express,ADI,DLI,933,940,True,True,True,True,False
+12916,Ashram SF Express,DLI,ADI,933,980,True,True,True,True,False
+12917,Gujarat Sampark Kranti Express,ADI,NZM,1085,1040,True,True,True,False,False
+12933,Karnavati Express,BCT,ADI,491,465,False,False,False,False,True
+12934,Karnavati Express,ADI,BCT,491,460,False,False,False,False,True
+12943,Valsad-Kanpur Udyogkarmi Express,BL,CNB,1305,1430,True,True,True,False,False
+12944,Kanpur-Valsad Udyogkarmi Express,CNB,BL,1305,1415,True,True,True,False,False
+12945,SURAT - MAHUVA SF Exp,ST,MHV,1409,1505,True,True,False,False,False
+12947,Azimabad Express,ADI,PNBE,1772,1860,True,True,False,False,False
+12948,Azimabad Express,PNBE,ADI,1772,1820,True,True,False,False,False
+12949,PORBANDAR - K SANTRAGANCHI Kavi Guru SF Exp,PBR,SRC,2657,2895,True,True,True,False,False
+12951,Mumbai Central-New Delhi Rajdhani Express,BCT,NDLS,1384,950,False,True,True,True,False
+12955,Mumbai-Jaipur SF Express,BCT,JP,1159,1080,True,True,True,True,False
+12956,Jaipur-Mumbai SF Express,JP,BCT,1159,1060,True,True,True,True,False
+12959,MUMBAI DADAR - BHUJ SF Exp,DDR,BHUJ,977,1065,True,True,True,False,False
+12960,BHUJ - MUMBAI DADAR SF Exp,BHUJ,DDR,977,1065,True,True,True,False,False
+12961,Avantika Express,BCT,INDB,829,835,True,True,True,True,False
+12962,Avantika Express,INDB,BCT,829,885,True,True,True,True,False
+12965,Gwalior Udaipur Express,GWL,UDZ,794,860,True,True,True,True,False
+12966,Udaipur Gwalior Express,UDZ,GWL,794,865,True,True,True,True,False
+12967,Chennai-Jaipur SF Express,MAS,JP,2185,2180,True,True,True,True,False
+12968,Jaipur-Chennai SF Express,JP,MAS,2185,2285,True,True,True,True,False
+12969,Coimbatore-Jaipur Express,CBE,JP,2682,2680,True,True,True,True,False
+12970,Jaipur-Coimbatore Express,JP,CBE,2682,2780,True,True,True,True,False
+12971,Bhavnagar Express,BDTS,BVC,778,845,True,True,True,False,False
+12973,Indore-Jaipur SF Express,INDB,JP,599,570,True,True,True,False,False
+12974,Jaipur Indore SF Express,JP,INDB,599,600,True,True,True,False,False
+12975,Mysore-Jaipur SF Express,MYS,JP,2479,2620,True,True,True,True,False
+12976,Jaipur-Mysore SF Express,JP,MYS,2479,2680,True,True,True,True,False
+12977,ERNAKULAM - AJMER Marusagar Exp,ERS,AII,2859,2665,True,True,True,True,False
+12978,AJMER - ERNAKULAM Marusagar Exp,AII,ERS,2859,2680,True,True,True,True,False
+12979,Mumbai Bandra (T.) - Jaipur (Tri-weekly) SF Exp,BDTS,JP,1148,1125,True,True,True,True,False
+12981,Chetak Express,DEE,UDZ,673,730,True,True,True,False,False
+12982,Chetak Express,UDZ,DEE,673,710,True,True,True,False,False
+12983,Ajmer-Chandigarh GaribRath Express,AII,CDG,740,765,False,True,False,False,False
+12984,Chandigarh-Ajmer GaribRath,CDG,AII,740,770,False,True,False,False,False
+12988,Ajmer Sealdah Express,AII,SDAH,1642,1630,True,True,True,False,False
+12989,Dadar Ajmer Superfast Express,DDR,AII,976,1050,True,True,True,False,False
+12990,Ajmer-Dadar SF Express,AII,DDR,976,1050,True,True,True,False,False
+12991,Udaipur-Ajmer Express,UDZ,AII,301,325,False,False,False,False,True
+12992,Ajmer Udaipur Express,AII,UDZ,301,315,False,False,False,False,True
+12941,Ahmedabad-Asansol (Weekly) SF Parasnath Express,ADI,ASN,2021,2095,True,True,False,False,False
+12942,Asansol Ahmedabad (Weekly) SF Express,ASN,ADI,2021,2040,True,True,False,False,False
+12954,August Kranti Rajdhani Express,NZM,BCT,1377,1060,False,True,True,True,False
+12957,Ahmadabad-New Delhi Swarna Jayanti Rajdhani Expres,ADI,NDLS,934,820,False,True,True,True,False
+12958,New Delhi-Ahmedabad Swarna Jayanti Rajdhani Expres,NDLS,ADI,934,820,False,True,True,True,False
+12963,Mewar Express,NZM,UDZ,743,735,True,True,True,True,False
+12964,Mewar Express,UDZ,NZM,743,735,True,True,True,True,False
+12995,Bandra-Udaipur SF Express,BDTS,UDZ,945,1030,True,True,True,False,False
+12996,Udaipur Bandra SF Express Slip,UDZ,BDTS,945,1015,True,True,True,False,False
+12997,Tirunelveli - Hapa (Biweekly) SF Express,TEN,HAPA,2730,2645,True,True,False,False,False
+12998,Hapa-Tirunelveli Express,HAPA,TEN,2730,2650,True,True,False,False,False
+13005,Howrah-Amritsar Mail,HWH,ASR,1910,2265,True,True,True,True,False
+13007,Udyan Abha Toofan Express,HWH,SGNR,1978,2735,True,True,False,False,False
+13008-Slip,Udyan Abha Toofan Express Slip,SGNR,KLK,433,540,True,False,False,False,False
+13009,Doon Express,HWH,DDN,1557,2075,True,True,True,False,False
+13009-Slip,Doon Express Slip,HWH,KTW,1461,2000,True,True,True,False,False
+13010,Doon Express,DDN,HWH,1557,2070,True,True,True,False,False
+13011,InterCity Express,HWH,MLDT,340,445,False,False,False,False,True
+13012,InterCity Express,MLDT,HWH,340,415,False,False,False,False,True
+13015,Howrah Bolpur KaviGuru Express,HWH,BHP,158,180,False,False,False,False,True
+13017,Ganadevta Express,HWH,AZ,278,420,False,False,False,False,True
+13018,Ganadevta Express,AZ,HWH,278,375,False,False,False,False,True
+13019,Bagh Express,HWH,KGM,1521,2145,True,True,True,False,False
+13020,Bagh Express,KGM,HWH,1521,2325,True,True,True,False,False
+13021,Mithila Express,HWH,RXL,693,1005,True,True,True,False,False
+13022,Mithila Express,RXL,HWH,693,1080,True,True,True,False,False
+13023,Howrah-Gaya Express,HWH,GAYA,654,905,True,False,False,False,False
+13025,Howrah-Bhopal Express,HWH,BPL,1459,1745,True,True,True,False,False
+13026,Bhopal-Howrah Express,BPL,HWH,1459,1885,True,True,True,False,False
+13027,Kaviguru Express,HWH,AZ,278,350,True,False,False,False,False
+13028,Kaviguru Express,AZ,HWH,278,375,True,False,False,False,False
+13039,Howrah-Rajgir Express Slip,HWH,RGD,552,950,True,False,False,False,False
+13049,Howrah-Amritsar Express,HWH,ASR,1922,2650,True,True,False,False,False
+13050,Amritsar Howrah Express,ASR,HWH,1922,2735,True,True,False,False,False
+13051,Hool Express,HWH,SURI,241,295,False,False,False,False,True
+13052,Hool Express,SURI,HWH,241,295,False,False,False,False,True
+13054,Siuri-Howrah Intercity Express,SURI,HWH,211,290,False,False,False,False,True
+13072,Howrah Express,JMP,HWH,467,600,True,True,True,True,False
+13104,Bhagirathi Express,LGL,SDAH,227,275,False,False,False,False,True
+13105,Sealdah-Ballia Express,SDAH,BUI,679,1005,True,True,False,False,False
+13106,Ballia-Sealdah Express,BUI,SDAH,679,1115,True,True,False,False,False
+13108,Maitree Express BR,KOAA,DHCA,375,650,False,False,False,True,True
+13109,Maitree Express IR,KOAA,DHCA,375,650,False,False,False,True,True
+13111,Lal Quila Express,KOAA,DLI,1527,1855,True,True,False,False,False
+13111-Slip,Lal Quila Express Slip,KOAA,GRD,322,495,True,True,False,False,False
+13008,Udyan Abha Toofan Express,MGS,HWH,755,1075,True,True,False,False,False
+13014,Rampurhat-Barddhaman Tri-Weekly Express,RPH,BWN,112,160,False,False,False,False,True
+13016,Bolpur-Howrah Kavi Guru Express,BHP,HWH,158,185,False,False,False,False,True
+13024,Gaya-Howrah Express,GAYA,HWH,654,930,True,False,False,False,False
+13112,Lal Quila Express,DLI,KOAA,1552,2080,True,True,False,False,False
+13113,Hazarduari Express,KOAA,LGL,223,320,False,False,False,False,True
+13114,Hazarduari Express,LGL,KOAA,223,335,False,False,False,False,True
+13117,Kolkata Berhampore Court Express,KOAA,BPC,182,230,False,False,False,False,True
+13118,Berhampore Court Kolkata Express,BPC,KOAA,182,255,False,False,False,False,True
+13133,Sealdah-Varanasi Express,SDAH,BSB,871,1465,True,False,False,False,False
+13134,Varanasi- Sealdah Express,BSB,SDAH,871,1575,True,False,False,False,False
+13141,Testa Torsa Express,SDAH,NOQ,716,1055,True,True,True,False,False
+13141-Slip,Testa Torsa Express Slip,SDAH,HDB,628,925,True,True,True,False,False
+13142,Teesta Torsa Express,NOQ,SDAH,716,1010,True,True,True,False,False
+13145,Radhikapur Express,KOAA,RDP,476,680,True,True,True,False,False
+13146,Radhikapur Express,RDP,KOAA,476,705,True,True,True,False,False
+13147,Uttar Banga Express,SDAH,NCB,693,830,True,True,True,False,False
+13148,Uttar Banga Express,NCB,SDAH,693,835,True,True,True,False,False
+13149,Kanchan Kanya Express,SDAH,APDJ,735,940,True,True,True,False,False
+13150,Kanchan Kanya Express,APDJ,SDAH,735,930,True,True,True,False,False
+13152,JammuTawi-Kolkata Chitpur Express,JAT,KOAA,1982,2690,True,True,True,False,False
+13153-Slip,Gour Express Slip,SDAH,BLGT,454,685,True,True,False,False,False
+13154,Malda Town-Sealdah Gour Express,MLDT,SDAH,347,465,True,True,True,True,False
+13156,SITAMARHI - KOLKATA CHITPUR Mithilanchal Exp,SMI,KOAA,553,780,True,True,False,False,False
+13159,KOLKATA CHITPUR - JOGBANI Exp,KOAA,JBN,542,860,True,True,True,False,False
+13160,JOGBANI - KOLKATA CHITPUR Exp,JBN,KOAA,542,790,True,True,True,False,False
+13163,Hatey Bazare Express,SDAH,SHC,589,965,True,True,True,False,False
+13164,Hatey Bazare Express,SHC,SDAH,589,1015,True,True,True,False,False
+13185,Ganga Sagar Express,SDAH,JYG,624,975,True,True,True,False,False
+13186,Ganga Sagar Express,JYG,SDAH,624,890,True,True,True,False,False
+13188,Rampurhat- Sealdah Express,RPH,SDAH,226,280,False,False,False,False,True
+13202,MUMBAI LTT - RAJENDRA NAGAR PATNA Janta Exp,LTT,RJPB,1715,2140,True,True,True,False,False
+13225,Jaynagar-Danapur Intercity,JYG,DNR,277,595,False,False,False,False,True
+13226,Danapur-Jaynagar Intercity,DNR,JYG,277,495,False,False,False,False,True
+13233,Rajgriha Express,RGD,DNR,109,205,False,False,False,False,True
+13234,Rajgriha Express,DNR,RGD,109,225,False,False,False,False,True
+13237,Patna Mathura Express,PNBE,MTJ,938,1170,True,True,True,False,False
+13238,Mathura Patna Express,MTJ,PNBE,936,1160,True,True,True,False,False
+13239,Patna Mathura Express,PNBE,MTJ,895,1170,True,True,True,False,False
+13240,Mathura Patna Express,MTJ,PNBE,895,1160,True,True,True,False,False
+13241,Banka Patna Express,BAKA,RJPB,272,465,True,True,False,False,False
+13242,Patna Banka Express,RJPB,BAKA,272,445,True,True,False,False,False
+13243,Patna Dehri On Sone InterCity Express,PNBE,DOS,177,295,False,False,False,False,True
+13248,RAJENDRA NAGAR - GUWAHATI Capital Exp,RJPB,GHY,980,1370,True,True,True,False,False
+19321,Indore-Rajendranagar Express,INDB,RJPB,1400,1615,True,True,True,False,False
+13235,Sahibganj-Danapur InterCity,SBG,DNR,306,552,False,False,False,False,True
+13236,Danapur-Sahibganj InterCity,DNR,SBG,306,480,False,False,False,False,True
+13244,Dehri On Sone Patna InterCity Express,DOS,PNBE,177,280,False,False,False,False,True
+13246,Capital Express,DNR,NJP,501,845,True,True,True,False,False
+13247,GUWAHATI - RAJENDRA NAGAR Capital Exp,GHY,RJPB,980,1430,True,True,True,False,False
+13251,Islampur Rajendra Nagar Express,IPR,RJPB,63,135,True,True,True,False,False
+13252,Rajendra Nagar Islampur Express,RJPB,IPR,63,120,True,True,True,False,False
+13287,DURG - RAJENDRA NAGAR South Bihar Exp,DURG,RJPB,1130,1490,True,True,True,False,False
+13288,RAJENDRA NAGAR BIHAR - DURG South Bihar Exp,RJPB,DURG,1130,1490,True,True,True,False,False
+13301,Suvarna Rekha Express,DHN,TATA,193,340,False,False,False,False,True
+13302,Suvarna Rekha Express,TATA,DHN,193,325,False,False,False,False,True
+13307,Ganga Sutlej Express,DHN,FZR,1599,2220,True,True,True,False,False
+13308,Ganga Sutlej Express,FZR,DHN,1599,2070,True,True,True,False,False
+13317,Black Diamond Express,HWH,DHN,271,295,False,False,False,False,True
+13329,Ganga Damodar Express,DHN,PNBE,291,365,True,True,True,False,False
+13330,Ganga Damodar Express,PNBE,DHN,291,350,True,True,True,False,False
+13331,Dhanbad Patna Express,DHN,PNBE,373,520,True,True,True,False,False
+13332,Patna Dhanbad Express,PNBE,DHN,373,470,True,True,True,False,False
+13347,Palamau Express,BRKA,PNBE,494,680,True,False,False,False,False
+13348,Palamau Express,PNBE,BRKA,494,770,True,False,False,False,False
+13352,ALAPPUZHA - DHANBAD (Bokaro) Express,ALLP,DHN,2536,3315,True,True,True,False,False
+13404,Vananchal Express,BGP,RNC,561,825,True,True,False,False,False
+13413,Farakka Express,MLDT,DLI,1416,2000,True,True,True,False,False
+13414,Farakka Express,DLI,MLDT,1416,2010,True,True,True,False,False
+13415,Malda Patna Express,MLDT,PNBE,399,540,True,True,True,False,False
+13416,Patna-Malda Express,PNBE,MLDT,399,635,True,True,True,False,False
+13419,Jan Sewa Express,BGP,MFP,240,405,True,False,False,False,False
+13465,InterCity Express,HWH,MLDT,331,425,False,False,False,False,True
+13466,InterCity Express,MLDT,HWH,331,400,False,False,False,False,True
+13483,Farakka Express,MLDT,DLI,1456,2000,True,True,True,False,False
+13484,Farakka Express,DLI,MLDT,1456,2010,True,True,True,False,False
+12259,Sealdah-New Delhi AC Duronto Express,SDAH,NDLS,1453,980,False,True,True,True,False
+13507,Asansol-Gorakhpur Express,ASN,GKP,644,830,True,True,False,False,False
+13509,Asansol-Gonda Express,ASN,GD,862,1250,True,True,False,False,False
+13510,Gonda-Asansol Express,GD,ASN,862,1215,True,True,False,False,False
+14001,OLD DELHI - ATARI SHYAM SINGH Samjhauta Exp,DLI,ATT,472,490,True,True,False,False,False
+14002,ATARI SHYAM SINGH - OLD DELHI Samjhauta Exp,ATT,DLI,472,425,True,True,False,False,False
+14004,New Delhi-New Farakka Express,NDLS,NFK,1387,1755,True,True,True,False,False
+14005,Lichhavi Express,SMI,ANVT,1285,1705,True,True,True,False,False
+14006,Lichhavi Express,ANVT,SMI,1285,1830,True,True,True,False,False
+14007,Muzaffarpur-Old Delhi Sadbhavna Express,MFP,DLI,1106,1475,True,True,False,False,False
+14008,Old Delhi-Muzaffarpur Sadbhavana Express,DLI,MFP,1106,1540,True,True,False,False,False
+14009,Patalkot Express,CWA,DEE,1050,1200,True,True,False,False,False
+14010,Patalkot Express,DEE,CWA,1050,1290,True,True,False,False,False
+14011,Kathgodam-Anand Vihar AC Express,KGM,ANVT,271,335,False,True,True,True,False
+14012,Anand Vihar-Kathgodam AC Express,ANVT,KGM,271,355,False,True,True,True,False
+14013,Sadbhavna Express,SLN,DLI,645,800,True,True,True,False,False
+14014,Sadbhavna Express,DLI,SLN,645,830,True,True,True,False,False
+14015,Sadbhavna Express,RXL,DLI,1236,1695,True,True,False,False,False
+14016,Sadbhavana Express,DLI,RXL,1236,1750,True,True,False,False,False
+14017,Sadbhavna Express,MFP,DLI,1147,1475,True,True,True,False,False
+14018,Sadbhavana Expres,DLI,MFP,1147,1540,True,True,True,False,False
+14020,Delhi SR Chhindwara Kanhan Valley Express,DEE,CWA,1050,1290,True,True,False,False,False
+14033,Jammu Mail,DLI,UHP,637,920,True,True,True,True,False
+14034,Jammu Mail,UHP,DLI,637,910,True,True,True,True,False
+14035,Dhauladhar Express,DLI,PTK,496,590,True,True,True,True,False
+14036,Dhauladhar Express,PTK,DLI,496,555,True,True,True,True,False
+14037,Delhi-Pathankot Express,DLI,PTK,554,600,False,False,False,False,True
+14038,Pathankot Delhi Express,PTK,DLI,554,625,False,False,False,False,True
+14041-Slip,Mussoorie Express Slip,DEE,KTW,243,505,True,True,False,False,False
+14042,DEHRADUN - DELHI SARAI ROHILLA Mussoorie Exp,DDN,DEE,339,675,True,True,True,True,False
+14043,KOTDWAR - OLD DELHI Garhwal Exp,KTW,DLI,238,435,False,False,False,False,True
+14044,OLD DELHI - KOTDWAR Garhwal Exp,DLI,KTW,238,420,False,False,False,False,True
+14056,OLD DELHI - DIBRUGARH Brahmaputra Exp,DLI,DBRG,2589,3150,True,True,True,False,False
+14083,Sikkim Mahananda Express,APDJ,DLI,1651,2095,True,True,True,False,False
+14084,Sikkim Mahananda Express,DLI,APDJ,1651,2115,True,True,True,False,False
+14095,Himalayan Queen,DEE,KLK,305,325,False,False,False,False,True
+14096,Himalayan Queen,KLK,DEE,305,350,False,False,False,False,True
+14114,Link Express,DDN,ALD,863,1125,True,False,True,False,False
+12343,Darjeeling Mail,SDAH,NJP,567,595,True,True,True,True,False
+12483,KOCHUVELI - AMRITSAR SF Exp,KCVL,ASR,3597,3510,True,True,True,False,False
+14119,Kathgodam Dehradun Express,KGM,DDN,335,515,True,False,True,True,False
+14120,Dehradun Kathgodam Express,DDN,KGM,335,500,True,False,True,True,False
+14163,Sangam Express,ALD,MTC,639,775,True,True,True,False,False
+14163-Slip,Sangam Express Slip,ALD,DDN,863,1165,True,False,True,False,False
+14164,Sangam Express,MTC,ALD,639,790,True,True,True,False,False
+14203,Varanasi Lucknow InterCity Express,BSB,LKO,302,350,False,False,False,False,True
+14204,Lucknow Varanasi InterCity Express,LKO,BSB,302,390,False,False,False,False,True
+14205,Faizabad Delhi Express,FD,DLI,615,725,True,True,True,False,False
+14206,Delhi-Faizabad Express,DLI,FD,615,760,True,True,True,False,False
+14207,Padmavat Express,PBH,DLI,660,850,True,True,True,False,False
+14208,Padmavat Express,DLI,PBH,660,750,True,True,True,False,False
+14210,Lucknow-Vindhyachal InterCity,LKO,BDL,284,340,False,False,False,False,True
+14211,Agra-New Delhi Intercity Express,AGC,NDLS,195,260,False,False,True,True,True
+14212,NewDelhi-Agra InterCity Express,NDLS,AGC,195,250,False,False,True,True,True
+14213,Varanasi-Gonda Intercity Express,BSB,GD,256,335,False,False,False,False,True
+14214,Gonda-Varanasi Intercity Express,GD,BSB,256,405,False,False,False,False,True
+14215,Ganga Gomti Express,ALD,LKO,201,250,False,False,False,False,True
+14216,Ganga Gomti Express,LKO,ALD,201,260,False,False,False,False,True
+14217,Unchahar Express,ALD,CDG,913,1200,True,True,True,False,False
+14227,Varuna Express,BSB,LKO,284,295,False,False,False,False,True
+14228,Varuna Express,LKO,BSB,284,330,False,False,False,False,True
+14235,Varanasi Bareilly Express,BSB,BE,559,845,True,True,False,False,False
+14236,Bareilly Varanasi Express,BE,BSB,559,920,True,True,False,False,False
+14257,Kashi Vishwanath Express,BSB,NDLS,794,985,True,True,True,True,False
+14258,Kashi Vishwanath Express,NDLS,BSB,794,1025,True,True,True,True,False
+14259,MUGHAL SARAI - LUCKNOW Ekatmata Exp,MGS,LKO,2796,3220,True,True,True,False,False
+14265,Varanasi Dehradun Janata Express,BSB,DDN,846,1330,True,True,True,False,False
+14265-Slip,Varanasi-Ramnagar Express Slip,BSB,RMR,705,1300,True,False,False,False,False
+14266,Dehradun Varanasi Janata Express,DDN,BSB,846,1290,True,True,True,False,False
+14307,Bareilly Express,PRG,BE,461,760,True,False,False,False,False
+14308,Bareilly-Prayag Passenger,BE,PRG,461,750,True,False,False,False,False
+14309,Ujjaini Express,UJN,DDN,1241,1680,True,True,True,False,False
+14310,Ujjaini Express,DDN,UJN,1241,1620,True,True,True,False,False
+14311,BAREILLY - BHUJ Ala Hazrat Exp,BE,BHUJ,1543,1915,True,True,True,False,False
+14314,BAREILLY - MUMBAI LTT Weekly Exp,BE,LTT,1608,1995,True,True,True,False,False
+14315,Bareilly-NewDelhi InterCity,BE,NDLS,258,310,False,False,False,False,True
+14316,NewDelhi-Bareilly InterCity,NDLS,BE,258,320,False,False,False,False,True
+14317,INDORE - DEHRADUN Exp,INDB,DDN,1183,1675,True,True,True,False,False
+14318,DEHRADUN - INDORE Exp,DDN,INDB,1179,1475,True,True,True,False,False
+14321,BAREILLY - BHUJ Ala Hazrat Exp,BE,BHUJ,1410,1670,True,True,True,False,False
+19131,MUMBAI BANDRA - BHUJ Kutch Exp,BDTS,BHUJ,839,980,True,True,True,False,False
+14322,BHUJ - BAREILLY Ala Hazrat Exp,BHUJ,BE,1410,1680,True,True,True,False,False
+14323,New Delhi-Rohtak Express,NDLS,ROK,72,130,False,False,False,False,True
+14324,New Delhi Express,ROK,NDLS,72,105,False,False,False,False,True
+14369,Tribeni Express,SGRL,BE,723,1085,True,False,True,False,False
+14370,Triveni Express,BE,SGRL,723,1155,True,False,True,False,False
+14370-Slip,Triveni Express Slip,BE,BRWD,862,1365,True,False,False,False,False
+14511-Slip,Allahabad-Saharanpur Nauchandi Express Slip,ALD,KRJ,695,935,True,False,True,False,False
+14512,Saharanpur-Allahabad Nauchandi Express,SRE,ALD,774,1030,True,False,True,False,False
+14519,Kissan Express,DLI,BTI,337,445,False,False,False,False,True
+14520,Kisan Express,BTI,DLI,337,445,False,False,False,False,True
+14524,Harihar Express,UMB,MFP,1201,1515,True,True,False,False,False
+14525,Ambala Cantt-Shri GangaNagar InterCity Express,UMB,SGNR,328,430,False,False,False,False,True
+14526,Shri Ganganagar-Ambala Cantt InterCity Express,SGNR,UMB,328,415,False,False,False,False,True
+14553,Himachal Express,DLI,UHL,371,545,True,True,True,False,False
+14554,Himachal Express,UHL,DLI,371,520,True,True,True,False,False
+14555,Bareilly-Delhi Express,BE,DLI,274,415,False,True,True,False,False
+14556,Delhi-Bareilly Express,DLI,BE,274,415,False,True,True,False,False
+14609,Hemkunt Express,RKSH,JAT,558,730,True,True,True,False,False
+14610,Hemkunt Express,JAT,RKSH,558,800,True,True,True,False,False
+14631,Dehradun Amritsar Express,DDN,ASR,463,710,True,True,False,False,False
+14632,Amritsar Dehradun Express,ASR,DDN,463,710,True,True,False,False,False
+14645,Shalimar Express,DLI,JAT,640,805,True,True,True,True,False
+14646,Shalimar Express,JAT,DLI,640,835,True,True,True,True,False
+14650,Saryu Yamuna Express,ASR,JYG,1670,2285,True,True,True,False,False
+14659-Slip,Delhi-Jaisalmer Express Slip,DLI,BME,829,975,True,True,True,False,False
+14660,Jaisalmer Delhi Express,JSM,DLI,918,1075,True,True,True,True,False
+14661,Delhi Barmer Link Express,JU,BME,209,280,True,True,True,False,False
+14662,Barmer-Delhi MALANI Express,BME,DLI,829,1000,True,True,True,False,False
+14673,Shaheed Express,JYG,ASR,1654,2425,True,True,True,False,False
+14674,Shaheed Express,ASR,JYG,1654,2285,True,True,True,False,False
+14681,New Delhi-Jalandhar Express,NDLS,JUC,439,520,False,False,False,False,True
+14682,Jalandhar NDLS Express,JUC,NDLS,439,510,False,False,False,False,True
+14701,Jaisalmer-Bikaner Express,JSM,BKN,327,355,True,False,False,False,False
+14702,Bikaner-Jaisalmer Express,BKN,JSM,327,355,True,False,False,False,False
+14705,Delhi Sarai Rohilla Sadulpur Express,DEE,SDLP,220,250,True,True,True,False,False
+14706,Sadulpur Delhi Sarai Rohilla Express,SDLP,DEE,220,255,True,True,True,False,False
+15011,LUCKNOW - CHANDIGARH Exp,LJN,CDG,724,955,True,False,True,False,False
+15012,CHANDIGARH - LUCKNOW Exp,CDG,LJN,724,955,True,False,True,False,False
+13103,Bhagirathi Express,SDAH,LGL,227,270,False,False,False,False,True
+13245,Capital Express,NJP,DNR,501,850,True,True,True,False,False
+14708,MUMBAI BANDRA - BIKANER Ranakpur Exp,BDTS,BKN,1212,1475,True,True,True,False,False
+14711,Haridwar Shri Ganganagar InterCity Express,HW,SGNR,485,590,False,False,False,False,True
+14712,Shriganganagar Haridwar Express,SGNR,HW,485,565,False,False,False,False,True
+14723,Kalindi Express,CNB,BNW,605,995,True,True,False,False,False
+14724,Kalindi Express,BNW,CNB,605,1015,True,True,False,False,False
+14731,Delhi Bhatinda Intercity Express,DLI,BTI,399,480,False,False,False,False,True
+14732,Bhatinda Delhi Express,BTI,DLI,399,460,False,False,False,False,True
+14801,Jodhpur Gandhidham Express,JU,GIMB,559,585,True,True,False,False,False
+14802,Gandhidham Jodhpur Express,GIMB,JU,559,550,True,True,False,False,False
+14809,Jaisalmer Jodhpur Express,JSM,JU,301,345,True,True,False,False,False
+14810,Jaisalmer Express,JU,JSM,301,345,True,True,False,False,False
+14853,Marudhar Express,BSB,JU,1201,1420,True,True,True,False,False
+14854,Marudhar Express,JU,BSB,1201,1480,True,True,True,False,False
+14863,Marudhar Express,BSB,JU,1161,1365,True,True,True,False,False
+14864,Marudhar Express,JU,BSB,1161,1365,True,True,True,False,False
+14865,Marudhar Express,BSB,JU,1179,1395,True,True,True,False,False
+14866,Marudhar Express,JU,BSB,1179,1420,True,True,True,False,False
+14887-Slip,Kalka - Sriganganar Express (Slip),KLK,SGNR,433,565,True,True,True,False,False
+14887S,KALKA BARMER Express Slip,KLK,BME,1117,1335,True,True,True,False,False
+14888,Barmer-Kalka Express,BME,KLK,1117,1385,True,True,False,False,False
+14889,Thar Link Express,BGKT,MBF,325,360,True,False,False,False,False
+15001,Rapti Ganga Express,MFP,DDN,1124,1440,True,True,True,False,False
+15002,Rapti Ganga Express,DDN,MFP,1124,1460,True,True,True,False,False
+15004,Chauri Chaura Express,GKP,CPA,552,825,True,True,True,True,False
+15005,Rapti Ganga Express,GKP,DDN,815,1010,True,True,True,False,False
+15006,Rapti Ganga Express,DDN,GKP,815,990,True,True,True,False,False
+15007,Krishak Express,MUV,LJN,513,790,True,True,True,True,False
+15009,Chitrakoot Express,LJN,JBP,582,850,True,True,True,False,False
+15010,Chitrakoot Express,JBP,LJN,582,770,True,True,True,False,False
+15013,Ranikhet Express,DLI,KGM,278,390,True,True,True,True,False
+15013-Slip,Ranikhet Express Slip,DLI,RMR,239,375,True,True,False,False,False
+15014,Ranikhet Express,KGM,DLI,278,435,True,True,True,True,False
+15016,YESVANTPUR - GORAKHPUR Exp,YPR,GKP,2515,3280,True,True,True,False,False
+15018,GORAKHPUR - MUMBAI LTT Kashi Exp,GKP,LTT,1714,2230,True,True,True,False,False
+15018-Slip,Gorakhpur -Kolhapur Slip,GKP,KOP,2108,3315,True,True,True,False,False
+15019,Gorakhpur Nautanwa Express,GKP,NTV,82,150,False,True,False,False,False
+15020,Gorakhpur Nautanwa Express,NTV,GKP,82,120,False,True,False,False,False
+15021,Kolkata Shalimar-Gorakhpur Bhojpuri Express,SHM,GKP,1050,1195,True,True,True,False,False
+15022,Bhojpuri Express,GKP,SHM,1050,1215,True,True,True,False,False
+15023,GORAKHPUR - YESVANTPUR Exp,GKP,YPR,2473,3075,True,True,True,False,False
+15035,Uttarakhand Sampark Kranti Express,DLI,KGM,278,400,False,True,False,False,True
+15035-Slip,Uttarakhand Sampark Kranti Express Slip,DLI,RMR,239,275,False,True,False,False,True
+15236,Darbhanga-Howrah Express,DBG,HWH,536,650,True,True,True,False,False
+14649,Saryu Yamuna Express,JYG,ASR,1670,2425,True,True,True,False,False
+15003,Chauri Chaura Express,CPA,GKP,552,845,True,True,True,True,False
+15008,Krishak Express,LJN,MUV,513,835,True,True,True,True,False
+15027,Maurya Express,HTE,GKP,857,1455,True,True,True,False,False
+15028,Maurya Express,GKP,HTE,864,1485,True,True,True,False,False
+15045,Gorakhpur-Okha Express,GKP,OKHA,2306,2905,True,True,True,False,False
+15046,Okha-Gorakhpur Express,OKHA,GKP,2306,2965,True,True,True,False,False
+15047,Purvanchal Express,KOAA,GKP,859,1045,True,True,True,False,False
+15048,Purvanchal Express,GKP,KOAA,859,1005,True,True,True,False,False
+15049,Poorvanchal Express,KOAA,GKP,883,1150,True,True,True,False,False
+15050,Poorvanchal Express,GKP,KOAA,883,1215,True,True,True,False,False
+15051,Poorvanchal Express,KOAA,GKP,875,1060,True,True,True,False,False
+15052,Gorakhpur Kolkata Express,GKP,KOAA,876,1085,True,True,True,False,False
+15097,Barauni-Jammu Amarnath Express,BJU,JAT,1648,1880,True,True,True,False,False
+15098,Jammu-Barauni Amarnath Express,JAT,BJU,1648,1860,True,True,True,False,False
+15103,Gorakhpur Manduadih Intercity Express,GKP,MUV,235,340,False,True,False,False,False
+15104,Manduadih Gorakhpur InterCity,MUV,GKP,235,340,False,True,False,False,False
+15105,Chhapra Gorakhpur InterCity Express,CPR,GKP,180,240,False,True,False,False,False
+15106,Gorakhpur Chhapra InterCity Express,GKP,CPR,180,255,False,True,False,False,False
+15107,Chhapra Mathura Express,CPR,MTJ,874,1015,True,True,False,False,False
+15108,Mathura Chhapra Express,MTJ,CPR,874,1070,True,True,False,False,False
+15109,Budhpurnima Express,RGD,BSB,410,550,True,False,False,False,False
+15110,Budhpurnima Express,BSB,RGD,410,510,True,False,False,False,False
+15159,Sarnath Express,CPR,DURG,1083,1450,True,True,True,False,False
+15160,Sarnath Express,DURG,CPR,1083,1505,True,True,True,False,False
+15203,Barauni-Lucknow Express,BJU,LJN,674,975,True,True,False,False,False
+15228,MUZAFFARPUR - YESVANTPUR Weekly Exp,MFP,YPR,2733,3115,True,True,True,False,False
+15273,Satyagraha Express,RXL,DLI,964,1470,True,True,False,False,False
+15274,Satyagraha Express,DLI,RXL,964,1415,True,True,False,False,False
+15283,Janaki Express,SHC,JYG,245,365,True,True,False,False,False
+15284,Janaki Express,JYG,SHC,245,370,True,True,False,False,False
+15902,DIBRUGARH - BENGALURU CITY Weekly Exp,DBRG,SBC,3578,3940,True,True,True,False,False
+15204,Lucknow-Barauni Express,LJN,BJU,674,1050,True,True,False,False,False
+15279,Poorbiya Express,SHC,ANDI,1210,1635,True,True,False,False,False
+15280,Poorabiya Express,ANDI,SHC,1202,1630,True,True,False,False,False
+15281,Kosi Express,SHC,PNBE,224,315,False,False,False,False,True
+15282,Kosi Express,PNBE,SHC,224,335,False,False,False,False,True
+15307,Nainital Express,LKU,ASH,363,590,True,False,True,False,False
+15308,Nainital Express,ASH,LKU,363,575,True,False,True,False,False
+15308-Slip,Nainital Express Slip,ASH,TPU,322,760,True,False,False,False,False
+15312,Kumaun Express,LKKA,KSJF,188,355,True,False,True,False,False
+15314,Aishbagh Express,BRY,ASH,317,540,True,False,False,False,False
+15315,Gonda-Kasganj Gokul Express,GD,KSJ,499,795,True,False,False,False,False
+15316,Kasganj-Gonda Gokul Express,KSJ,GD,498,815,True,False,False,False,False
+15603,Guwahati Ledo Intercity Express,GHY,LEDO,571,825,True,True,True,False,False
+15604,Ledo Guwahati Intercity Express,LEDO,GHY,571,800,True,True,True,False,False
+15606,Guwahati InterCity Express,MXN,GHY,405,605,True,True,False,False,False
+15609,Awadh Assam Express,GHY,LGH,2559,3375,True,True,True,False,False
+15609-Slip,Jivachh Link Express,GHY,DBG,877,1345,True,True,False,False,False
+15610,Awadh Assam Express,LGH,GHY,2559,3375,True,True,True,False,False
+15620,KAMAKHYA - GAYA Weekly Exp,KYQ,GAYA,1091,1355,True,True,False,False,False
+15629,CHENNAI EGMORE - GUWAHATI Exp,MS,GHY,2795,3265,True,True,True,False,False
+15630,GUWAHATI - CHENNAI EGMORE Exp,GHY,MS,2796,3195,True,True,True,False,False
+15631,BARMER - GUWAHATI Exp,BME,GHY,2473,2895,True,True,True,False,False
+15632,GUWAHATI - BARMER Exp,GHY,BME,2473,2765,True,True,True,False,False
+15635,OKHA - GUWAHATI EXP,OKHA,GHY,3237,4060,True,True,True,False,False
+15636,GUWAHATI - OKHA DWARKA EXP,GHY,OKHA,3237,3945,True,True,True,False,False
+15639,PURI - GUWAHATI Exp,PURI,GHY,1528,1915,True,True,True,False,False
+15643,PURI - KAMAKHYA Weekly Express,PURI,KYQ,1572,1805,True,True,False,False,False
+15644,KAMAKHYA - PURI Weekly Spl,KYQ,PURI,1572,1920,True,True,False,False,False
+15669,Nagaland Express,KYQ,DMV,256,370,True,True,True,False,False
+15670,Nagaland Express,DMV,KYQ,256,330,True,True,True,False,False
+15691,Cachar Express,LMG,SCL,215,650,True,False,True,False,False
+15714,InterCity Express,PNBE,KIR,290,440,False,False,False,False,True
+15743,InterCity Express,APDJ,KYQ,297,370,True,False,False,False,False
+22602,SAINAGAR SHIRDI - CHENNAI CENT SF Exp,SNSI,MAS,1392,1515,True,True,True,False,False
+13508,Gorakhpur-Asansol Express,GKP,ASN,644,860,True,True,False,False,False
+15645,MUMBAI LTT - GUWAHATI Exp,LTT,GHY,2594,3085,True,True,True,False,False
+15646,GUWAHATI - MUMBAI LTT Exp,GHY,LTT,2594,3075,True,True,True,False,False
+15647,MUMBAI LTT - GUWAHATI Exp,LTT,GHY,2735,3175,True,True,True,False,False
+15648,GUWAHATI - MUMBAI LTT Exp,GHY,LTT,2735,3180,True,True,True,False,False
+15652,JAMMU TAWI - GUWAHATI Lohit Exp,JAT,GHY,2352,2890,True,True,True,False,False
+15654,JAMMU TAWI - GUWAHATI Amarnath Exp,JAT,GHY,2431,2890,True,True,True,False,False
+15658,GUWAHATI - KOLKATA SEALDAH KanchanJungha Exp,GHY,SDAH,975,1255,True,True,True,False,False
+15661,RANCHI - KAMAKHYA Exp,RNC,KYQ,1216,1520,True,True,False,False,False
+15662,KAMAKHYA - RANCHI Exp,KYQ,RNC,1216,1545,True,True,False,False,False
+15665,Guwahati-Dimapur Express,GHY,DMV,250,325,True,True,True,False,False
+15666,Dimapur-Guwahati Express,DMV,GHY,250,360,True,True,True,False,False
+15667,GANDHIDHAM - KAMAKHYA Exp,GIMB,KYQ,3157,3885,True,True,True,False,False
+15668,KAMAKHYA - GANDHIDHAM Exp,KYQ,GIMB,3159,3900,True,True,True,False,False
+15692,Cachar Express,SCL,LMG,215,670,True,False,True,False,False
+15693,Barak Valley Express,LMG,SCL,215,750,True,False,False,False,False
+15694,Barak Valley Express,SCL,LMG,215,690,True,False,False,False,False
+15695,Lumding Agartala Express,LMG,AGTL,412,980,True,False,True,False,False
+15696,Agartala Lumding Express,AGTL,LMG,412,1100,True,False,True,False,False
+15713,InterCity Express,KIR,PNBE,290,390,False,False,False,False,True
+15715,Garib Nawaz Express,KNE,AII,1835,2390,True,True,False,True,False
+15716,Garib Nawaz Express Slip,AII,KNE,1816,2410,True,True,False,False,False
+15716-Slip,Garib Nawaz Express,AII,RDP,1812,2410,True,True,False,False,False
+15721,Paharia Express,DGHA,NJP,752,975,True,True,False,True,False
+15722,Paharia Express,NJP,DGHA,752,885,True,True,False,True,False
+15723,NewJalpaiguri-Darbhanga Weekly Express,NJP,DBG,469,630,True,True,False,True,False
+15724,Darbhanga-NewJalpaiguri Weekly Express,DBG,NJP,469,650,True,True,False,True,False
+15903,Dibrugarh-Chandigarh Weekly Express,DBRG,CDG,2661,3185,True,True,True,False,False
+15904,Chandigarh-Dibrugarh Weekly Express,CDG,DBRT,2664,3305,True,True,True,False,False
+16053,Tirupati Express,MAS,TPTY,151,190,False,False,False,False,True
+16054,Chennai Express,TPTY,MAS,151,200,False,False,False,False,True
+16057,Saptagiri Express,MAS,TPTY,151,185,False,False,False,False,True
+16058,Saptagiri Express,TPTY,MAS,151,195,False,False,False,False,True
+16093,Chennai Lucknow Express,MAS,LKO,2088,2360,True,True,False,False,False
+16094,Lucknow Chennai Express,LJN,MAS,2088,2510,True,True,False,False,False
+15640,GUWAHATI - PURI Exp,GHY,PURI,1528,1955,True,True,True,False,False
+15905,KANNIYAKUMARI - DIBRUGARH Vivek Exp,CAPE,DBRG,4279,5130,True,True,True,False,False
+15906,DIBRUGARH - KANNIYAKUMARI Vivek Exp,DBRG,CAPE,4278,4960,True,True,True,False,False
+15929,CHENNAI EGMORE - DIBRUGARH Weekly Exp,MS,DBRG,3352,4050,True,True,True,False,False
+15930,DIBRUGARH - CHENNAI EGMORE Weekly Exp,DBRG,MS,3352,4110,True,True,True,False,False
+15933,Dibrugarh-Amritsar Weekly Express,DBRG,ASR,2870,3705,True,True,True,False,False
+15934,Amritsar-DibrugarhTown Weekly Express,ASR,DBRT,2877,3635,True,True,True,False,False
+15942,DIBRUGARH - JHAJHA Exp,DBRG,JAJ,1710,2115,True,True,True,False,False
+15960,DIBRUGARH - HOWRAH Kamrup Exp,DBRG,HWH,1528,2110,True,True,True,False,False
+16031,Andaman Express,MAS,JAT,2800,3355,True,True,False,False,False
+16032,Andaman Express,JAT,MAS,2800,3505,True,True,False,False,False
+16041,Chennai- Alapuzha Alleppey Express,MAS,ALLP,746,810,True,True,True,False,False
+16108,Mangalore Chennai Egmore Express,MAQ,MS,983,1335,True,True,True,True,False
+16125,CHENNAI EGMORE - JODHPUR Exp,MS,JU,2356,2625,True,True,True,False,False
+16127,CHENNAI EGMORE - GURUVAYUR Exp,MS,GUV,1100,1380,True,True,True,False,False
+16128,GURUVAYUR - CHENNAI EGMORE Exp,GUV,MS,1100,1465,True,True,True,False,False
+16175,Kamban Express,MS,NCR,436,600,True,True,True,True,False
+16176,Kamban Express,NCR,MS,436,560,True,True,True,True,False
+16177,Rock Fort Express,MS,KMU,425,550,True,True,True,True,False
+16178,Rock Fort (Malai Kottai) Express,KMU,MS,425,560,True,True,True,True,False
+16179,Mannai Express,MS,MQ,395,505,True,True,True,True,False
+16180,Mannai Express,MQ,MS,395,515,True,True,True,True,False
+16201,Bangalore City-Shimoga InterCity,SBC,SMET,274,330,False,False,False,False,True
+16202,Shimoga-Bangalore City InterCity,SMET,SBC,274,335,False,False,False,False,True
+16205,Talaguppa Mysore Intercity Express,TLGP,MYS,373,475,False,False,False,False,True
+16206,Mysore - Talguppa Intercity Express,MYS,TLGP,373,495,False,False,False,False,True
+16209,Ajmer-Mysore Express,AII,MYS,2290,2975,True,True,True,False,False
+16210,Mysore-Ajmer Express,MYS,AII,2290,2835,True,True,True,False,False
+16215,Chamundi Express,MYS,SBC,139,175,False,False,False,False,True
+16216,Chamundi Express,SBC,MYS,139,175,False,False,False,False,True
+16227,Bangalore-Shimoga Express,SBC,SMET,274,415,True,True,False,True,False
+16228,Shimoga-Bangalore Express,SMET,SBC,274,380,True,True,False,True,False
+16231,Mayiladuturai Mysore Express,MV,MYS,680,935,True,True,True,False,False
+16232,Mysore Mayiladuturai Express,MYS,MV,680,915,True,True,True,False,False
+16302,Venad Express,TVC,SRR,327,460,False,False,False,False,True
+16305,Ernakulam Kannur InterCity Express,ERS,CAN,283,345,True,False,False,False,True
+16309,Ernakulam-Patna Express,ERS,PNBE,2790,3095,True,True,True,False,False
+16310,Patna - Ernakulam Express,PNBE,ERS,2790,3090,True,True,True,False,False
+16322,Tiruvananthapuram Bangalore Weekly Express,TVC,SBC,843,990,True,True,True,False,False
+16323,Trivandrum Shalimar Biweekly Express,TVC,SHM,2566,2715,True,True,True,False,False
+16326,Ahilyanagari Express,TVC,INDB,2653,2850,True,True,True,False,False
+11271,ITARSI - BHOPAL Vindhyachal Exp,ET,BPL,738,1025,True,False,False,False,False
+12809,MUMBAI CST - HOWRAH SF Mail (via NAGPUR),CSTM,HWH,1968,1995,True,True,True,True,False
+14003,New Farakka-New Delhi Express,NFK,NDLS,1387,1720,True,True,True,False,False
+16221,Kaveri Express,MYS,MAS,500,655,True,True,True,False,False
+16301,Venad Express,SRR,TVC,327,470,False,False,False,False,True
+16303,Vanchinad Express,ERS,TVC,220,280,False,False,False,False,True
+16304,Vanchinad Express,TVC,ERS,220,280,False,False,False,False,True
+16306,Kannur Ernakulam InterCity Express,CAN,ERS,283,360,False,False,False,False,True
+16308,Executive Express,CAN,ALLP,339,480,False,False,False,False,True
+16313,Executive Express,ERS,CAN,283,400,False,False,False,False,True
+16314,Executive Express,CAN,ERS,283,390,False,False,False,False,True
+16315,BANGALORE - KOCHUVELI Exp,SBC,KCVL,837,970,True,True,True,False,False
+16316,KOCHUVELI - BANGALORE Exp,KCVL,SBC,837,990,True,True,True,False,False
+16317,Himsagar Express,CAPE,JAT,3715,4270,True,True,False,False,False
+16318,Himsagar Express,JAT,CAPE,3715,4215,True,True,True,False,False
+16318-Slip,Himsagar Express Slip,JAT,TEN,3561,3995,True,False,True,False,False
+16324,Shalimar Tiruvananthapuram Express,SHM,TVC,2566,2865,True,True,True,False,False
+16325,Ahilyanagari Express,INDB,TVC,2653,2985,True,True,True,False,False
+16327,Korba Tiruvananthapuram Express,KRBA,TVC,2519,2760,True,True,True,False,False
+16328,Trivandrum-Korba Express,TVC,KRBA,2516,2790,True,True,True,False,False
+16331,MUMBAI CST - TRIVANDRUM Exp,CSTM,TVC,1946,2335,True,True,True,False,False
+16332,TRIVANDRUM - MUMBAI CST Exp,TVC,CSTM,1946,2435,True,True,True,False,False
+16333,VERAVAL - TRIVANDRUM Exp,VRL,TVC,2709,2890,True,True,True,False,False
+16334,TRIVANDRUM - VERAVAL Exp,TVC,VRL,2709,2965,True,True,True,False,False
+16335,GANDHIDHAM - NAGERCOIL Weekly Exp,GIMB,NCJ,2649,2845,True,True,True,False,False
+16336,NAGERCOIL - GANDHIDHAM Weekly Exp,NCJ,GIMB,2649,2860,True,True,True,False,False
+16337,OKHA - ERNAKULAM Exp,OKHA,ERS,2557,2680,True,True,True,False,False
+16338,ERNAKULAM - OKHA Exp,ERS,OKHA,2557,2735,True,True,True,False,False
+16339,MUMBAI CST - NAGERCOIL Exp,CSTM,NCJ,1882,2350,True,True,True,False,False
+16340,NAGERCOIL - MUMBAI CST Exp,NCJ,CSTM,1882,2275,True,True,True,False,False
+16341,Guruvayur-Ernakulam-Trivandrum Intercity Express,GUV,TVC,303,405,False,False,False,False,True
+16342,Trivandrum-Ernakulam-Guruvayur Intercity Express,TVC,GUV,303,410,False,False,False,False,True
+16343,Amrita Express,TVC,PGTN,376,570,True,False,True,False,False
+16344,Amrita Express,PGTN,TVC,376,515,True,False,True,False,False
+16347,Trivandrum Mangalore Express,TVC,MAQ,634,870,True,True,True,False,False
+16348,Trivandrum Express,MAQ,TVC,634,860,True,True,True,False,False
+16349,Trivandrum Nilambur Road Rajya Rani Express,TVC,NIL,393,535,True,True,False,False,False
+16350,Nilambur Road Trivandrum Rajya Rani Express,NIL,TVC,393,580,True,True,False,False,False
+16381,Mumbai CST - Kanyakumari Express,CSTM,CAPE,2135,2700,True,True,True,False,False
+16382,Kanniyakumari-Mumbai CST Express,CAPE,CSTM,2135,2840,True,True,True,False,False
+16517,Yeshvantapur-Kannur Express,YPR,CAN,640,900,True,True,True,False,False
+16527,Yesvantpur - Kannur Express,YPR,CAN,649,750,True,True,True,False,False
+16529,Udyan Express,CSTM,SBC,1153,1485,True,True,True,True,False
+16530,Udyan Express,SBC,CSTM,1153,1420,True,True,True,True,False
+16532,Garib Nawaz Express,YPR,AII,2218,2890,True,True,True,False,False
+14511,Allahabad-Saharanpur Nauchandi Express,ALD,SRE,774,1085,True,False,True,False,False
+16345,MUMBAI LTT - TRIVANDRUM Netravati Exp,LTT,TVC,1804,1860,True,True,True,False,False
+16346,TRIVANDRUM - MUMBAI LTT Netravati Exp,TVC,LTT,1804,1850,True,True,True,False,False
+16351,MUMBAI CST - NAGERCOIL Balaji Exp,CSTM,NCJ,1967,2490,True,True,True,False,False
+16360,PATNA - ERNAKULAM Express,PNBE,ERS,2988,3270,True,True,True,False,False
+16501,Ahmedabad Bangalore Express,ADI,SBC,1802,2090,True,True,True,False,False
+16502,Bangalore - Ahmedabad (Weekly) Express,SBC,ADI,1802,2295,True,True,True,False,False
+16505,GANDHIDHAM - BANGALORE Exp,GIMB,SBC,1962,2580,True,True,True,False,False
+16506,BANGALORE - GANDHIDHAM Exp,SBC,GIMB,1962,2375,True,True,True,False,False
+16508,BANGALORE - BHAGAT KI KOTHI Exp,SBC,JU,2121,2560,True,True,True,False,False
+16516,Karwar-Yeshvantpur Express,KAWR,YPR,794,1015,False,False,False,False,True
+16518,Kannur-Yesvantpur Express,CAN,YPR,640,895,True,True,True,False,False
+16525,KANNIYAKUMARI - BANGALORE Island Exp,CAPE,SBC,944,1225,True,True,True,False,False
+16528,Kannur - Yeshvantpur Express,CAN,YPR,649,775,True,True,True,False,False
+16531,Garib Nawaz Express,AII,YPR,2236,2815,True,True,True,False,False
+16533,BHAGAT KI KOTHI - BANGALORE CITY Exp,BGKT,SBC,2199,2820,True,True,True,False,False
+16534,BANGALORE CITY - JODHPUR Exp,SBC,JU,2181,2835,True,True,True,False,False
+16535,Gol Gumbaz Express,YPR,SUR,822,1060,True,True,True,True,False
+16536,Gol Gumbaz Express,SUR,YPR,822,1060,True,True,True,True,False
+16537,Bangalore-Nagercoil Weekly Express,SBC,NCJ,723,895,True,True,True,False,False
+16538,Nagercoil-Bangalore Express,NCJ,SBC,723,915,True,True,True,False,False
+16589,Rani Chennamma Express,SBC,KOP,795,985,True,True,True,True,False
+16590,Rani Chennamma Express,KOP,SBC,795,1035,True,True,True,True,False
+16591,Hampi Express,UBL,SBC,567,730,True,True,True,True,False
+16592,Hampi Express,SBC,UBL,567,780,True,True,True,True,False
+16593,Nanded-Bangalore Express,NED,SBC,1042,1450,True,True,False,True,False
+16594,Bangalore-Nanded Express,SBC,NED,1030,1435,True,True,False,True,False
+16605,Eranad Express,MAQ,NCJ,690,970,False,False,False,False,True
+16606,Eranad Express,NCJ,MAQ,690,930,False,False,False,False,True
+16609,Nagercoil-Coimbatore Express,NCJ,CBE,536,660,True,True,False,False,False
+16610,Coimbatore-Nagercoil Express,CBE,NCJ,536,625,True,True,False,False,False
+16612,Coimbatore Tuticorin Link Express,CBE,TN,465,580,True,True,False,False,False
+16687,Navyug Express,MAQ,JAT,3609,4085,True,True,True,False,False
+16688,Navyug Express,JAT,MAQ,3609,3990,True,True,True,False,False
+16688-Slip,Navyug Express Slip,JAT,TEN,3601,3995,True,False,True,False,False
+16702,Rameswaram-Chennai Egmore Express,RMM,MS,665,810,True,True,True,True,False
+16713,Setu Express,MS,RMM,600,705,True,True,True,False,False
+16714,Setu Express,RMM,MS,600,740,True,True,True,False,False
+16731,Tuticorin Mysore Express,TN,MYS,783,1055,True,True,True,False,False
+16735,Chendhur Express,MS,TCN,779,955,True,True,True,True,False
+16853,Cholan Express (Day Express),MS,TPJ,401,495,True,True,True,True,False
+17001,Sainagar Shirdi Secunderabad Express,SNSI,SC,776,970,True,True,True,False,False
+17015,Visakha Express,BBS,SC,1135,1375,True,True,True,False,False
+15653,GUWAHATI - JAMMU TAWI Amarnath Exp,GHY,JAT,2431,2825,True,True,True,False,False
+16603,Maveli Express,MAQ,TVC,619,810,True,True,True,False,False
+16604,Maveli Express,TVC,MAQ,619,805,True,True,True,False,False
+16611,Tuticorin Coimbatore Link Express,TN,CBE,465,600,True,True,False,False,False
+16613,RAJKOT - COIMBATORE Exp,RJT,CBE,2237,2700,True,True,True,False,False
+16614,COIMBATORE - RAJKOT Exp,CBE,RJT,2237,2660,True,True,True,False,False
+16628,West Coast Express,MAQ,MAS,902,1050,True,True,True,False,False
+16629,Malabar Express,TVC,MAQ,634,935,True,True,True,False,False
+16630,Malabar Express,MAQ,TVC,634,880,True,True,True,False,False
+16649,Parasuram Express,MAQ,TVC,634,830,False,False,False,False,True
+16650,Parasuram Express,TVC,MAQ,634,835,False,False,False,False,True
+16669,Yercaud Express,MAS,ED,396,465,True,True,True,True,False
+16670,Yercaud Express,ED,MAS,396,450,True,True,True,True,False
+16724,TRIVANDRUM - CHENNAI EGMORE Anantapuri Exp,TVC,MS,798,980,True,True,True,True,False
+16732,Mysore-Tuticorin Express,MYS,TN,783,1020,True,True,True,False,False
+16733,Rameswaram-Okha Express,RMM,OKHA,3196,3985,True,True,True,False,False
+16734,Okha-Rameswaram Express,OKHA,RMM,3196,3705,True,True,True,False,False
+16736,Chendhur Express,TCN,MS,779,955,True,True,True,True,False
+16779,TIRUPATI - RAMESWARAM Exp,TPTY,RMM,667,985,True,True,False,False,False
+16780,RAMESWARAM - TIRUPATI Exp,RMM,TPTY,667,905,True,True,False,False,False
+16787,TIRUNELVELI - KATRA Exp,TEN,SVDK,3561,4165,True,False,True,False,False
+16788,JAMMU ERODE - TIRUNELVELI Link Exp,ED,TEN,458,570,True,False,True,False,False
+16854,Cholan Express( Day Express),TPJ,MS,401,505,True,True,True,True,False
+16865,Tea Garden Express,NCR,ERS,582,825,True,True,True,True,False
+16866,Tea Garden Express,ERS,NCR,582,820,True,True,True,True,False
+17003,Hyderabad-Kolhapur BiWeekly Express,HYB,KOP,998,1415,True,True,True,False,False
+17004,Kolhapur-Hyderabad BiWeekly Express,KOP,HYB,998,1395,True,True,True,False,False
+17005,HYDERABAD DECCAN - RAXAUL  Exp,HYB,RXL,2015,2370,True,True,True,False,False
+17006,RAXAUL - HYDERABAD Deccan Exp,RXL,HYB,2015,2410,True,True,True,False,False
+17013,Pune-Hyderabad Express,PUNE,HYB,649,855,True,True,True,False,False
+17014,Hyderabad-Pune Express,HYB,PUNE,649,870,True,True,True,False,False
+17032,Hyderabad-Mumbai Express,HYB,CSTM,790,985,True,True,True,True,False
+17037,SECUNDERABAD - BIKANER Express,SC,BKN,2113,2505,True,True,True,False,False
+17203,Bhavnagar(T)-Kakinada Town Express,BVC,CCT,2053,2450,True,True,True,False,False
+17204,Kakinada Town- Bhavnagar Express,CCT,BVC,2053,2445,True,True,True,False,False
+17205,Sainagar Shirdi-Kakinada Express,SNSI,CCT,1339,1570,True,True,True,False,False
+17206,Kakinada-Sainagar Shirdi Express,CCT,SNSI,1339,1620,True,True,True,False,False
+17209,BANGALORE - KAKINADA TOWN Seshadri Exp,SBC,CCT,963,1165,True,True,True,False,False
+17210,KAKINADA TOWN -BANGALORE Seshadri Exp,CCT,SBC,963,1140,True,True,True,False,False
+17212,Machilipatnam Express,YPR,MTM,778,950,True,True,True,False,False
+17213,Narasapur-Nagarsol Express,NS,NSL,1086,1320,True,True,True,False,False
+17229,Sabari Express,TVC,HYB,1568,1825,True,True,True,False,False
+17230,Sabari Express,HYB,TVC,1568,1855,True,True,True,False,False
+17307,Basava Express,YPR,BGK,860,1110,True,True,True,False,False
+17309,YESVANTPUR - VASCO DA GAMA Exp,YPR,VSG,700,885,True,True,True,False,False
+12073,Howrah-Bhubaneswar Jan Shatabdi Express,HWH,BBS,439,405,False,False,False,False,True
+14209,Vindhyachal-Lucknow InterCity,BDL,LKO,284,355,False,False,False,False,True
+15227,YESVANTPUR - MUZAFFARPUR Weekly Exp,YPR,MFP,2733,3125,True,True,True,False,False
+16042,Alappuzha-Chennai Express,ALLP,MAS,746,840,True,True,True,False,False
+16307,Executive Express,ALLP,CAN,339,480,False,False,False,False,True
+17017,Rajkot Secunderabad Express,RJT,SC,1478,1770,True,True,True,False,False
+17035,Telangana Express,SC,SKZR,297,325,False,False,False,False,True
+17036,Telangana Express,SKZR,SC,297,330,False,False,False,False,True
+17049,Machilipatnam Secunderabad Express,MTM,SC,431,540,True,True,True,False,False
+17050,Secunderabad Machilipatnam Express,SC,MTM,431,510,True,True,True,False,False
+17057,Mumbai-Secunderabad Devagiri Expres,CSTM,SC,881,1030,True,True,True,True,False
+17058,Devagiri Express,SC,CSTM,881,1055,True,True,True,True,False
+17063,Ajanta Express,MMR,SC,621,715,True,True,True,False,False
+17064,Ajanta Express,SC,MMR,621,755,True,True,True,False,False
+17201,Golconda Express,GNT,SC,383,480,False,False,False,False,True
+17202,Golconda Express,SC,GNT,383,495,False,False,False,False,True
+17207,Sainagar Shiridi Vijayawada Express,SNSI,BZA,1127,1335,True,True,True,False,False
+17208,Vijayawada Sainagar Shirdi Express,BZA,SNSI,1127,1365,True,True,True,False,False
+17211,Machilipatnam Yeshvantapur Express,MTM,YPR,778,1110,True,True,True,False,False
+17214,Nagarsol Narsapur Express,NSL,NS,1086,1320,True,True,True,False,False
+17225,Amaravati Express,BZA,UBL,693,885,True,True,True,False,False
+17226,Amaravati Express,UBL,BZA,693,875,True,True,True,False,False
+17226-Slip,Amaravathi Express Slip,UBL,KCG,617,1005,True,False,True,False,False
+17233,Bhagyanagar Express,SC,BPQ,367,575,False,False,False,False,True
+17234,Bhagyanagar Express,BPQ,SC,367,525,False,False,False,False,True
+17239,Simhadri Express,GNT,VSKP,383,590,False,False,False,False,True
+17240,Simhadri Express,VSKP,GNT,383,500,False,False,False,False,True
+17255,Narasapur Hyderabad Express,NS,HYB,462,630,True,True,True,True,False
+17256,Hyderabad-Narsapur Express,HYB,NS,462,655,True,True,True,True,False
+17301,Mysore Dharwad Express,MYS,DWR,491,600,True,True,True,False,False
+17302,Dharwad Mysore Express,DWR,MYS,491,615,True,True,True,False,False
+17305,Hubli-H.Nizamuddin Goa Express,UBL,NZM,2147,2280,True,False,True,False,False
+17308,Basava Express,BGK,YPR,860,1200,True,True,True,False,False
+17312,VASCO DA GAMA - CHENNAI CENT Exp,VSG,MAS,1070,1285,True,True,True,False,False
+17313,CHENNAI CENT - HUBLI Weekly Exp,MAS,UBL,834,995,True,True,True,False,False
+17314,HUBLI - CHENNAI CENT Weekly Exp,UBL,MAS,834,935,True,True,True,False,False
+17315,VASCO DA GAMA - VELANKANNI Weekly Exp,VSG,VLNK,1315,1630,True,True,True,False,False
+17316,VELANKANNI - VASCO DA GAMA Weekly Exp,VLNK,VSG,1315,1770,True,True,True,False,False
+17479-Slip,Puri-Shirdi Express Slip,PURI,SNSI,1971,2655,True,False,False,False,False
+17480,Tirupati-Puri Express,TPTY,PURI,1232,1725,True,True,False,False,False
+17610,PURNA - PATNA Exp,PAU,PNBE,1819,2000,True,True,True,False,False
+17643,Circar Express,MS,COA,702,980,True,True,True,False,False
+17644,Circar Express,COA,MS,702,950,True,True,True,False,False
+18002,Kandari Express,DGHA,HWH,189,210,False,False,False,False,True
+18207,Durg Jaipur Express,DURG,JP,1268,1420,True,True,True,False,False
+12175,Chambal Express,HWH,GWL,1303,1415,True,True,True,False,False
+12574,Howrah-SainagarShirdi Express,HWH,SNSI,1791,1795,True,True,True,False,False
+12713,Satavahana Express,BZA,SC,351,335,False,False,False,False,True
+17401,Tirupati-Machilipatnam Express,TPTY,MTM,467,580,True,True,False,False,False
+17402,Machilipatanam-Tirupati Express,MTM,TPTY,467,575,True,True,False,False,False
+17404,Narasapur Tirupati Link Express,NS,TPTY,525,675,True,True,False,False,False
+17405,Krishna Express,TPTY,ADB,1228,1490,True,True,False,False,True
+17406,Krishna Express,ADB,TPTY,1228,1465,True,True,False,False,True
+17415,Haripriya Express,TPTY,KOP,903,1205,True,True,True,False,False
+17416,Haripriya Express,KOP,TPTY,903,1255,True,True,True,False,False
+17429,Rayalaseema Express,HYB,TPTY,732,885,True,True,True,False,False
+17430,Rayalaseema Express,TPTY,HYB,732,960,True,True,True,False,False
+17479,Puri-Tirupati Express,PURI,TPTY,1232,1635,True,True,False,False,False
+17481,Bilaspur-Tirupati Express,BSP,TPTY,1403,1810,True,True,False,False,False
+17482,Tirupati-Bilaspur Express,TPTY,BSP,1403,1870,True,True,False,False,False
+17487,Tirumala Express,TPTY,VSKP,736,845,True,True,True,False,False
+17603,Prasanti Nilayam Express,KCG,YPR,664,810,True,True,True,True,False
+17607,Tungabhadra Express,SC,KRNT,244,300,False,False,False,False,True
+17608,Tungabhadra Express,KRNT,SC,244,295,False,False,False,False,True
+17613,Pune Nanded Exp,PUNE,NED,557,720,True,True,False,False,False
+17614,Nanded Pune Express,NED,PUNE,557,720,True,True,True,False,False
+17617,Tapovan Express,CSTM,NED,610,705,False,False,False,False,True
+17618,Tapovan Express,NED,CSTM,610,695,False,False,False,False,True
+17687,Manmad-Dharmabad Composite Express,MMR,DAB,422,530,False,False,False,False,True
+17688,Dharmabad-Manmad Composit Express,DAB,MMR,422,550,False,False,False,False,True
+18003,Jhargram Purulia Express,JGM,PRR,187,205,False,False,False,False,True
+18004,Purulia Jhargram Express,PRR,JGM,187,190,False,False,False,False,True
+18048,VASCO-DA-GAMA - HOWRAH Amaravati Exp,VSG,HWH,2147,2355,True,True,True,False,False
+18102,Jammu-Rourkela Express,JAT,ROU,2158,2855,True,True,True,False,False
+18105,Rourkela-Bhubaneswar InterCity,ROU,BBS,419,450,False,True,False,False,True
+18106,Bhubaneswar-Rourkela InterCity,BBS,ROU,419,475,False,True,False,False,True
+18108,KORAPUT - ROURKELA Exp,KRPU,ROU,645,830,True,True,False,False,False
+18190,Allapuzha Dhanbad Slip Express,ROU,TATA,163,175,True,True,True,False,False
+18191,Utsarg Express,CPR,CPA,549,880,True,True,False,False,False
+18192,Utsarg Express,CPA,CPR,549,970,True,True,False,False,False
+18201,Durg-Nautanwa (via Varanasi)Express,DURG,NTV,1224,1595,True,True,True,False,False
+18205,Durg -Nautanwa Express,DURG,NTV,1152,1640,True,True,True,False,False
+18208,Jaipur Durg Express,JP,DURG,1268,1480,True,True,True,False,False
+18236,Bilaspur Express Cum Passenger,BSP,BPL,717,1310,True,False,False,False,False
+18239,Gerva Road-Nagpur Express,GAD,NGP,513,705,True,True,True,False,False
+18240,Nagpur Bilaspur Express,NGP,BSP,412,460,True,True,True,False,False
+18241,Durg Ambikapur Express,DURG,ABKP,469,655,True,True,True,False,False
+18241-Slip,Durg Ambikapur Express Slip,DURG,CHRM,381,715,True,False,False,False,False
+18301,Rayagada Express,SBP,RGDA,322,410,False,False,False,False,True
+12380,Amritsar - Sealdah Superfast Express,ASR,SDAH,1894,1835,True,True,True,False,False
+12663,Howrah-Tiruchirappalli Express,HWH,TPJ,2025,2175,True,True,True,False,False
+14260,LUCKNOW CHARBAGH - MUGHAL SARAI Ekatmata Exp,LKO,MGS,2796,3120,True,True,True,False,False
+15901,BENGALURU - NEW TINSUKIA Weekly Exp,SBC,NTSK,3578,4095,True,True,True,False,False
+16312,KOCHUVELI - BIKANER Express,KCVL,BKN,3002,3285,True,True,True,False,False
+16515,Yesvantpur - Karwar Express,YPR,KAWR,794,930,False,False,False,False,True
+17038,BIKANER - SECUNDERABAD Express,BKN,SC,2113,2470,True,True,True,False,False
+17310,VASCO DA GAMA - YESVANTPUR Exp,VSG,YPR,700,880,True,True,True,False,False
+17609,PATNA - PURNA Exp,PNBE,PAU,1819,1915,True,True,True,False,False
+18029,MUMBAI LTT [Kurla] - KOLKATA SALIMAR Exp,LTT,SHM,1951,2305,True,True,True,False,False
+18048-Slip,Amaravati Express,VSG,KCG,853,1310,True,False,True,False,False
+18101,Tatanagar Jammu Tawi Express,TATA,JAT,2026,2810,True,True,True,False,False
+18102-Slip,Jammu-Tata Muri Express Slip,JAT,TATA,2026,2630,True,True,True,False,False
+18103,Jallianwalabagh Express,TATA,ASR,1749,1995,True,True,True,False,False
+18181,Tata-Chapra Express,TATA,CPR,636,1125,True,True,False,False,False
+18181-Slip,Tata-Chapra Express Slip,TATA,KIR,600,1005,True,True,False,False,False
+18182,Chhapra-Tata Express,CPR,TATA,636,1070,True,True,False,False,False
+18183,Tata-Danapur Express,TATA,DNR,512,687,False,False,False,False,True
+18184,Danapur-Tatanagar Express,DNR,TATA,512,670,False,False,False,False,True
+18189,Tatanagar- Alappuzha (Alleppey) Express,TATA,ALLP,2358,3160,True,True,True,False,False
+18202,Nautanwa-Durg Nautanwa Express,NTV,DURG,1224,1650,True,True,True,False,False
+18203,Betwa Express,DURG,CNB,885,1045,True,True,True,False,False
+18204,Betwa Express,CNB,DURG,885,1130,True,True,True,False,False
+18206,Nautanwa-Durg Express,NTV,DURG,1152,1750,True,True,True,False,False
+18233,INDORE - BILASPUR Narmada Exp,INDB,BSP,1010,1475,True,True,True,True,False
+18234,BILASPUR - INDORE Narmada Exp,BSP,INDB,1010,1485,True,True,True,True,False
+18237,Chhattisgarh Express,BSP,ASR,2008,2515,True,True,True,True,False
+18238,Chhattisgarh Express,ASR,BSP,2022,2645,True,True,True,True,False
+18238-Slip,Chhattisgarh Express Slip,ASR,CWA,1557,2175,True,True,True,True,False
+18242,Ambikapur Durg Express Cum Passenger,ABKP,DURG,469,695,True,True,True,False,False
+18302-Slip,Sambalpur Express Slip,RGDA,PURI,695,1005,True,False,False,False,False
+18401,Puri - Okha (Weekly) Express,PURI,OKHA,2779,3270,True,True,True,False,False
+18410,Sri Jagannath Express,PURI,HWH,502,560,True,True,True,False,False
+18417,Jharsuguda-Bhubaneswar Rajya Rani Express,JSG,BBS,341,510,True,True,True,False,False
+18418,Bhubaneswar-Jharsuguda Rajya Rani Express,BBS,JSG,341,445,True,True,True,False,False
+18447,Hirakhand Express,BBS,JDB,785,1025,True,True,True,False,False
+18447-Slip,Hirakhand Express Slip,BBS,KRDL,935,1545,True,False,False,False,False
+18448,Hirakhand Express,JDB,BBS,785,1015,True,True,True,False,False
+18449,Baidyanathdham Express,PURI,PNBE,937,1195,True,True,True,False,False
+18450,Baidyanathdham Express,PNBE,PURI,928,1105,True,True,True,False,False
+18452,PURI - HATIA Tapaswini Exp,PURI,HTE,691,900,True,True,True,True,False
+18463,Prasanti Express,BBS,SBC,1546,1820,True,True,True,False,False
+18464,Prasanti Express,SBC,BBS,1546,1845,True,True,True,False,False
+18495,Rameswaram-Bhubaneswar Express,RMM,BBS,1892,2085,True,True,True,False,False
+18496,Bhubaneswar-Rameswaram Weekly Express,BBS,RMM,1892,2155,True,True,True,False,False
+18602,Jammu Tawi-Rourkela Express,MURI,HTE,67,105,True,True,True,False,False
+18604,Bhagalpur Ranchi Express,BGP,RNC,507,760,True,True,False,False,False
+18605,Ranchi-Jaynagar Express,RNC,JYG,612,895,True,True,True,False,False
+12610,BANGALORE - CHENNAI CENT SF Intercity Exp,SBC,MAS,362,390,False,False,False,False,True
+16526,BANGALORE - KANNIYAKUMARI Island Exp,SBC,CAPE,944,1280,True,True,True,False,False
+18309,Nagavali Express,SBP,NED,1479,1775,True,True,True,False,False
+18402,Okha Puri Weekly Express,OKHA,PURI,2779,3060,True,True,True,False,False
+18405,PURI - AHMEDABAD Exp,PURI,ADI,1992,2235,True,True,True,False,False
+18406,AHMEDABAD - PURI Exp,ADI,PURI,1992,2375,True,True,True,False,False
+18413,Paradip Puri InterCity Express,PRDP,PURI,174,285,False,False,False,False,True
+18414,Puri Paradip InterCity Express,PURI,PRDP,174,250,False,False,False,False,True
+18415,Banspani-Puri InterCity,BSPX,PURI,334,447,False,False,False,False,True
+18416,Puri-Banspani InterCity,PURI,BSPX,334,480,False,False,False,False,True
+18419,Puri-Darbhanga Weekly Express,PURI,DBG,942,1265,True,True,True,False,False
+18420,Darbhanga-Puri Weekly Express,DBG,PURI,942,1220,True,True,True,False,False
+18425,PURI - DURG Exp,PURI,DURG,786,960,True,True,True,False,False
+18426,DURG - PURI Exp,DURG,PURI,786,1010,True,True,True,False,False
+18452-Slip,Tapaswini Express Slip,PURI,RGDA,696,1000,True,False,False,False,False
+18473,PURI - JODHPUR Express,PURI,JU,2433,2790,True,True,True,True,False
+18477,Utkal Express,PURI,HW,2379,2850,True,True,True,False,False
+18478,Utkal Express,HW,PURI,2378,2915,True,True,True,False,False
+18507,VISAKHAPATNAM - AMRITSAR Hirakud Exp,VSKP,ASR,2574,2885,True,True,True,False,False
+18509,Visakhapatnam-Nanded Express,VSKP,NED,973,1135,True,True,True,False,False
+18510,Nanded-Visakhapatnam Express,NED,VSKP,973,1080,True,True,True,False,False
+18517,Korba Visakhapatnam Express,KRBA,VSKP,731,920,True,True,True,False,False
+18518,Visakhapatnam-Korba Express,VSKP,KRBA,728,910,True,True,True,False,False
+18601,Rourkela-JammuTawi Express,ROU,JAT,2158,3025,True,True,True,False,False
+18603,Ranchi-Bhagalpur Tri-Weekly Express,RNC,BGP,514,770,True,True,False,False,False
+18606,Jaynagar-Ranchi Express,JYG,RNC,612,870,True,True,True,False,False
+18617,Howrah-Ranchi Intercity,HWH,RNC,462,475,False,False,False,False,True
+18621,Patliputra Express,PNBE,HTE,547,820,True,True,True,False,False
+18624,Hatia-Rajendranagar Express,HTE,RJPB,421,710,True,True,True,True,False
+18625,Patna-Hatia Super Express,PNBE,HTE,418,555,False,False,False,False,True
+18626,Hatia-Patna Super Express,HTE,PNBE,415,570,False,False,False,False,True
+18627,Howrah-Ranchi InterCity Express,HWH,RNC,423,480,False,False,False,False,True
+18628,Ranchi-Howrah InterCity Express,RNC,HWH,423,475,False,False,False,False,True
+18646,East Coast Express,HYB,HWH,1592,1810,True,True,True,False,False
+19005,Saurashtra Mail,BCT,OKHA,990,1175,True,True,True,True,False
+19005-Slip,Saurashtra Mail,BCT,VRL,923,1160,True,True,True,True,False
+19006,Saurashtra Mail,OKHA,BCT,990,1155,True,True,True,True,False
+19017,Saurashtra Janata Express,BDTS,JAM,812,955,True,True,True,False,False
+19039,Awadh Express,BDTS,MFP,2153,2830,True,True,True,False,False
+19040,Awadh Express,MFP,BDTS,2153,2785,True,True,True,False,False
+19049,MUMBAI BANDRA T - PATNA Exp,BDTS,PNBE,1845,2145,True,True,True,False,False
+19050,PATNA - MUMBAI BANDRA T Exp,PNBE,BDTS,1845,2050,True,True,True,False,False
+19051,VALSAD - MUZAFFARPUR Shramik Exp,BL,MFP,1729,2030,True,True,True,False,False
+19052,MUZAFFARPUR - VALSAD Shramik Exp,MFP,BL,1732,1955,True,True,True,False,False
+19053,SURAT - MUZAFFARPUR Exp,ST,MFP,2135,2820,True,True,False,False,False
+19054,MUZAFFARPUR - SURAT Exp,MFP,ST,2136,2740,True,True,False,False,False
+12904,Golden Temple Mail,ASR,BCT,1891,1930,True,True,True,True,False
+13006,Amritsar Howrah Mail,ASR,HWH,1910,2195,True,True,True,True,False
+18609,RANCHI - MUMBAI LTT Exp,RNC,LTT,2012,2340,True,True,True,False,False
+18610,MUMBAI LTT - RANCHI Exp,LTT,RNC,2012,2375,True,True,True,False,False
+18611,Ranchi-Varanasi Express,RNC,BSB,572,765,True,False,False,False,False
+18615,HOWRAH - HATIA Kriya Yoga Express,HWH,HTE,423,555,True,True,True,True,False
+18622,Patliputra Express,HTE,PNBE,547,860,True,True,True,False,False
+18623,Patna Rajendra Nagar-Hatia Express,RJPB,HTE,421,685,True,True,True,True,False
+18623-Slip,Hatia Express Slip,RJPB,BRKA,365,675,True,False,False,False,False
+18631,Ranchi Garib Nawaz Express,RNC,AII,1671,1990,True,True,False,False,False
+18632,Garib Nawaz Express,AII,RNC,1671,1965,True,True,False,False,False
+19011,Gujarat Express,BCT,ADI,491,560,False,False,False,False,True
+19012,Gujarat Express,ADI,BCT,491,570,False,False,False,False,True
+19018,Saurashtra Janata Express,JAM,BDTS,812,965,True,True,True,False,False
+19019,Bandra T - Dehradun Express,BDTS,DDN,1682,2515,True,True,True,False,False
+19020,Dehradun - Bandra Terminus Express,DDN,BDTS,1682,2505,True,True,True,False,False
+19023,Mumbai Firozpur Janata Express,BCT,FZR,1772,2335,True,False,False,False,False
+19024,Firozpur Mumbai Janata Express,FZR,BCT,1770,2380,True,False,False,False,False
+19025-Slip,Surat Bhavnagar Express Slip Slip,ST,BVC,526,715,True,True,False,False,False
+19026,Bhavnagar Surat (Slip) Express,MHV,ST,629,735,True,False,False,False,False
+19037,Awadh Express,BDTS,GKP,1844,2340,True,True,True,False,False
+19038,Awadh Express,GKP,BDTS,1844,2365,True,True,True,False,False
+19048,BHAGALPUR - SURAT Tapti Ganga Exp,BGP,ST,1826,2015,True,True,False,False,False
+19059,Surat-Jamnagar InterCity Express,ST,JAM,561,624,False,False,False,False,True
+19060,Jamnagar-Surat InterCity Express,JAM,ST,561,610,False,False,False,False,True
+19116,BHUJ - MUMBAI BANDRA Sayaji Nagari Exp,BHUJ,BDTS,839,940,True,True,True,False,False
+19132,BHUJ - MUMBAI BANDRA Kutch Exp,BHUJ,BDTS,839,940,True,True,True,False,False
+19215,Saurashtra Express,BCT,PBR,955,1290,True,True,False,False,False
+19216,Saurashtra Express,PBR,BCT,955,1330,True,True,False,False,False
+19223,AHMEDABAD - JAMMU TAWI Exp,ADI,JAT,1476,1935,True,True,True,False,False
+19224,JAMMU TAWI - AHMEDABAD Exp,JAT,ADI,1476,1880,True,True,True,False,False
+19225,Bhatinda Jammu Tawi Express,BTI,JAT,490,695,True,True,True,False,False
+19226,Jammu Tawi Bhatinda Express,JAT,BTI,490,725,True,True,True,False,False
+19259,KOCHUVELI - BHAVNAGAR Exp,KCVL,BVC,2569,2745,True,True,True,False,False
+19260,BHAVNAGAR - KOCHUVELI Exp,BVC,KCVL,2569,2745,True,True,True,False,False
+19263,Porbandar-Delhi Sarai Rohilla (Biweekly) Express,PBR,DEE,1392,1710,True,True,True,False,False
+19264,Delhi SaraiRohilla-Porbandar Express,DEE,PBR,1392,1715,True,True,True,False,False
+19269,Porbandar Muzaffarpur Express,PBR,MFP,2470,3065,True,True,True,False,False
+19270,Muzaffarpur-Porbandar Express,MFP,PBR,2470,3025,True,True,True,False,False
+19305,Shipra Express,INDB,HWH,1754,1875,True,True,True,False,False
+19309,Shanti Express,GNC,INDB,571,700,True,True,True,False,False
+19310,Shanti Express,INDB,GNC,571,675,True,True,True,False,False
+19313,Indore-Patna Express,INDB,PNBE,1357,1580,True,True,True,False,False
+15708,Amrapali Express,ASR,KIR,1805,2215,True,True,True,False,False
+18451,HATIA - PURI Tapaswini Exp,HTE,PURI,691,910,True,True,True,True,False
+19105,Ahmedabad-Haridwar Mail,ADI,HW,1208,1570,True,True,True,True,False
+19107,Ahmedabad-Udhampur Janmabhoomi Express,ADI,UHP,1539,1995,True,True,True,True,False
+19108,Udhampur-Ahmedabad Janmabhoomi Express,UHP,ADI,1539,2050,True,True,True,True,False
+19109,Gujarat Queen Express,BL,ADI,298,370,False,False,False,False,True
+19110,Gujarat Queen Express,ADI,BL,298,380,False,False,False,False,True
+19143,Lokshakti Express,BDTS,ADI,481,550,True,True,True,False,False
+19144,Lokshakti Express,ADI,BDTS,481,540,True,True,True,False,False
+19165,Sabarmati Express,ADI,DBG,1944,2785,True,False,True,False,False
+19166,Sabarmati Express,DBG,ADI,1944,2845,True,False,True,False,False
+19167,Sabarmati Express,ADI,BSB,1598,2220,True,False,True,False,False
+19168,Sabarmati Express,BSB,ADI,1598,2285,True,False,True,False,False
+19221,Ahmedabad-Veraval Somnath Express,ADI,VRL,432,500,True,True,True,False,False
+19222,Veraval-Ahmedabad Somnath Express,VRL,ADI,432,500,True,True,True,False,False
+19311,Pune Indore Express,PUNE,INDB,972,1090,True,True,True,False,False
+19312,Indore Pune Express,INDB,PUNE,972,1090,True,True,True,False,False
+19314,Patna Indore Express,RJPB,INDB,1359,1690,True,True,True,False,False
+19322,Patna-Indore Express,RJPB,INDB,1400,1690,True,True,True,False,False
+19323,Indore Habibganj InterCity Express,INDB,HBJ,224,240,False,False,False,False,True
+19565,Uttaranchal Express,OKHA,DDN,1680,2120,True,False,True,False,False
+19566,Uttranchal Express,DDN,OKHA,1680,2075,True,False,True,False,False
+19571,Rajkot-Porbandar Express,RJT,PBR,202,280,False,False,False,False,True
+19572,Porbandar-Rajkot Express,PBR,RJT,202,250,False,False,False,False,True
+19601,Ajmer New Jalpaiguri Weekly Express,AII,NJP,1936,2165,True,True,True,False,False
+19602,New Jalpaiguri Ajmer Weekly Express,NJP,AII,1936,2235,True,True,True,False,False
+19603,Ajmer-Sultanpur Weekly Express,AII,SLN,1068,1230,True,True,True,False,False
+19604,Sultanpur Ajmer Express,SLN,AII,1068,1230,True,True,True,False,False
+19657,Indore Jn - Udaipur Express,INDB,UDZ,479,655,True,True,True,False,False
+19658,Udaipur Indore Express,UDZ,INDB,479,720,True,True,True,False,False
+19707,Aravalli Express,BDTS,JP,1106,1305,True,True,True,False,False
+19708,Aravalli Express,JP,BDTS,1106,1305,True,True,True,False,False
+19709,JAIPUR - KAMAKHYA Kavi Guru Exp,JP,KYQ,2212,2885,True,True,True,False,False
+19710,KAMAKHYA - JAIPUR Kavi Guru Exp,KYQ,JP,2212,2800,True,True,True,False,False
+19711,Jaipur-Bhopal Express,JP,BPL,790,1070,True,True,True,False,False
+19712,Bhopal Jaipur Express,BPL,JP,790,995,True,True,True,False,False
+19771,Jaipur - Amritsar Express,JP,ASR,872,1115,True,True,False,False,False
+19781,Jaipur-Amritsar Express,JP,ASR,713,860,True,True,False,False,False
+19802,Indore-Kota InterCity Express,INDB,KOTA,433,515,False,False,False,False,True
+19943,UDAIPUR - AHMEDABAD Exp,UDZ,ADI,298,540,True,False,True,False,False
+19944,AHMEDABAD - UDAIPUR Exp,ADIJ,UDZ,298,545,True,False,True,False,False
+12946,MAHUVA - SURAT SF Exp,MHV,ST,1409,1515,True,True,False,False,False
+18104,Jallianwalabagh Express,ASR,TATA,1745,1975,True,True,True,False,False
+18302,Sambalpur Express,RGDA,SBP,322,390,False,False,False,False,True
+18303,SAMBALPUR - PURI Intercity Exp,SBP,PURI,341,395,False,True,False,False,True
+19324,Habibganj Indore InterCity Express,HBJ,INDB,224,250,False,False,False,False,True
+19325,Indore Amritsar (Weekly) Express,INDB,ASR,1344,1635,True,True,True,False,False
+19326,Amritsar Indore Express,ASR,INDB,1337,1480,True,True,True,False,False
+19327,Ratlam Chittaurgarh Express,RTM,COR,189,250,True,False,False,False,False
+19328,Chittaurgarh Ratlam Express,COR,RTM,189,235,True,False,False,False,False
+19567,TUTICORIN - OKHA Exp,TN,OKHA,2535,2810,True,True,True,False,False
+19568,OKHA - TUTICORIN Exp,OKHA,TN,2548,3085,True,True,True,False,False
+19569,Okha Varanasi Express,OKHA,BSB,2041,2355,True,True,True,False,False
+19570,Varanasi Okha Weekly Express,BSB,OKHA,2041,2380,True,True,True,False,False
+19653,Ratlam-Ajmer Express,RTM,AII,375,450,True,True,False,False,False
+19654,Ajmer-Ratlam Express,AII,RTM,375,450,True,True,False,False,False
+19772,Amritsar - Jaipur Express,ASR,JP,872,1020,True,True,False,False,False
+19782,Amritsar-Jaipur Express,ASR,JP,713,820,True,True,False,False,False
+21028,Solapur-Gondia Slip Exp.,SUR,G,1132,1555,True,False,False,False,False
+21107,Khajuraho-Varanasi Bundelkhand Link Express,KURJ,BSB,453,690,True,True,False,False,False
+21108,Bundelkhand Link Express,BSB,KURJ,453,655,True,True,False,False,False
+21125,Indore Bhind Express,INDB,BIX,644,860,True,True,True,False,False
+21126,Bhind Indore Express,BIX,INDB,644,880,True,True,True,False,False
+22131,PUNE - MANDUADIH Gyan Ganga Exp,PUNE,MUV,1537,1625,True,True,True,False,False
+22132,MANDUADIH - PUNE Gyan Ganga Exp,MUV,PUNE,1537,1650,True,True,True,False,False
+22162,Damoh Bhopal Rajya Rani Express,DMO,BPL,291,305,False,False,False,False,True
+22410,Anand ViharT Delhi-Sasaram GaribRath Express,ANVT,SSM,874,780,False,True,False,False,False
+22424,New Delhi-Guwahati Rajdhani Express,NDLS,GHY,1879,1640,False,True,True,True,False
+22463,Rajasthan Sampark Kranti Express,MTD,BKN,173,230,True,True,True,False,False
+22471,Bikaner - Delhi Sarai Rohilla SF Intercity Express,BKN,DEE,458,490,True,True,True,False,False
+22472,Delhi Sarai Rohilla - Bikaner SF Intercity Express,DEE,BKN,458,490,True,True,True,False,False
+22601,CHENNAI CENT - SAINAGAR SHIRDI SF Exp,MAS,SNSI,1392,1520,True,True,True,False,False
+22608,BANGALORE - ERNAKULAM Weekly SF Exp,SBC,ERS,625,665,True,True,True,False,False
+22681,MYSORE - CHENNAI Weekly SF Exp,MYS,MAS,500,545,True,True,True,False,False
+22682,CHENNAI - MYSORE Weekly SF Exp,MAS,MYS,500,545,True,True,True,False,False
+22811,Bhubaneshwar-New Delhi Rajdhani Express,BBS,NDLS,1724,1385,False,True,True,True,False
+22812,New Delhi-Bhubaneswar Rajdhani Express,NDLS,BBS,1724,1360,False,True,True,True,False
+22835,Shalimar-Puri Express,SHM,PURI,500,535,True,True,True,False,False
+22836,Puri-Shalimar weekly superfast express,PURI,SHM,500,545,True,True,True,False,False
+22845,PUNE - HATIA SF Exp,PUNE,HTE,1774,1825,True,True,True,False,False
+22846,HATIA - PUNE SF Exp,HTE,PUNE,1774,1845,True,True,True,False,False
+22855,Santragachi-Tirupati Superfast Express,SRC,TPTY,1597,1555,True,True,True,False,False
+22856,TirupatiSantragachi Superfast Express,TPTY,SRC,1597,1575,True,True,True,False,False
+22905,Okha Howrah Triweekly SF Express,OKHA,HWH,2586,2790,True,True,False,False,False
+18310,Nagavali Express,NED,SBP,1479,1680,True,True,True,False,False
+22403,Puducherry-New Delhi SF Express,PDY,NDLS,2384,2575,True,True,True,False,False
+22405,Bhagalpur - Delhi AnandVihar T. Garib Rath Express,BGP,ANVT,1207,1135,False,True,False,False,True
+22407,Varanasi-Delhi Anand Vihar Terminus Garib Rath,BSB,ANVT,781,870,False,True,False,False,False
+22408,Delhi Anand Vihar Terminus-Varanasi Garib Rath,ANVT,BSB,781,835,False,True,False,False,False
+22409,Sasaram-Anand ViharT Delhi GariRath Express,SSM,ANVT,874,875,False,True,False,False,False
+22423,Guwahati-New Delhi Rajdhani Express,GHY,NDLS,1880,1625,False,True,True,True,False
+22447,Khajuraho Nizamuddin Express,KURJ,NZM,604,670,True,True,False,False,False
+22481,Jodhpur-Delhi Sarai Rohilla Express,JU,DEE,622,635,True,True,True,False,False
+22482,Delhi Sarai Rohilla-Jodhpur Express,DEE,JU,622,645,True,True,True,False,False
+22609,Mangalore - Palghat Intercity Express,MAQ,PGT,352,375,False,False,False,False,True
+22610,Palghat Mangalore Intercity,PGT,MAQ,352,375,False,False,False,False,True
+22688,Chandigarh Chennai Express,CDG,MAS,2509,2550,True,True,False,False,False
+22815,Bilaspur-Ernakulam Express,BSP,ERS,2155,2245,True,True,True,False,False
+22816,Ernakulam-Bilaspur Express,ERS,BSP,2156,2225,True,True,True,False,False
+22853,Kolkata Shalimar-Visakhapatnam Superfast express,SHM,VSKP,880,845,True,True,True,False,False
+22854,Visakhapatnam-Shalimar Express,VSKP,SHM,880,825,True,True,True,False,False
+22926,Paschim Express,KLK,BDTS,1676,1735,True,True,False,False,False
+22996,Ajmer Bandra SF Express,AII,BDTS,1017,1080,True,True,False,False,False
+23112,Giridih Kolkata Express,GRD,KOAA,335,520,True,True,False,False,False
+23142,Teesta Torsa Express,HDB,SDAH,628,920,True,False,False,False,False
+23154,Gour Express,BLGT,SDAH,454,735,True,True,False,False,False
+24033,Jammu Mail,DLI,HSX,411,605,True,False,False,False,False
+24034,Jammu Mail,HSX,DLI,411,635,True,False,False,False,False
+24042,KOTDWAR - NAJIBABAD Mussoorie Exp,KTW,DEE,243,635,True,True,False,False,False
+24887,Haridwar-Barmer Link Express,HW,BME,1169,1495,True,True,False,False,False
+24888,Barmer-Haridwar Link Express,BME,HW,1169,1605,True,True,False,False,False
+25014,Corbett Park Link Express,RMR,DLI,239,360,True,True,False,False,False
+25036,Ramnagar Delhi Link Express,RMR,DLI,239,330,False,True,False,False,False
+25610,Jivachh Link Express,DBG,GHY,877,1350,True,True,False,False,False
+25715,Radhikapur Delhi Link Express,RDP,DLI,1372,1850,True,False,False,False,False
+28242,Chirmiri Durg Express Cum Pass,CHRM,DURG,381,785,True,False,False,False,False
+28624,Barkakana Rajendranagar Slip Express,BRKA,RJPB,365,880,True,False,False,False,False
+29019,Nimach Kota Link Exp,NMH,MTC,755,1065,True,False,True,True,False
+29020,Dehradun Express Slip,MTC,NMH,755,1075,True,False,True,True,False
+15657,KOLKATA SEALDAH - GUWAHATI KanchanJungha Exp,SDAH,GHY,975,1315,True,True,True,False,False
+23010,Doon Express,KTW,HWH,1461,1975,True,False,False,False,False
+23111,Danapur Express,GRD,DNR,298,505,True,False,False,False,False
+23225,InterCity Link Express,SHC,DNR,229,470,False,False,False,False,True
+23226,InterCity Link Express,DNR,SHC,229,420,False,False,False,False,True
+23347,Palamu Express,SGRL,PNBE,481,750,True,True,False,False,False
+23348,Palamau Express (Slip),GHD,SGRL,201,330,True,True,False,False,False
+24227,Varuna Express,BSB,CNB,355,400,False,False,False,False,True
+24228,Varuna Express,CNB,BSB,355,440,False,False,False,False,True
+24369,Triveni Express,SKTN,BE,742,1115,True,False,True,False,False
+24370,Triveni Express,BE,SKTN,741,1190,True,False,True,False,False
+24370-Slip,Triveni Express Slip,BE,BRWD,862,1365,True,False,False,False,False
+25716,Garib Nawaz Express,KIR,RDP,92,145,True,True,False,False,False
+28181,Barauni-Katihar Slip Express,BJU,KIR,180,305,True,False,False,False,False
+28182,Katihar-Tatanagar Link Express,KIR,TATA,600,940,True,False,False,False,False
+29059,Hapa InterCity Express,ST,HAPA,552,597,False,False,False,False,True
+29060,Surat InterCity Express,HAPA,ST,552,600,False,False,False,False,True
+18304,PURI - SAMBALPUR Intercity Exp,PURI,SBP,341,390,False,False,False,False,True
+18312,VARANASI - SAMBALPUR Exp,BSB,SBP,896,1225,True,True,True,False,False
+12288,DEHRADUN - KOCHUVELI SF Express,DDN,KCVL,3459,3450,True,True,False,False,False
+12665,HOWRAH - KANNIYAKUMARI SF Exp,HWH,CAPE,2431,2610,True,True,True,False,False
+12778,TRIVANDRUM KOCHUVELI - HUBLI SF Exp,KCVL,UBL,1307,1435,True,True,True,False,False
+14707,BIKANER - MUMBAI BANDRA Ranakpur Exp,BKN,BDTS,1212,1525,True,True,True,False,False
+16352,NAGERCOIL - MUMBAI CST Balaji Exp,NCJ,CSTM,1967,2410,True,True,True,False,False
+16723,CHENNAI EGMORE - TRIVANDRUM Anantapuri Exp,MS,TVC,798,950,True,True,True,True,False
+12952,Mumbai Rajdhani Express,NDLS,BCT,1384,965,False,True,True,True,False
+22404,New Delhi-Puducherry SF Exp,NDLS,PDY,2384,2575,True,True,True,False,False
+56214,TIRUPATI - CHAMARAJANAGAR Fast Passenger,TPTY,CMNR,535,955,True,False,False,False,False
+12393,Sampoorna Kranti Express,RJPB,NDLS,1001,900,True,True,True,True,False
+15235,Howrah-Darbhanga Express,HWH,DBG,536,670,True,True,True,False,False
+18612,Varanasi-Ranchi Express,BSB,RNC,575,805,True,False,False,False,False
+51027,MumbaiCST-Pandharpur Fast Passenger,CSTM,PVR,429,645,True,False,False,False,False
+51028,Pandharpur-Mumbai Fast Passenger,PVR,CSTM,429,615,True,False,False,False,False
+51029,Bijapur Fast Passenger,CSTM,BJP,565,835,True,False,False,False,False
+51030,Bijapur Mumbai Fast Passenger,BJP,CSTM,564,790,True,False,False,False,False
+51033,Mumbai Sainagar Shirdi Fast Pass(Via Daund),CSTM,SNSI,455,720,True,True,False,False,False
+51034,Sainagar Shirdi-Mumbai Fast Passenger(Via Daund),SNSI,CSTM,455,690,True,True,False,False,False
+51116,Dhule Dadar Passenger Composite,DHI,DR,375,520,True,True,False,False,False
+51187,BHUSAVAL - KATNI Passenger,BSL,KTE,657,1075,True,False,False,False,False
+12434,Delhi H.Nizamuddin-Chennai Central Rajdhani Expres,NZM,MAS,2176,1695,False,True,True,True,False
+51401,Pune Manmad Passenger(Via Daund),PUNE,MMR,313,560,True,False,False,False,False
+51402,Manmad-Pune Passenger(Via Daund),MMR,PUNE,313,580,True,False,False,False,False
+12368,Vikramshila Express,ANVT,BGP,1206,1305,True,True,True,True,False
+51445,Pandharpur Miraj Passenger,PVR,MRJ,137,160,True,False,False,False,False
+51450,Solapur Pune Passenger,SUR,PUNE,264,435,True,False,False,False,False
+51455,Pune Solapur Passenger,PUNE,SUR,264,510,True,False,False,False,False
+51751,Rewa Bilaspur Fast Passenger,REWA,BSP,466,795,True,False,False,False,False
+51752,Bilaspur Rewa Fast Passenger,BSP,REWA,466,775,True,False,False,False,False
+51753,Rewa Chirmiri Fast Passenger,REWA,CHRM,401,745,True,False,False,False,False
+51754,Chirmiri Rewa Fast Passenger,CHRM,REWA,401,945,True,False,False,False,False
+14055,DIBRUGARH - OLD DELHI Brahmaputra Exp,DBRG,DLI,2589,3295,True,True,True,False,False
+15959,HOWRAH - DIBRUGARH Kamrup Exp,HWH,DBRG,1528,2170,True,True,True,False,False
+16311,BIKANER - KOCHUVELI Express,BKN,KCVL,3002,3285,True,True,True,False,False
+18005,HOWRAH - JAGDALPUR Samaleshwari Exp,HWH,JDB,1057,1370,True,True,True,True,False
+52563,Agartala Silchar Passenger,AGTL,SCL,257,615,False,False,False,False,True
+52564,Silchar Agartala Passenger,SCL,AGTL,257,555,False,False,False,False,True
+52575,Agartala Dharmanagar Passenger,AGTL,DMR,141,240,False,False,False,False,True
+52576,Dharmanagar Agartala Passenger,DMR,AGTL,141,250,False,False,False,False,True
+52579,Agartala Dharmanagar Passenger,AGTL,DMR,141,235,False,False,False,False,True
+52580,Dharmanagar Agartala Passenger,DMR,AGTL,141,260,False,False,False,False,True
+52927,Udaipur Ahmedabad Fast Passenger,UDZ,ADI,298,690,True,False,False,False,False
+22464,Rajasthan Sampark Kranti Express,BKN,DEE,685,740,True,True,True,False,False
+52962,Mhow Ratlam Fast Passenger,MHOW,RTM,147,285,True,False,False,False,False
+52965,Ratlam Mhow Fast Passenger,RTM,MHOW,147,255,True,False,False,False,False
+52973,Ratlam Akola Passenger,RTM,AK,431,1050,True,False,False,False,False
+52975,Ratlam Akola Passenger,RTM,AK,431,990,True,False,False,False,False
+52976,Akola Ratlam Fast Pass,AK,RTM,431,925,True,False,False,False,False
+15632-Slip,Guwahati Barmer Express Slip,GHY,BKN,2333,2655,True,True,True,False,False
+18508,AMRITSAR - VISAKHAPATNAM Hirakud Exp,ASR,VSKP,2574,2885,True,True,True,False,False
+25631,Bikaner Guwahati Express,BKN,GHY,2333,2850,True,True,False,False,False
+52987,Mhow Akola Fast Passenger,MHOW,AK,292,815,True,False,False,False,False
+52988,Akola Mhow Fast Passenger,AK,MHOW,292,765,True,False,False,False,False
+52993,Mhow Akola Passenger,MHOW,AK,292,730,True,False,False,False,False
+52994,Akola Mhow Passenger,AK,MHOW,292,680,True,False,False,False,False
+53003,Howrah Malda Town Fast Passenger,HWH,MLDT,339,625,True,False,False,False,False
+53047,Viswabharati Fast Passenger,HWH,RPH,219,295,False,False,False,False,True
+53048,Viswabharati Fast Passenger,RPH,HWH,219,300,False,False,False,False,True
+18047,HOWRAH - VASCO DA GAMA Amravati Exp,HWH,VSG,2147,2370,True,True,True,False,False
+51196,Ballarshah Wardha Mumbai Passenger,BPQ,CSTM,891,1110,True,True,False,False,False
+53139,KolkataChitpur-Chittaranjan Passenger,KOAA,CRJ,241,340,True,False,False,False,False
+53140,Chittranjan-KolkataChitpur Passenger,CRJ,KOAA,241,305,True,False,False,False,False
+53172,Lalgola Sealdah Passenger,LGL,SDAH,227,430,True,False,False,False,False
+53181,Lalgola Passenger,SDAH,LGL,227,355,True,False,False,False,False
+13071,Jamalpur Express,HWH,JMP,467,575,True,True,True,True,False
+18235,Bilaspur Express Cum Passenger,BPL,BSP,717,1325,True,False,False,False,False
+18409,Sri Jagannath Express,HWH,PURI,502,580,True,True,True,False,False
+18645,East Coast Express,HWH,HYB,1592,1845,True,True,True,False,False
+19306,Shipra Express,HWH,INDB,1754,1915,True,True,True,False,False
+22308,Bikaner-Howrah SF Express,BKN,HWH,1882,1995,True,True,False,False,False
+23040,Rajgir Howrah Passenger,RGD,HWH,552,840,True,False,False,False,False
+53049,Howrah Mokameh Passenger,HWH,MKA,455,740,True,False,False,False,False
+11055,MUMBAI LTT - GORAKHPUR Exp,LTT,GKP,1733,2000,True,True,True,False,False
+11107,Gwalior-Varanasi Bundelkhand Express,GWL,BSB,624,850,True,True,True,True,False
+57517,Hyderabad-Tandur Passenger,HYB,TDU,116,160,True,False,False,False,False
+54077,Bareilly Delhi Passenger,BE,DLI,274,595,True,False,False,False,False
+54078,Shajahanpur Passenger Slip Ex Bareilly,DLI,BE,274,555,True,False,False,False,False
+54075,Sitapur Delhi Passenger,SPC,DLI,409,780,True,False,False,False,False
+54076,Delhi - Sitapur Cant Passenger,DLI,SPC,409,835,True,False,False,False,False
+54251,Lucknow Saharanpur Passenger,LKO,SRE,519,1115,True,False,False,False,False
+12285,Secunderabad- Hazrat Nizamuddin Duronto Express,SC,NZM,1660,1265,True,True,True,True,False
+12918,Gujarat Sampark Kranti Express,NZM,ADI,1085,990,True,True,True,False,False
+17002,Secunderabad Sainagar Shirdi Express,SC,SNSI,776,995,True,True,True,False,False
+17050-Slip,Machilipatnam Express Slip,SC,MUGR,331,500,True,True,True,False,False
+22111,Bhusaval Nagpur (Triweekly) Express,BSL,NGP,604,625,False,False,False,False,True
+58838,Chhindwara Ramakon Nagpur Passenger,CWA,NGP,148,350,True,False,False,False,False
+54601,Hisar Amritsar Passenger,HSR,ASR,346,670,True,False,False,False,False
+54701,Bhatinda Lalgarh Passenger,BTI,LGH,321,475,True,False,False,False,False
+54702,Bikaner Abohar Passenger,LGH,ABS,394,560,True,False,False,False,False
+54703,Abohar Jodhpur passenger,ABS,JU,675,1080,True,False,False,False,False
+54805,Ahmedabad Ajmer Passenger,ADI,AII,496,970,True,False,False,False,False
+54806,Ajmer Ahmedabad Passenger,AII,ADI,496,1050,True,False,False,False,False
+54811,Bhopal Jodhpur Passenger,BPL,JU,993,1620,True,False,False,False,False
+54812,Jodhpur Bhopal Passenger,JU,BPL,993,1605,True,False,False,False,False
+54801,JODHPUR - AJMER Fast Passenger,JU,AII,244,355,True,True,False,False,False
+54802,AJMER - JODHPUR Fast Passenger,AII,JU,244,300,True,True,False,False,False
+14313,MUMBAI LTT - BAREILLY Weekly Exp,LTT,BE,1608,1895,True,True,True,False,False
+55149,Gorakhpur Manduadih Passenger,GKP,MUV,235,465,True,False,False,False,False
+56213,CHAMARAJANAGAR - TIRUPATI Fast Passenger,CMNR,TPTY,535,875,True,False,False,False,False
+56263,Night Queen Passenger,MYS,SBC,139,245,True,False,False,False,False
+56264,Night Queen Passenger,SBC,MYS,139,245,True,False,False,False,False
+56503,Yesvantapur-Vijayawada Passenger,YPR,BZA,739,1300,True,False,False,False,False
+56504,Vijayawada Yesvantapur Passenger,BZA,YPR,739,1220,True,False,False,False,False
+56501,Vijayawada Hubli Passenger,BZA,UBL,693,1280,True,False,False,False,False
+56502,Hubli Vijayawada Passenger,UBL,BZA,693,1140,True,False,False,False,False
+56700,Madurai-Kollam Passenger,MDU,QLN,366,615,True,False,False,False,False
+56701,Madurai Passenger,QLN,MDU,366,690,True,False,False,False,False
+14523,Harihar Express,MFP,UMB,1201,1470,True,True,False,False,False
+56904,Dharwar Solapur Passenger,DWR,SUR,378,590,True,False,False,False,False
+56909,Bangalore Hospet Passenger,SBC,UBL,469,750,True,False,False,False,False
+56909-Slip,Bangalore Hospet Passenger Slip,SBC,HPT,529,865,True,False,False,False,False
+56910,Bangalore Passenger,HPT,SBC,529,945,True,False,False,False,False
+56912,Hubli Bangalore Passenger,UBL,SBC,469,715,True,False,False,False,False
+56915,Hubli Passenger Slip,JRU,UBL,189,320,True,False,False,False,False
+57129,Bijapur-Bolarum Passenger,BJP,BMO,456,865,True,False,False,False,False
+57130,Hyderabad Bijapur Passenger,HYB,BJP,444,890,True,False,False,False,False
+57140,Link Secunderabad Express,MUGR,SC,331,495,True,True,True,False,False
+57229,Machilipatnam Visakhapatnam Fast Passenger,MTM,VSKP,373,585,True,False,False,False,False
+57230,Visakhapatnam Machilipatnam Fast Passenger,VSKP,MTM,373,730,True,False,False,False,False
+57257,Tirupati Kakinada Port Passenger,TPTY,COA,601,1180,True,False,False,False,False
+57258,Kakinada Port Tirupati Passenger,COA,TPTY,601,1190,True,False,False,False,False
+57271,Rayagada Passenger,BZA,RGDA,536,980,True,False,False,False,False
+57272,Rayagada Vijayawada Passenger,RGDA,BZA,536,1035,True,False,False,False,False
+57274,Tirupati Hubli InterCity Passenger,TPTY,UBL,577,910,True,False,False,False,False
+57264,Narasapur Visakhapatnam (LINK) Passenger,NS,VSKP,300,475,True,False,False,False,False
+57265,Visakhapatnam Narasapur (LINK) Passenger,VSKP,NS,300,535,True,False,False,False,False
+57273,Hubli Tirupati InterCity Passenger,UBL,TPTY,577,900,True,False,False,False,False
+57305,Kacheguda Guntur Fast Passenger,KCG,GNT,622,995,True,False,False,False,False
+57306,Guntur Secunderabad Passenger,GNT,SC,630,1020,True,False,False,False,False
+57516,Nanded-Daund Junction Passenger,NED,DD,586,905,True,False,False,False,False
+57549,Hyderabad Aurangabad Passenger,HYB,AWB,582,1005,True,False,False,False,False
+57550,Aurangabad-Hyderabad Passenger,AWB,HYB,582,935,True,False,False,False,False
+57563,Hyderabad-Parbhani PASS,HYB,PBN,340,615,True,True,False,False,False
+57564,Nanded Hyderabad Passenger,NED,HYB,281,480,True,True,False,False,False
+57619,Delta Fast Passenger,RAL,SC,341,500,True,False,False,False,False
+57625,Kakatiya Fast Passenger,SC,MUGR,331,590,True,False,False,False,False
+57626,Kakatiya Fast Passenger,MUGR,SC,331,670,True,False,False,False,False
+57640,Guntur Tirupati Passanger,GNT,TPTY,382,655,True,False,False,False,False
+57652,Repalle Secunderabad Passenger,RAL,SC,341,610,True,False,False,False,False
+58011,Howrah Chakradharpur Passenger,HWH,CKP,438,625,True,False,False,False,False
+58012,Chakradharpur Howrah Passenger,CKP,HWH,438,670,True,True,False,False,False
+58014,Bokaro Steel City-Howrah Fast Passenger,BKSC,HWH,367,720,True,True,False,False,False
+58111,TATANAGAR - ITWARI Passenger,TATA,ITR,878,1485,True,False,False,False,False
+58112,ITWARI - TATANAGAR Passenger,ITR,TATA,878,1595,True,False,False,False,False
+58220-Slip,Chirmiri Bilaspur Passenger Slip,CHRM,BPL,653,1330,True,False,False,False,False
+58221,Chirmiri Chandia Passenger,CHRM,CHD,214,325,True,False,False,False,False
+58222,Chandia Chirmiri Passenger,CHD,CHRM,214,325,True,False,False,False,False
+58220,Chirmiri Bilaspur Passenger,CHRM,BSP,238,640,True,False,False,False,False
+58501,Visakhapatnam Kirandul Passenger,VSKP,KRDL,472,885,True,False,False,False,False
+58529,Durg Visakhapatnam Passenger,DURG,VSKP,564,1095,True,False,False,False,False
+58530,Visakhapatnam Durg Passenger,VSKP,DURG,564,980,True,False,False,False,False
+58701,Shahdol Ambikapur Passenger,SDL,ABKP,216,345,True,False,False,False,False
+58702,Ambikapur Shahdol Passenger,ABKP,SDL,216,320,True,False,False,False,False
+58832,Chhindwara Ramakona Nagpur Passenger,CWA,NGP,148,365,True,False,False,False,False
+58835,Nagpur Ramakona Chhindwara Passenger,NGP,CWA,148,375,True,False,False,False,False
+58837,Nagpur Ramakona Chhindwara Passenger,NGP,CWA,148,380,True,False,False,False,False
+58839,Nagpur Nainpur Jabalpur Fast Passenger,NGP,JBP,398,1170,True,False,False,False,False
+58865,Balaghat Jabalpur Passenger,BTC,JBP,187,535,True,False,False,False,False
+58868,Jabalpur Balaghat Passenger,JBP,BTC,187,535,True,False,False,False,False
+58870,Jabalpur Balaghat Passenger,JBP,BTC,187,550,True,False,False,False,False
+58871,Balaghat Jabalpur Passenger,BTC,JBP,187,555,True,False,False,False,False
+59013,Bhusaval Passenger,ST,BSL,336,590,True,False,False,False,False
+58840,Jabalpur Nir Nagpur Passenger,JBP,NGP,398,1140,True,False,False,False,False
+59075,Bhusaval Passenger,ST,BSL,336,725,True,False,False,False,False
+59076-Slip,Bhusaval Surat Mumbai Passenger,NDB,BCT,423,853,True,False,False,False,False
+59077,Surat-Bhusaval Passenger,ST,BSL,336,560,True,False,False,False,False
+59078,Bhusaval-Surat Passenger,BSL,ST,336,560,True,False,False,False,False
+59207,Bhavnagar Okha Passenger,BVC,OKHA,538,955,True,False,False,False,False
+59208,Bhavnagar Passenger,OKHA,BVC,538,915,True,False,False,False,False
+59306,Ujjain-Indore Passenger,UJN,INDB,79,120,False,True,False,False,False
+59385,Panchvalley Fast Passenger,INDB,CWA,554,920,True,False,False,False,False
+59386,Panchvalley Passenger,CWA,INDB,554,985,True,False,False,False,False
+59386-Slip2,Panchvalley Passenger Slip2,CWA,GKP,1197,2060,True,False,False,False,False
+59389,Indore-Bhopal Fast Passenger,INDB,BPL,263,345,True,False,False,False,False
+59390,Bhopal-Indore Fast Passenger,BPL,INDB,263,345,True,False,False,False,False
+59439,Ahmadabad Passenger,BCT,ADI,491,985,True,False,False,False,False
+59441,Mumbai Central-Ahmedabad Passenger,BCT,ADI,491,975,True,False,True,False,False
+59441-Slip,Ahmedabad Passenger Slip,BCT,NDB,423,845,True,False,True,False,False
+59459,Rajkot Veraval Passenger,RJT,VRL,185,260,False,True,True,True,False
+59460,Veraval Mumbai Central Passenger Express,VRL,BCT,923,1100,True,True,True,True,False
+59547,Ahmedabad Okha Passenger,ADI,OKHA,499,1030,True,False,False,False,False
+59548,Okha Ahmedabad Passenger,OKHA,ADI,499,960,True,False,False,False,False
+59702,Hisar-Jaipur Passenger,HSR,JP,368,585,True,False,False,False,False
+59394,Habibganj Dahod Fast Pass,HBJ,DHD,400,660,False,False,False,False,True
+59723,Rewari Sadulpur Passenger,RE,HSR,211,300,True,False,False,False,False
+59724,Sadulpur Rewari Passenger,HSR,RE,211,320,True,False,False,False,False
+59725,Rewari Sadulpur Passenger,RE,HSR,211,325,True,False,False,False,False
+59726,Sadulpur Rewari Passenger,HSR,RE,211,325,True,False,False,False,False
+59801,Kota Jaipur Passenger,KOTA,JP,240,285,True,True,True,False,False
+59802,Jaipur Nagda Fast Passenger,JP,NAD,465,705,True,True,True,False,False
+59811,Haldighati Passenger,RTM,AF,694,1275,True,False,False,False,False
+59812,Haldighati Passenger,AF,RTM,694,1255,True,False,False,False,False
+59821,KOTA - BHIND Passenger,KOTA,BIX,495,995,True,False,False,False,False
+59822,BHIND - KOTA PASSENGER,BIX,KOTA,500,905,True,False,False,False,False
+13155,KOLKATA CHITPUR - SITAMARHI Mithilanchal Exp,KOAA,SMI,552,735,True,True,False,False,False
+11064,SALEM - CHENNAI EGMORE Exp,SA,MS,353,470,True,True,True,True,False
+11272,BHOPAL - ITARSI Vindhyachal Exp,BPL,ET,738,1100,True,False,False,False,False
+12163,DADAR - CHENNAI EGMORE SF Exp,DR,MS,0,0,True,True,True,True,False
+12164,DADAR - CHENNAI EGMORE SF Exp,MS,DR,0,0,True,True,True,True,False
+12319,KOLKATA CHITPUR - AGRA CANTT SF Exp,KOAA,AGC,1405,1370,True,True,True,False,False
+12403,Allahabad Mathura SF Express,ALD,MTJ,507,530,True,True,True,True,False
+12495,BIKANER - KOLKATA CHITPUR Pratap Exp,BKN,KOAA,1873,1905,True,True,True,False,False
+12513,SECUNDERABAD - GUWAHATI Exp,SC,GHY,2551,2780,True,True,True,False,False
+12591,GORAKHPUR - YESVANTPUR SF Exp,GKP,YPR,2547,2765,True,True,True,False,False
+12624,Tiruvananthapuram Chennai SF Mail,TVC,MAS,909,985,True,True,True,True,False
+12661,CHENNAI EGMORE - SENGOTTAI Pothigai SF Exp,MS,SCT,670,730,True,True,True,False,False
+12709,Simhapuri SF Express,GDR,SC,644,645,True,True,True,True,False
+12735,SECUNDERABAD - YESVANTPUR Garib Rath Exp,SC,YPR,0,0,False,True,False,False,False
+12736,YESVANTPUR - SECUNDERABAD Garib Rath Exp,YPR,SC,0,0,False,True,False,False,False
+12835,HATIA - YESVANTPUR SF Exp,HTE,YPR,1904,2080,True,True,True,False,False
+12836,YESVANTPUR - HATIA SF Exp,YPR,HTE,1904,2085,True,True,True,False,False
+12840,Chennai-Howrah SF Mail,MAS,HWH,1662,1710,True,True,True,True,False
+12889,TATANAGAR - YESVANTPUR SF Exp,TATA,YPR,0,0,True,True,True,False,False
+12890,YESVANTPUR - TATANAGAR SF Exp,YPR,TATA,0,0,True,True,True,False,False
+12993,GANDHIDHAM - PURI SF Exp,GIMB,PURI,2283,2490,True,True,True,False,False
+12994,PURI - GANDHIDHAM SF Exp,PURI,GIMB,2283,2490,True,True,True,False,False
+13158,MUZAFFARPUR - KOLKATA CHITPUR Tirhut Exp,MFP,KOAA,566,775,True,True,False,False,False
+13351,DHANBAD - ALAPPUZHA Exp,DHN,ALLP,2536,3455,True,True,True,False,False
+15015,GORAKHPUR - YESVANTPUR Exp,GKP,YPR,2532,3060,True,True,True,False,False
+15024,YESVANTPUR - GORAKHPUR Exp,YPR,GKP,2465,3205,True,True,True,False,False
+15234,DARBHANGA - KOLKATA CHITPUR Maithili Exp,DBG,KOAA,539,660,True,True,True,False,False
+18107,ROURKELA - KORAPUT Exp,ROU,KRPU,645,885,True,True,False,False,False
+18311,SAMBALPUR - VARANASI Exp,SBP,BSB,896,1185,True,True,True,False,False
+18616,HATIA - HOWRAH Kriya Yoga Express,HTE,HWH,423,565,True,True,True,True,False
+56101,METUR DAM - ERODE PASSENGER,MTDM,ED,0,0,True,False,False,False,False
+06012,Kollam Chennai Central (Weekly) SF Special,QLN,MAS,858,970,True,True,True,False,False
+11028,Chennai-Mumbai CST Mail,MAS,CSTM,1283,1735,True,True,True,False,False
+11042,ChennaiCentral-CST Mumbai Express,MAS,CSTM,1283,1550,True,True,True,False,False
+12007,CHENNAI CENT - MYSORE Shatabdi Express,MAS,MYS,500,420,False,False,False,True,True
+12689,CHENNAI CENTRAL - NAGERCOIL SF Exp,MAS,NCJ,927,1010,True,True,False,False,False
+14115,Haridwar Express,ALD,HW,725,895,True,True,True,False,False
+14116,Allahabad Express,HW,ALD,725,925,True,True,True,False,False
+15619,GAYA - KAMAKHYA Weekly Exp,GAYA,KYQ,1091,1420,True,True,False,False,False
+16222,Kaveri Express,MAS,MYS,500,630,True,True,True,False,False
+16627,West Coast Express,MAS,MAQ,902,1025,True,True,True,False,False
+17311,CHENNAI CENT - VASCO DA GAMA Exp,MAS,VSG,1070,1370,True,True,True,False,False
+17604,Prashanti Nilayam Express,YPR,KCG,664,765,True,True,True,True,False
+19025,Surat Bhavnagar Express Slip,ST,MHV,629,710,True,True,False,False,False
+24512,Khurja Allahabad Link Express,BSC,ALD,672,940,True,False,True,False,False
+59014,Surat Passenger,BSL,ST,336,585,True,False,False,False,False
+59076,Surat Passenger,BSL,ST,336,670,True,False,False,False,False
+59803,Nagda Kota Passenger,NAD,KOTA,225,295,True,True,True,False,False
+11008,Deccan Express,PUNE,CSTM,192,250,False,False,False,False,True
+12221,PUNE - HOWRAH AC Duronto Exp,PUNE,HWH,2020,1705,False,True,True,True,False
+12488,Seemanchal Express,ANVT,JBN,1383,1465,True,True,True,False,False
+12786,Bangalore-Kacheguda SF Express,SBC,KCG,625,680,True,True,True,True,False
+12797,Venkatadri SF Express,KCG,CTO,707,770,True,True,True,True,False
+12798,Venkatadri SF Express,CTO,KCG,707,770,True,True,True,True,False
+15707,Amrapali Express,KIR,ASR,1805,2200,True,True,True,False,False
+17603-Slip,Prasanthi Nilayam Express,KCG,UBL,617,760,True,False,True,False,False
+17603-Slip2,Kacheguda-Vasco Prashanti Nilayam Slip,KCG,VSG,853,1080,True,False,True,False,False
+17639,KACHEGUDA - AKOLA Intercity Exp,KCG,AK,514,660,False,False,False,False,True
+17640,AKOLA - KACHEGUDA Intercity Exp,AK,KCG,514,645,False,False,False,False,True
+17651,Chennai Egmore Kacheguda Express,MS,KCG,772,895,True,True,True,False,False
+17652,Kacheguda Chennai Egmore Express,KCG,MS,772,915,True,True,True,False,False
+18474,JODHPUR - PURI Express,JU,PURI,2433,2790,True,True,True,True,False
+19066,BHAGAT KI KOTHI - MUMBAI BANDRA Exp,BGKT,BDTS,935,1065,True,True,True,False,False
+57594,Nanded Kacheguda Passenger,NED,KCG,276,515,True,False,False,False,False
+57620,Delta Fast Passenger,KCG,RAL,347,605,True,False,False,False,False
+12240,Jaipur-Mumbai Central AC Duronto Express,JP,BCT,1159,1010,False,True,True,True,False
+12335,BHAGALPUR - MUMBAI LTT SF Exp,BGP,LTT,1917,2100,True,True,True,False,False
+12349,Bhagalpur-NewDelhi Weekly SF Express,BGP,NDLS,1220,1170,True,True,False,False,False
+12409,Gondwana Express,RIG,NZM,1626,1675,True,True,True,False,False
+12980,Jaipur - Mumbai Bandra (T.) (Triweekly) SF Express,JP,BDTS,1148,1070,True,True,True,True,False
+13348-Slip,Palamau Express Slip Slip,PNBE,SGRL,481,805,True,True,False,False,False
+13352-Slip,Alappuzha Dhanbad Tatanagar Express Slip,ALLP,TATA,2359,3070,True,True,True,False,False
+13402,InterCity Express,DNR,BGP,231,385,False,False,False,False,True
+17016,Visakha Express,SC,BBS,1135,1345,True,True,True,False,False
+19047,SURAT - BHAGALPUR Tapti Ganga Exp,ST,BGP,1824,2015,True,True,False,False,False
+52974,Akola Ratlam Fast Passenger,AK,RTM,431,930,True,False,False,False,False
+56903,Solapur - Dharwar Passenger,SUR,DWR,378,565,True,False,False,False,False
+57515,Daund Nanded Passenger,DD,NED,586,910,True,False,False,False,False
+59307,Indore Jaipur link Express,INDB,JP,685,925,True,True,False,False,False
+59701,Jaipur Hisar Passenger,JP,HSR,368,585,True,False,False,False,False
+22406,AnandVihar Terminal-Bhagalpur Garib Rath,ANVT,BGP,1207,1110,False,True,False,False,True
+06345,,POY,PGTN,638,700,True,True,True,False,False
+06001,Chennai Central-Kollam SF Special,MAS,QLN,858,870,True,True,True,False,False
+01102,Gwalior Mumbai LTT (Weekly) Special,GWL,LTT,1216,1265,True,True,False,False,False
+09001,Mumbai Central - Ahmedabad SF Special,BCT,ADI,491,485,True,True,True,False,False
+04204,Delhi Jn. -Varanasi Special,DLI,BSB,770,915,True,True,True,False,False
+11098,ERNAKULAM - PUNE Poorna Exp,ERS,PUNE,1435,1775,True,True,True,False,False
+07143,Hyderabad - C.Shahu Maharaj T. Kolhapur Special,HYB,KOP,998,1415,True,True,True,False,False
+11063,CHENNAI EGMORE - METTUR DAM SLIP EXP,MS,MTDM,353,470,True,True,True,True,False
+08060,Howrah - Mumbai LTT SF Special,HWH,LTT,1952,1960,True,True,True,False,False
+01493,Hubli Bijapur Special,UBL,BJP,249,355,True,False,False,False,False
+05649,Mumbai LTT - Kamakhya (Weekly) Special,LTT,KYQ,2665,3245,True,True,False,False,False
+01101,Mumbai LTT - Gwalior (Weekly) Special,LTT,GWL,1216,1425,True,True,False,False,False
+04727,Bikaner-Mumbai BandraT SF Special,BKN,BDTS,1212,1315,True,True,True,False,False
+06010,KollamChennai Central SF Special,QLN,MAS,858,930,True,True,True,False,False
+04012,H. Nizamuddin - Sainagar Shirdi (Weekly) Special,NZM,SNSI,1360,1315,True,True,True,False,False
+06346,PALGHAT TOWN - POLLACHI Passenger SPL,PGTN,POY,638,700,True,True,True,False,False
+11701,JABALPUR - INDORE Intercity Exp,JBP,INDB,761,940,False,False,False,False,True
+07106,Hyderabad-Ajmer Weekly Special,HYB,AII,2034,2455,True,True,True,False,False
+08056,Tirupati-Kolkata Shalimar Special,TPTY,SHM,1616,1635,True,True,True,False,False
+11034,DARBHANGA - PUNE Gyan Ganga Exp,DBG,PUNE,1948,2345,True,True,True,False,False
+11013,Mumbai LTT-Coimbatore Express,LTT,CBE,1518,1915,True,True,True,True,False
+09723,Sabarmati - Jaipur SF Holiday Special,SBI,JP,620,645,True,True,True,False,False
+09722,Delhi Sarai Rohilla -Jaipur SF Special,DEE,JP,303,270,False,True,True,False,True
+11097,PUNE - ERNAKULAM Poorna Exp,PUNE,ERS,1435,1750,True,True,True,False,False
+11046,DHANBAD - KOLHAPUR CSMT Deekshabhoomi Exp,DHN,KOP,2968,3735,True,True,False,False,False
+11061,MUMBAI LTT - DARBHANGA Pawan Exp,LTT,DBG,1791,2070,True,True,True,False,False
+12001,Bhopal-New Delhi Shatabdi Express,BPL,NDLS,701,470,False,False,False,True,True
+12019,Howrah-Ranchi Shatabdi Express,HWH,RNC,423,425,False,False,False,True,True
+12027,CHENNAI CENT - BANGALORE CITY Shatabdi Exp,MAS,SBC,362,300,False,False,False,True,True
+12030,Amritsar-New Delhi Swarna Shatabdi Express,ASR,NDLS,448,370,False,False,False,True,True
+12071,Mumbai Aurangabad Jan Shatabdi,CSTM,AWB,374,405,False,False,False,False,True
+12077,Chennai Vijayawada Jan Shatabdi Express,MAS,BZA,431,395,False,False,False,False,True
+12121,JABALPUR - DELHI H NIZAMUDDIN S Kranti Exp,JBP,NZM,909,835,True,True,True,True,False
+12142,PATLIPUTRA - MUMBAI LTT SF Exp,PPTA,LTT,1714,1730,True,True,True,False,False
+12394,Sampoorna Kranti Express,NDLS,RJPB,1001,845,True,True,True,True,False
+12555,Gorakhdham Express,GKP,HSR,962,1045,True,True,True,True,False
+12257,Yesvantapur Kochuveli Garib Rath Express,YPR,KCVL,808,940,False,True,False,False,False
+12182,AJMER - JABALPUR Dayodaya Express,AII,JBP,894,940,True,True,True,True,False
+12346,GUWAHATI - HOWRAH Saraighat SF Exp,GHY,HWH,1020,985,True,True,True,True,False
+12283,ERNAKULAM - DELHI H NIZAMUDDIN Duronto Exp,ERS,NZM,2943,2640,True,True,True,True,False
+12146,PURI - MUMBAI LTT SF Exp,PURI,LTT,1818,1945,True,True,True,False,False
+12471,Mumbai Bandra (T.) - Jammu Tawi SF Swaraj Express,BDTS,JAT,1950,1850,True,True,True,False,False
+12722-Slip,Dakshin Link SF Express,NZM,VSKP,2097,2320,True,True,True,False,False
+12317,KOLKATA SEALDAH - AMRITSAR Akal Takht Exp,SDAH,ASR,1898,1990,True,True,True,False,False
+12619,MUMBAI LTT - MANGALORE CENT Matsyagandha Exp,LTT,MAQ,1185,970,True,True,True,False,False
+12193,Bhopal Partapgarh Express,BPL,PBH,756,820,True,True,True,False,False
+12258,Kochuveli-Yesvantpur Garib Rath,KCVL,YPR,808,990,False,True,False,False,False
+12165,MUMBAI LTT - VARANASI Ratnagiri Exp,LTT,BSB,1483,1545,True,True,True,False,False
+12615,Grand Trunk (GT) Express,MAS,NDLS,2184,2105,True,True,True,True,False
+12286,Hazrat Nizamuddin-Secunderabad Duronto Express,NZM,SC,1660,1330,True,True,True,True,False
+12395,RajendraNagar-Ajmer Ibadat Express,RJPB,AII,1305,1235,True,True,True,False,False
+12463,Rajasthan Sampark Kranti Express,DEE,JU,616,590,True,True,True,True,False
+12227,Mumbai Central- Indore Duronto Express,BCT,INDB,829,720,False,True,True,True,False
+12181,JABALPUR - AJMER Dayodaya Exp,JBP,AII,896,915,True,True,True,True,False
+12350,NewDelhi-Bhagalpur Weekly SF Express,NDLS,BGP,1220,1215,True,True,False,False,False
+12263,Pune - Hazrat Nizamuddin AC Duronto Express,PUNE,NZM,1520,1205,False,True,True,True,False
+12336,MUMBAI LTT - BHAGALPUR SF Exp,LTT,BGP,1917,2065,True,True,True,False,False
+12315,Ananya Express,SDAH,UDZ,2141,2270,True,True,True,False,False
+12580,Puri Digha Samudra Kanya Super Fast Express,PURI,DGHA,549,595,True,True,True,False,False
+12633,CHENNAI EGMORE - KANNIYAKUMARI SF Exp,MS,CAPE,742,800,True,True,True,True,False
+12542,Mumbai LTT-Gorakhpur SF Express,LTT,GKP,1680,1835,True,True,True,False,False
+12448-Slip,Nizamuddin KhajurahoLink Express Slip,NZM,KURJ,604,620,True,True,True,True,False
+12653,Tiruchirappalli Mangalore Weekly Superfast Express,TPJ,MAQ,635,685,True,True,True,True,False
+12463-Slip,Rajasthan Sampark Kranti Express Slip,DEE,BKN,685,720,True,True,True,False,False
+12636,MADURAI - CHENNAI EGMORE Vaigai SF Exp,MDU,MS,497,470,False,False,False,False,True
+12561,Swatantrata Sainani Express,DBG,NDLS,1166,1260,True,True,True,True,False
+12641,KANYAKUMARI - D H NIZAMUDDIN Thirukkural Exp,CAPE,NZM,2922,2805,True,True,True,False,False
+12739,Visakhapatnam Secunderabad Garib Rath Express,VSKP,SC,701,700,False,True,False,False,False
+12652,DELHI H NIZAMUDDIN - MADURAI Tamil Nadu S Kranti,NZM,MDU,2677,2660,True,True,True,True,False
+12687-Slip,Chennai Chandigarh Express Slip,MAS,DDN,2488,2595,True,True,False,False,False
+12782,Nizamuddin-Mysore Swarna Jayanti Express,NZM,MYS,2617,2825,True,True,True,False,False
+12684,BANGALORE - ERNAKULAM SF Exp,SBC,ERS,625,665,True,True,True,False,False
+12803,Visakhapatnam-Nizamuddin SwarnaJayanthi Express,VSKP,NZM,2097,1955,True,True,True,False,False
+12810,HOWRAH - MUMBAI CST SF Mail (via NAGPUR),HWH,CSTM,1968,1990,True,True,True,True,False
+12826,Jharkhand Sampark Kranti Express,NDLS,RNC,1309,1305,True,True,True,False,False
+12846,BENGALURU CANTT - BHUBANESWAR SF Exp,BNC,BBS,1524,1635,True,True,True,False,False
+12847,Howrah-Digha AC Duronto Express,HWH,DGHA,189,180,False,False,False,True,True
+12848,Digha-Howrah AC Duronto Express,DGHA,HWH,189,180,False,False,False,True,True
+12849,Bilaspur Pune SF Express,BSP,PUNE,1301,1330,True,True,True,False,False
+12850,Pune Bilaspur Superfast Express,PUNE,BSP,1301,1390,True,True,True,False,False
+12851,Bilaspur-Chennai Express,BSP,MAS,1413,1440,True,True,True,False,False
+12852,Chennai-Bilaspur Express,MAS,BSP,1413,1385,True,True,True,False,False
+12853,DURG - BHOPAL Amarkantak SF Exp,DURG,BPL,894,970,True,True,True,False,False
+12854,BHOPAL - DURG Amarkantak SF Exp,BPL,DURG,894,970,True,True,True,False,False
+12855,Bilaspur-Nagpur InterCity,BSP,NGP,411,405,True,True,True,False,False
+12856,Nagpur-Bilaspur InterCity,NGP,BSP,411,420,True,True,True,False,False
+12857,Tamralipta Express,HWH,DGHA,189,200,False,False,False,False,True
+12858,Tamralipta Express,DGHA,HWH,189,205,False,False,False,False,True
+12859,MUMBAI CST - HOWRAH Gitanjali Exp,CSTM,HWH,1968,1830,True,True,True,False,False
+12860,HOWRAH - MUMBAI CST Gitanjali Exp,HWH,CSTM,1968,1890,True,True,True,False,False
+12861,Link Superfast Express,VSKP,NZM,2097,2210,True,True,True,False,False
+12862,LINK SUPERFAST EXPRESS,KZJ,VSKP,567,660,True,True,True,False,False
+12863,HOWRAH - YESVANTPUR SF Exp,HWH,YPR,1963,2120,True,True,True,False,False
+12864,YESVANTPUR - HOWRAH SF Exp,YPR,HWH,1963,2075,True,True,True,False,False
+12865,Lalmati Express,HWH,PRR,340,345,False,False,False,False,True
+12866,Lalmati Express,PRR,HWH,340,345,False,False,False,False,True
+12867,Howrah-Puducherry Express,HWH,PDY,1907,2000,True,True,True,False,False
+16126,JODHPUR - CHENNAI EGMORE Exp,JU,MS,2356,2620,True,True,True,False,False
+13201,RAJENDRA NAGAR PATNA - MUMBAI LTT Janta Exp,RJPB,LTT,1715,2160,True,True,True,False,False
+12868,Puducherry-Howrah (Aurobindo) Express,PDY,HWH,1907,2035,True,True,True,False,False
+14041,DELHI SARAI ROHILLA - DEHRADUN Mussoorie Exp,DEE,DDN,339,630,True,True,True,True,False
+13157,KOLKATA CHITPUR - MUZAFFARPUR Tirhut Exp,KOAA,MFP,566,740,True,True,False,False,False
+12950,K SANTRAGANCHI - PORBANDAR Kavi Guru SF Exp,SRC,PBR,2658,2855,True,True,True,False,False
+12878,New Delhi-Ranchi Garib Rath,NDLS,RNC,1344,1110,False,True,False,False,False
+12987,Sealdah Ajmer Express,SDAH,AII,1642,1645,True,True,True,False,False
+15233,KOLKATA CHITPUR - DARBHANGA Maithili Exp,KOAA,DBG,539,695,True,True,True,False,False
+12869,MUMBAI CST - HOWRAH SF Exp,CSTM,HWH,1968,1945,True,True,True,False,False
+15036,Uttarakhand Sampark Kranti Express,KGM,DLI,278,390,False,True,False,False,True
+13151,Kolkata Chitpur-JammuTawi Express,KOAA,JAT,1982,2685,True,True,True,False,False
+14312,BHUJ - BAREILLY Ala Hazrat Exp,BHUJ,BE,1543,1910,True,True,True,False,False
+12953,MumbaiCentral-H Nizamuddin August Kranti Rajdhani Express,BCT,NZM,1377,1035,False,True,True,True,False
+12905,PORBANDAR - HOWRAH SF Exp,PBR,HWH,2551,2715,True,True,True,False,False
+12870,HOWRAH - MUMBAI CST SF Exp,HWH,CSTM,1968,1975,True,True,True,False,False
+13420,Jan Sewa Express,MFP,BGP,240,410,True,False,False,False,False
+12995-Slip,Bandra-Udaipur SF Express Slip,BDTS,AII,1017,1080,True,True,True,False,False
+13318,Black Diamond Express,DHN,HWH,271,300,False,False,False,False,True
+13187,Maa Tara Express,SDAH,RPH,226,290,False,False,False,False,True
+14019,Chhindwara Delhi SR (Biweekly) Kanhan valley Express,CWA,DEE,1050,1200,True,True,False,False,False
+12972,Bhavnagar Bandra Express,BVC,BDTS,778,845,True,True,True,False,False
+12906,HOWRAH - PORBANDAR SF Exp,HWH,PBR,2551,2645,True,True,True,False,False
+12871,HOWRAH - TITLAGARH Ispat Exp,HWH,TIG,745,805,False,False,False,False,True
+13153,Sealdah-Malda Town Gour Express,SDAH,MLDT,347,480,True,True,True,True,False
+15017,MUMBAI LTT - GORAKHPUR Kashi Exp,LTT,GKP,1714,2195,True,True,True,False,False
+13053,Howrah-Siuri Intercity Express,HWH,SURI,211,305,False,False,False,False,True
+14218,Chandigarh Allahabad Unchahar Express,CDG,ALD,913,1135,True,True,True,False,False
+14887,Kalka - Barmer Chandigarh Express,KLK,BME,1117,1335,True,True,True,False,False
+13403,Vananchal Express,RNC,BGP,558,870,True,True,False,False,False
+16107,Chennai Egmore-Mangalore Express,MS,MAQ,983,1425,True,True,True,True,False
+14659,Delhi-Jaisalmer Express,DLI,JSM,921,1050,True,True,True,True,False
+15651,GUWAHATI - JAMMU TAWI Lohit Exp,GHY,JAT,2352,2825,True,True,True,False,False
+16321,Bangalore Tiruvananthapuram Weekly Express,SBC,TVC,843,1030,True,True,True,False,False
+17031,Mumbai CST-Hyderabad Express,CSTM,HYB,790,1030,True,True,True,False,False
+17018,Secunderabad - Rajkot Express,SC,RJT,1478,1755,True,True,True,False,False
+16507,BHAGAT KI KOTHI - BANGALORE Exp,BGKT,SBC,2116,2790,True,True,True,False,False
+16701,Chennai Egmore-Rameshwaram Express,MS,RMM,665,845,True,True,True,True,False
+17401-Slip,Tirupati-Narsapur Express Slip,TPTY,NS,525,620,True,True,False,False,False
+17481-Slip,Bilaspur Manmad Express Slip,BSP,MMR,2059,2725,True,False,False,False,False
+18001,Kandari Express,HWH,DGHA,189,215,False,False,False,False,True
+18006,JAGDALPUR - HOWRAH Samaleshwari Exp,JDB,HWH,1057,1420,True,True,True,True,False
+19711-Slip,Jaipur-Indore Express Slip,JP,INDB,685,1000,True,True,False,False,False
+22823,BHUBANESWAR - NEW DELHI RAJDHANI Express,BBS,NDLS,1800,1520,False,True,True,True,False
+18618,Ranchi-Howrah Intercity,RNC,HWH,462,500,False,False,False,False,True
+18030,KOLKATA SALIMAR - MUMBAI LTT [Kurla] Exp,SHM,LTT,1951,2270,True,True,True,False,False
+21068,Rai Bareli-Mumbai LTT Saket Express,RBL,LTT,1502,1765,True,True,False,False,False
+19106,Haridwar-Ahmedabad Mail,HW,ADI,1207,1530,True,True,True,True,False
+52228,Tanakpur Aishbagh Express,TPU,ASH,322,715,True,False,False,False,False
+18235-Slip,Bilaspur Express Passenger Slip,BPL,CHRM,653,1445,True,False,False,False,False
+22824,NEW DELHI - BHUBANESWAR Rajdhani Exp (Via Bokaro),NDLS,BBS,1800,1450,False,True,True,True,False
+19115,MUMBAI BANDRA - BHUJ Sayaji Nagari Exp,BDTS,BHUJ,839,1010,True,True,True,False,False
+22161,Bhopal Damoh Rajya Rani exp,BPL,DMO,291,315,False,False,False,False,True
+52451,Shivalik Deluxe Express,KLK,SML,96,285,False,False,False,False,True
+52452,Shivalik Deluxe Express,SML,KLK,96,285,False,False,False,False,True
+52455,Himalayan Queen,KLK,SML,96,310,False,False,False,False,True
+52456,Himalayan Queen,SML,KLK,96,340,False,False,False,False,True
+54602,Amritsar Hisar Passenger,ASR,HSR,346,635,True,False,False,False,False
+59442,Ahmedabad Mumbai Central Passenger,ADI,BCT,491,995,True,False,True,False,False
+58219,Bilaspur Chirmiri Passenger,BSP,CHRM,238,535,True,False,False,False,False
+59386-Slip,Panchvalley Passenger Slip1,CWA,ASR,1545,2105,True,False,False,False,False
+83112,Danapur Giridih Express,DNR,GRD,298,570,True,False,False,False,False
+84369,Tribeni Link Express,BRWD,BE,862,1260,True,False,False,False,False
