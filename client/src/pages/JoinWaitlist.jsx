@@ -60,7 +60,7 @@ export default function JoinWaitlist() {
           <ChevronLeft className="w-4 h-4" />
         </button>
         <div>
-          <div className="font-display font-semibold text-lg">Join the waitlist</div>
+          <div className="font-display font-bold tracking-tight text-lg">Join the waitlist</div>
           <div className="text-sm text-(--color-ink-soft) font-mono">{classType} · {date}</div>
         </div>
       </header>
@@ -150,7 +150,7 @@ export default function JoinWaitlist() {
               <ShieldCheck className="w-4 h-4 text-(--color-teal)" />
               Total for {passengers.length} passenger{passengers.length !== 1 ? "s" : ""}
             </div>
-            <div className="font-display font-semibold text-xl">₹{total.toLocaleString("en-IN")}</div>
+            <div className="font-display font-bold tracking-tight text-xl">₹{total.toLocaleString("en-IN")}</div>
           </div>
 
           <motion.button

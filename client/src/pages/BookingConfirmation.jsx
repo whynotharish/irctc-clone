@@ -66,7 +66,7 @@ export default function BookingConfirmation() {
           {isConfirmed && <CheckCircle2 className="w-8 h-8 text-(--color-teal)" />}
         </motion.div>
 
-        <h1 className="font-display font-semibold text-2xl mb-1">
+        <h1 className="font-display font-bold tracking-tight text-2xl mb-1">
           {isCancelled && "Booking cancelled"}
           {isWaitlisted && "You're on the waitlist"}
           {isConfirmed && "Ticket confirmed"}
@@ -160,7 +160,7 @@ export default function BookingConfirmation() {
               className="bg-white rounded-2xl p-6 max-w-sm w-full"
             >
               <AlertTriangle className="w-8 h-8 text-(--color-marigold-dark) mb-3" />
-              <h2 className="font-display font-semibold text-lg mb-2">Cancel this booking?</h2>
+              <h2 className="font-display font-bold tracking-tight text-lg mb-2">Cancel this booking?</h2>
               <p className="text-sm text-(--color-ink-soft) mb-5">
                 This can't be undone. If someone's waiting for a seat on this train,
                 they'll be confirmed automatically once you cancel.

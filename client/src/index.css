@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Space Grotesk", sans-serif;
+  --font-display: "Bricolage Grotesque", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
 
-  --color-ink: #16233F;
-  --color-ink-soft: #5C6B82;
-  --color-paper: #F7F7F4;
+  --color-ink: #0F1B33;
+  --color-ink-soft: #57647A;
+  --color-paper: #F7F7F2;
   --color-paper-raised: #FFFFFF;
   --color-marigold: #F2994A;
-  --color-marigold-dark: #D97F2E;
-  --color-teal: #2F9E77;
-  --color-teal-soft: #E4F4EE;
-  --color-line: #E4E3DD;
+  --color-marigold-dark: #C9672A;
+  --color-teal: #1C7A5A;
+  --color-teal-soft: #E1F3EC;
+  --color-line: #E6E3DC;
   --color-danger: #D5493D;
 }
 
@@ -22,59 +22,71 @@ body {
   color: var(--color-ink);
   font-family: var(--font-body);
   min-height: 100vh;
-  background:
-    radial-gradient(1100px 600px at 12% -10%, rgba(242,153,74,0.14), transparent 60%),
-    radial-gradient(900px 500px at 90% 8%, rgba(47,158,119,0.10), transparent 55%),
-    radial-gradient(1200px 700px at 50% 110%, rgba(22,35,63,0.06), transparent 60%),
-    var(--color-paper);
-  background-attachment: fixed;
+  background: var(--color-paper);
 }
 
 .font-display {
   font-family: var(--font-display);
+  letter-spacing: -0.02em;
 }
 
 .font-mono {
   font-family: var(--font-mono);
 }
 
-/* Glass panel — the core "modern" surface used for cards */
+/* Glass panel — used sparingly now, for the search card only */
 .glass {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.85);
   box-shadow:
     0 1px 0 0 rgba(255,255,255,0.9) inset,
-    0 20px 50px -12px rgba(22, 35, 63, 0.14),
-    0 4px 12px -4px rgba(22, 35, 63, 0.08);
+    0 20px 50px -12px rgba(15, 27, 51, 0.14),
+    0 4px 12px -4px rgba(15, 27, 51, 0.08);
 }
 
 .glass-solid {
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   border: 1px solid rgba(255, 255, 255, 0.9);
   box-shadow:
     0 1px 0 0 rgba(255,255,255,0.9) inset,
-    0 20px 50px -12px rgba(22, 35, 63, 0.12),
-    0 4px 12px -4px rgba(22, 35, 63, 0.06);
+    0 20px 50px -12px rgba(15, 27, 51, 0.12);
 }
 
-.glow-marigold {
-  box-shadow: 0 0 0 6px rgba(242,153,74,0.15), 0 0 24px 4px rgba(242,153,74,0.25);
+/* Signature: the train gliding continuously along its route in the hero */
+@keyframes glide-journey {
+  from { offset-distance: 0%; }
+  to { offset-distance: 100%; }
 }
 
-/* Respect reduced motion preference */
+.journey-path {
+  offset-path: path("M 30 265 C 190 265 210 90 370 90 S 555 265 690 265 S 815 105 860 60");
+  offset-rotate: auto;
+  animation: glide-journey 9s linear infinite;
+}
+
+.journey-glow {
+  offset-path: path("M 30 265 C 190 265 210 90 370 90 S 555 265 690 265 S 815 105 860 60");
+  offset-rotate: auto;
+  offset-distance: 0%;
+  animation: glide-journey 9s linear infinite;
+  animation-delay: -0.15s;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  .journey-path, .journey-glow {
+    offset-distance: 55%;
+  }
 }
 
-/* Visible keyboard focus for accessibility across all ages */
 :focus-visible {
   outline: 2px solid var(--color-marigold);
   outline-offset: 2px;

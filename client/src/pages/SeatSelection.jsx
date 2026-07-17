@@ -85,7 +85,7 @@ export default function SeatSelection() {
           <ChevronLeft className="w-4 h-4" />
         </button>
         <div>
-          <div className="font-display font-semibold text-lg">Choose your seats</div>
+          <div className="font-display font-bold tracking-tight text-lg">Choose your seats</div>
           <div className="text-sm text-(--color-ink-soft) font-mono">
             {classType} · {date}
             {seatMap && (
@@ -133,7 +133,7 @@ export default function SeatSelection() {
             className="mt-8 bg-(--color-paper-raised) border border-(--color-line) rounded-2xl p-8 text-center"
           >
             <Users className="w-9 h-9 mx-auto mb-3 text-(--color-marigold-dark)" />
-            <div className="font-display font-semibold text-lg mb-1">This class is full</div>
+            <div className="font-display font-bold tracking-tight text-lg mb-1">This class is full</div>
             <p className="text-(--color-ink-soft) text-sm mb-5 max-w-sm mx-auto">
               No seats are free right now, but you can join the waitlist — you'll be
               confirmed automatically if a seat opens up from a cancellation.
@@ -202,7 +202,7 @@ export default function SeatSelection() {
               <div className="text-sm text-(--color-ink-soft)">
                 {selected.length} seat{selected.length !== 1 ? "s" : ""} selected
               </div>
-              <div className="font-display font-semibold text-lg">
+              <div className="font-display font-bold tracking-tight text-lg">
                 ₹{(selected.length * fareEach).toLocaleString("en-IN")}
               </div>
             </div>

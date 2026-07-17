@@ -62,7 +62,7 @@ export default function PassengerDetails() {
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
-        <div className="font-display font-semibold text-lg">Passenger details</div>
+        <div className="font-display font-bold tracking-tight text-lg">Passenger details</div>
       </header>
 
       <main className="max-w-2xl mx-auto px-6 pb-16">
@@ -135,7 +135,7 @@ export default function PassengerDetails() {
               <ShieldCheck className="w-4 h-4 text-(--color-teal)" />
               Total fare for {seatIds.length} passenger{seatIds.length !== 1 ? "s" : ""}
             </div>
-            <div className="font-display font-semibold text-xl">
+            <div className="font-display font-bold tracking-tight text-xl">
               ₹{total.toLocaleString("en-IN")}
             </div>
           </div>

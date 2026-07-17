@@ -36,7 +36,7 @@ export default function SearchResults() {
           <ChevronLeft className="w-4 h-4" />
         </button>
         <div>
-          <div className="font-display font-semibold text-lg flex items-center gap-2">
+          <div className="font-display font-bold tracking-tight text-lg flex items-center gap-2">
             <span className="font-mono">{from}</span>
             <span className="text-(--color-ink-soft)">→</span>
             <span className="font-mono">{to}</span>
@@ -67,7 +67,7 @@ export default function SearchResults() {
             className="mt-10 bg-(--color-paper-raised) border border-(--color-line) rounded-2xl p-8 text-center max-w-lg mx-auto"
           >
             <TrainFront className="w-10 h-10 mx-auto mb-3 opacity-40" />
-            <div className="font-display font-semibold text-lg mb-1.5">No direct trains found</div>
+            <div className="font-display font-bold tracking-tight text-lg mb-1.5">No direct trains found</div>
             <p className="text-sm text-(--color-ink-soft) mb-5">
               There's no train running directly between <span className="font-mono">{from}</span> and{" "}
               <span className="font-mono">{to}</span> in our data — this can happen even for real
@@ -104,7 +104,7 @@ export default function SearchResults() {
                     <div className="font-mono text-xs text-(--color-ink-soft)">
                       #{train.number}
                     </div>
-                    <div className="font-display font-semibold text-lg">{train.name}</div>
+                    <div className="font-display font-bold tracking-tight text-lg">{train.name}</div>
                   </div>
                   <div className="flex items-center gap-1.5 text-sm text-(--color-ink-soft)">
                     <Clock className="w-3.5 h-3.5" />
@@ -120,7 +120,7 @@ export default function SearchResults() {
                       </span>
                     ))}
                   </div>
-                  <div className="flex items-center gap-1 font-display font-semibold text-(--color-marigold-dark) group-hover:translate-x-0.5 transition-transform">
+                  <div className="flex items-center gap-1 font-display font-bold tracking-tight text-(--color-marigold-dark) group-hover:translate-x-0.5 transition-transform">
                     View seats →
                   </div>
                 </div>
