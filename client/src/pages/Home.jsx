@@ -6,11 +6,22 @@ import JourneyLine from "../components/JourneyLine";
 import VandeBharatTrain from "../components/VandeBharatTrain";
 import StationAutocomplete from "../components/StationAutocomplete";
 
+function loadLastSearch() {
+  try {
+    const saved = sessionStorage.getItem("lastSearch");
+    if (saved) return JSON.parse(saved);
+  } catch {
+    // ignore corrupt/unavailable storage
+  }
+  return null;
+}
+
 export default function Home() {
   const navigate = useNavigate();
-  const [from, setFrom] = useState({ code: "NDLS", label: "NDLS — New Delhi" });
-  const [to, setTo] = useState({ code: "HWH", label: "HWH — Howrah" });
-  const [date, setDate] = useState(() => new Date().toISOString().split("T")[0]);
+  const lastSearch = loadLastSearch();
+  const [from, setFrom] = useState(lastSearch?.from || { code: "NDLS", label: "NDLS — New Delhi" });
+  const [to, setTo] = useState(lastSearch?.to || { code: "HWH", label: "HWH — Howrah" });
+  const [date, setDate] = useState(lastSearch?.date || (() => new Date().toISOString().split("T")[0]));
   const [heroProgress, setHeroProgress] = useState(0);
   const [error, setError] = useState(null);
 
@@ -35,6 +46,8 @@ export default function Home() {
       return;
     }
     setError(null);
+    // Remember this search so it's still here if the person navigates back
+    sessionStorage.setItem("lastSearch", JSON.stringify({ from, to, date }));
     navigate(`/search?from=${from.code}&to=${to.code}&date=${date}`);
   }
 
