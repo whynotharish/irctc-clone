@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Loader2 } from "lucide-react";
+import { MapPin, Loader2, ChevronRight } from "lucide-react";
 import { api } from "../lib/api";
 
 /**
@@ -13,6 +13,7 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
   const [results, setResults] = useState([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(-1);
   const debounceRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -35,6 +36,7 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
     const val = e.target.value;
     setQuery(val);
     setOpen(true);
+    setHighlightIndex(-1);
 
     if (debounceRef.current) clearTimeout(debounceRef.current);
 
@@ -57,10 +59,29 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
   }
 
   function selectStation(station) {
+    if (debounceRef.current) clearTimeout(debounceRef.current); // cancel any stray pending fetch
     const label = `${station.code} — ${station.name}`;
     setQuery(label);
     setOpen(false);
+    setResults([]);
+    setHighlightIndex(-1);
     onChange({ code: station.code, label });
+  }
+
+  function handleKeyDown(e) {
+    if (!open || results.length === 0) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightIndex((i) => (i + 1) % results.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightIndex((i) => (i <= 0 ? results.length - 1 : i - 1));
+    } else if (e.key === "Enter" && highlightIndex >= 0) {
+      e.preventDefault();
+      selectStation(results[highlightIndex]);
+    } else if (e.key === "Escape") {
+      setOpen(false);
+    }
   }
 
   return (
@@ -73,6 +94,7 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
           value={query}
           onChange={handleInput}
           onFocus={() => setOpen(true)}
+          onKeyDown={handleKeyDown}
           placeholder={placeholder || "Station name or code"}
           autoComplete="off"
           className="w-full border border-white/70 rounded-xl pl-4 pr-9 py-3 font-mono text-sm focus:border-(--color-marigold) outline-none transition-all bg-white/70 hover:bg-white/90"
@@ -91,22 +113,29 @@ export default function StationAutocomplete({ label, value, onChange, placeholde
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.15 }}
-            className="absolute z-20 mt-2 w-full max-h-64 overflow-y-auto glass-solid rounded-xl py-1.5"
+            className="absolute z-20 mt-2 w-full max-h-72 overflow-y-auto glass-solid rounded-xl py-1 divide-y divide-(--color-line)/60"
           >
-            {results.map((s) => (
+            {results.map((s, i) => (
               <li key={s.code}>
                 <button
                   type="button"
+                  onMouseDown={(e) => e.preventDefault()} // keep input focus, avoid blur-race
                   onClick={() => selectStation(s)}
-                  className="w-full text-left px-4 py-2.5 hover:bg-(--color-marigold)/10 transition-colors flex items-center justify-between gap-2"
+                  onMouseEnter={() => setHighlightIndex(i)}
+                  className={`w-full text-left pl-4 pr-3 py-3 transition-colors flex items-center justify-between gap-2 group ${
+                    highlightIndex === i ? "bg-(--color-marigold)/12" : "hover:bg-(--color-marigold)/8"
+                  }`}
                 >
-                  <span>
-                    <span className="font-mono text-sm font-medium">{s.code}</span>
-                    <span className="text-sm text-(--color-ink-soft) ml-2">{s.name}</span>
+                  <span className="min-w-0">
+                    <span className="font-mono text-sm font-semibold text-(--color-ink)">{s.code}</span>
+                    <span className="text-sm text-(--color-ink-soft) ml-2 truncate">{s.name}</span>
                   </span>
-                  {s.city && (
-                    <span className="text-xs text-(--color-ink-soft)/70 shrink-0">{s.city}</span>
-                  )}
+                  <span className="flex items-center gap-2 shrink-0">
+                    {s.city && (
+                      <span className="text-xs text-(--color-ink-soft)/70 hidden sm:inline">{s.city}</span>
+                    )}
+                    <ChevronRight className="w-4 h-4 text-(--color-marigold-dark) opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </span>
                 </button>
               </li>
             ))}
